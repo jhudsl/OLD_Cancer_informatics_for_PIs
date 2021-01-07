@@ -3,7 +3,7 @@ title: "Computing for Cancer Research"
 output: html_document
 ---
 
-# Computing for Canceer Research
+# Computing for Cancer Research
 
 ## Local and Cloud Computing
 
