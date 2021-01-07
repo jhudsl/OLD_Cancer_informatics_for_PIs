@@ -3,4 +3,10 @@ title: "Cancer Informatics Leadership"
 output: html_document
 ---
 
-# 
+# Cancer Informatics for Research Leaders
+
+## Collaborating with Informatics Experts
+
+## Mentoring informatics students
+
+## Employing informatics experts
