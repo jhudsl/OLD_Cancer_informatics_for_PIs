@@ -18,7 +18,7 @@ This course will feature a range of ITCR tools from the very general (Galaxy7, B
 
 ## Informatics for Cancer Research
 
-Biomedical research at large and in particular cancer research, has come to involve massive amounts of new data types collected through rapidly advancing technologies. To allow current and future cancer researchers to fully take advantage of the informatics opportunities afforded by these technologies, our mission is to make informatics tools as accessible as possible to all cancer researchers.  From omics data, to imaging, to clinical data, cancer researchers can now examine biospecimens, animal models, and clinical data with unprecedented depth and breadth.
+Biomedical research at large, and in particular cancer research, has come to involve massive amounts of new data types collected through rapidly advancing technologies. To allow current and future cancer researchers to fully take advantage of the informatics opportunities afforded by these technologies, our mission is to make informatics tools as accessible as possible to all cancer researchers.  From omics data, to imaging, to clinical data, cancer researchers can now examine biospecimens, animal models, and clinical data with unprecedented depth and breadth.
 
 This course aims to provide an overview of tools available to cancer researchers to afford them more flexibility in their research. 
 
