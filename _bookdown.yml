@@ -1,4 +1,4 @@
-book_filename: "applieddatascience"
+book_filename: "ITCR_Cancer_informatics_for_PIs"
 chapter_name: "Chapter "
 repo: https://github.com/jhudsl/ITCR_Cancer_informatics_for_PIs/
 rmd_files: ["index.Rmd", 
