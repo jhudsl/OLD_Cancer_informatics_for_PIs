@@ -8,8 +8,8 @@ output: html_document
 ## Motivation
 This course will cover the key cancer informatics topics principal investigators and other research leaders need to know when running a lab. 
 
-_Target Audiance:_ 
-The course is intended for PIs and other lab leaders who want to learn how to transition their labs into using cancer informatics tools, for those who rely on cancer informatics but for whom it is not a core competency, as well as those for whom informatics is a key part of their research. 
+_Target Audience:_ 
+The course is intended for PIs and other lab leaders who want to learn how to transition their labs into using cancer informatics tools, for those who rely on cancer informatics but for whom it is not a core competency, as well as, PIs for whom informatics is a key part of their research. 
 
 _Curriculum:_
 The curriculum will cover the roles and responsibilities of a lab leader in collaborative, mentor, or employer relationships with informatics experts. It will cover budgeting for cancer informatics locally or on the cloud. The course will also cover key responsibilities for research leaders in data security, privacy, management and reproducibility.  
