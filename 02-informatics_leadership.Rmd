@@ -3,6 +3,10 @@ title: "Cancer Informatics Leadership"
 output: html_document
 ---
 
+```{r,include=FALSE}
+library(here)
+```
+
 # Cancer Informatics for Research Leaders
 
 Research is becoming evermore multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves or from each other. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
@@ -68,6 +72,18 @@ Of note, the term Participatory action in contrast, involves collaborating with 
 >Participatory action research values the knowledge,experiences, and norms of community members and seeks to incorporate
 these into research projects. Its goal is to create new knowledge thatleads to effective social action that solves real-life problems.^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^
 
+### References
+
+1) Vermeulen, Niki, John N. Parker, and Bart Penders. “Understanding Life Together: A Brief History of Collaboration in Biology.” Endeavour 37, no. 3 (September 2013): 162–71. https://doi.org/10.1016/j.endeavour.2013.03.001.
+
+2) Sonnenwald, Diane."Scientific collaboration."  Annual Review Of Information Science And Technology. 41 (2007): 643-681. https://www.researchgate.net/publication/220040763_Scientific_collaboration.
+
+3) Mäkinen, Elina I., Eliza D. Evans, and Daniel A. McFarland. “The Patterning of Collaborative Behavior and Knowledge Culminations in Interdisciplinary Research Centers.” Minerva 58, no. 1 (March 2020): 71–95. https://doi.org/10.1007/s11024-019-09381-6.
+
+4) Blake, Daniel. "The Case for Rebranding Minority-serving Institutions." DiverseEducation.com (January, 17, 2017) https://diverseeducation.com/article/91247/. 
+
+5) Chompalov, Ivan, Joel Genuth, and Wesley Shrum. “The Organization of Scientific Collaborations.” Research Policy 31, no. 5 (July 2002): 749–67. https://doi.org/10.1016/S0048-7333(01)00145-7.
+
 
 ## Employing informatics experts
 
@@ -81,23 +97,58 @@ In addition is is useful to become familiar with best practices for ethics, reli
 
 ## Mentoring informatics students
 
+Mentorship is a particularly unique relational experience. While traditional mentorship has been defined by the heiarchical structure of a single mentor who teaches subordinate mentees, new styles have emerged that are not as constrained or limited as the traditional paradigm. At it's optimum, mentors and mentees should learn from each other and together and expand what each can do alone. importantly the more traditional pardigm that does not value "reciprical learning" as highly, has been shown to be less effective for a larger diversity of students.^[1](https://doi.org/10.1111/nyas.14176)^
+
+For research groups that are newer to informatics, some of these less traditional paradigms may be especially useful, we will focus on a few here. 
+
+![Alternative Montorship](images/mentoring_pardigms.png)
+#### [[source]](https://doi.org/10.1111/nyas.14176)
+
+### Comentoring/Collaborative mentoring
+
+As we described earlier, comentoring or collaborative mentoring of students by mentors with different backgrounds can be particularly beneficial to the student and also to the lab.  In the case of collaborative mentoring where a student is mentored by two research experts in two  different labs, this provides an opportunity not only to particularly strengthen a collaboration, but also for students to gain more diverse knowledge, and to in turn provide more of the expertise that the gain back to both labs. Comentoring could also occur within the same lab by a research leader and an informatics expert within the lab. This could also work well in a multilevel paradigm, where an informatics expert may guide informatics related aspects of research, while an overarching research adviser may guide the student's overall research mentorship experience.
+
+### Peer mentoring
+
+Peer mentoring also provides great opportunities to expand students' expertise and skills without as much time constraints for the research leaders of a lab, particularly for skills that may be new to lab leadership. Furthermore, such paradigms are helpful for improving students' teaching skills, collaboration skills, self-reliance, and self-confidence. Teaching a peer, is often useful for students to identify gaps in their own knowledge, assisting in their own quest to "learn how to learn"^[1](https://doi.org/10.1111/nyas.14176)^. Furthermore, such paradigms appear to be especially beneficial to students of undeserved populations.^[1](https://doi.org/10.1111/nyas.14176)^ However, there are challenges for research leaders from a management standpoint. Mentors should be mindful of any conflicts that may arise between students. These can often be avoided with clear and distinct goals and projects for students, to avoid making students feel like they are competing with one another. Additionally, we highly recommend establishing a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, so that students and staff members are clear about what behavior is expected.
+
+### Electronic mentoring 
+
+With the COVID-19 Pandemic, the transition to using electronic means of contact with students and staff for research has expanded on an unprecedented scale. It is unclear currently how much this will continue in the future. However, research earlier research has shown some surprising benefits of providing mentorship through electronic means. Importantly it appears that this eases burdens for students who are balancing course work, as it often provides more scheduling flexibility. Additionally, such mentorship is particularly helpful for historically marginalized populations who face  may face more hostility by going to research institutes with face-to-face interaction with others. Even as we may return to more face-to-face onsite research labs, additional availability by mentors with mentees using electronic means of contact are likely to be beneficial. Technology such as [slack](https://slack.com/) can be especially useful for allowing lab members to interact with one another. 
+
+
 ### Career goals 
-Career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. 
+
+Career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. Cultivating an awareness of the students about the diversity of opportunities available to them will provide them the opporutnity to choose the career path that suites them best. 
+
+
 
 ### Additional training
-
-## References
-
-1) Vermeulen, Niki, John N. Parker, and Bart Penders. “Understanding Life Together: A Brief History of Collaboration in Biology.” Endeavour 37, no. 3 (September 2013): 162–71. https://doi.org/10.1016/j.endeavour.2013.03.001.
-
-2) Sonnenwald, Diane."Scientific collaboration."  Annual Review Of Information Science And Technology. 41 (2007): 643-681. https://www.researchgate.net/publication/220040763_Scientific_collaboration.
-
-3) Mäkinen, Elina I., Eliza D. Evans, and Daniel A. McFarland. “The Patterning of Collaborative Behavior and Knowledge Culminations in Interdisciplinary Research Centers.” Minerva 58, no. 1 (March 2020): 71–95. https://doi.org/10.1007/s11024-019-09381-6.
-
-4) Blake, Daniel. "The Case for Rebranding Minority-serving Institutions." DiverseEducation.com (January, 17, 2017) https://diverseeducation.com/article/91247/. 
-
-5) Chompalov, Ivan, Joel Genuth, and Wesley Shrum. “The Organization of Scientific Collaborations.” Research Policy 31, no. 5 (July 2002): 749–67. https://doi.org/10.1016/S0048-7333(01)00145-7.
 
 
 maybe look into this:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830162/
 
+### Refrences
+
+1) Mullen, Carol A., and Cindy C. Klimaitis. “Defining Mentoring: A Literature Review of Issues, Types, and Applications.” Annals of the New York Academy of Sciences 1483, no. 1 (January 2021): 19–35. https://doi.org/10.1111/nyas.14176.
+
+Ayar, Mehmet C, and Bugrahan Yalvac. “Lessons Learned: Authenticity, Interdisciplinarity, and Mentoring for STEM Learning Environments,” International Journal of Education
+in Mathematics, Science and Technology (IJEMST) https://ijemst.net/index.php/ijemst/article/view/76/77
+
+Bonham, Kevin S., and Melanie I. Stefan. “Women Are Underrepresented in Computational Biology: An Analysis of the Scholarly Literature in Biology, Computer Science and Computational Biology.” Edited by Carl T. Bergstrom. PLOS Computational Biology 13, no. 10 (October 12, 2017): e1005134. https://doi.org/10.1371/journal.pcbi.1005134.
+
+Byars-Winston, Angela, Patrice Leverett, Ross J Benbow, Christine Pfund, Nancy Thayer-Hart, and Janet Branchaw. “Race and Ethnicity in Biology Research Mentoring Relationships,” n.d., 14.
+
+
+Karsai, Istvan, Jeff Knisley, Debra Knisley, Lev Yampolsky, and Anant Godbole. “Mentoring Interdisciplinary Undergraduate Students via a Team Effort.” Edited by John R. Jungck. CBE—Life Sciences Education 10, no. 3 (September 2011): 250–58. https://doi.org/10.1187/cbe.10-03-0027.
+
+Lee, Adrian, Carina Dennis, and Philip Campbell. “Nature’s Guide for Mentors.” Nature 447, no. 7146 (June 2007): 791–97. https://doi.org/10.1038/447791a.
+
+
+
+
+Masters, Kristyn S, and Pamela K Kreeger. “Ten Simple Rules for Developing a Mentor–Mentee Expectations Document,” n.d., 4.
+
+
+
+Stelter, Rebecca L, Janis B Kupersmidt, and Kathryn N Stump. “Establishing Effective STEM Mentoring Relationships through Mentor Training.” Ann. N.Y. Acad. Sci., n.d., 20.
