@@ -100,7 +100,8 @@ Mentorship is a particularly unique relational experience. While traditional men
 For research groups that are newer to informatics, some of these less traditional paradigms may be especially useful, we will focus on a few here. 
 
 ![Alternative Montorship](images/mentoring_pardigms.png)
-#### [[source]](https://doi.org/10.1111/nyas.14176)
+
+#### [source]](https://doi.org/10.1111/nyas.14176)
 
 ### Comentoring/Collaborative mentoring
 
@@ -118,6 +119,9 @@ With the COVID-19 Pandemic, the transition to using electronic means of contact 
 ### Career goals 
 
 Career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. Cultivating an awareness of the students about the diversity of opportunities available to them will provide them the opportunity to choose the career path that suites them best. 
+
+AVOCADO - add more about this
+https://www.manning.com/books/build-a-career-in-data-science 
 
 ### Mentoring underrepresented students
 
@@ -137,13 +141,15 @@ Importantly, "mentors for students with disabilities should receive training, as
 
 2) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and micrograrresions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
 
-3) **Role models** are important. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
+3) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
 
 4) **Advocate for all mentees**, particularly those from underrepresented groups by introducing your mentee to other scientists and trainees, encouraging the participation of your mentees in support programs and groups such as graduate student groups and helping mentees cultivate self advocacy practices through open discussions and encouragement.
 
 5) Support a **healthy relationship with failure** by being a good role model and openly discussing the role of failure in research. For example, you may describe failures in your own career or you may read some of the book Brilliant Blunders by Mario Livio with your mentees. This book describes how scientific advancement actually occurred due to mistakes of some of the most respected scientists. Educating mentees about the **[Growth Mindset](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)** described by Carol Dweck may also be helpful. The major themes of this mindset is an awareness that our abilities are not fixed, we can change our aptitudes with practice and work. 
 
 ![Growth Mindset](images/growthmindset.jpg)
+
+#### [[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
 
 
