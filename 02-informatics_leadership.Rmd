@@ -125,6 +125,9 @@ Career goals for informatics students can be very different than that of other r
 AVOCADO - add more about this
 https://www.manning.com/books/build-a-career-in-data-science 
 
+
+Intro to informatics/data science roles.
+
 ### Mentoring underrepresented students
 
 Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may lead to fewer computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm somehting about stelter et al paper...about cultural training etc... very good paper)
@@ -157,9 +160,13 @@ Importantly, "mentors for students with disabilities should receive training, as
 
 ### Additional training
 
+slack
+
 GitHub/Git
 
-reproducibility...
+reproducibility... (several options here...)
+
+
 
 maybe look into this:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830162/
 
