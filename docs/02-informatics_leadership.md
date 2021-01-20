@@ -118,10 +118,50 @@ With the COVID-19 Pandemic, the transition to using electronic means of contact 
 
 ### Career goals 
 
-The job landscape for scientists has changed in recent decades. Furthermore career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. Cultivating an awareness of the students about the diversity of opportunities available to them will provide them the opportunity to choose the career path that suites them best. Becoming aware of these opportunities yourself, as a research leader, is therefore critical. 
+The job landscape for scientists has changed in recent decades with more opportunities outside academia in industry and government. Furthermore career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have **additional career opportunities**. 
+
+Becoming aware of these opportunities yourself, as a research leader, is therefore critical to cultivating your mentees' awareness of the diversity of opportunities available to them. 
+
+This will ultimately allow your mentees to choose the career path that suites them best. 
+
+Possible career paths:
+
+1) Academia - Your informatics mentees may have career opportunities as principal investigators, scientists, or educators just like other cancer biology mentees. In addition to opportunities as educators for informatics and biology, they will also have opportunities for data science.
+
+2) Government - Your informatics mentees will may have career opportunities as scientist or policy maker for research institutes just like other cancer biology mentees. However, additional agencies and institutes may have a need for their data science skills on topics outside of biology. For example your mentee may have the skills to work for city police department.
+
+3) Industry - Beyond the potential career options in the pharmaceutical industry, biotech, and medicine, your informatics mentees will have data science skills that may qualify them for jobs in a variety of industries. For example
+your informatics mentees could find jobs at companies such as [Stich Fix](https://www.stitchfix.com/) or [Ancestry](https://www.ancestry.com/) which use machine learning and or bioinformatics for their products, or your mentee may join a software company as a computer programmer or even as a programming educator at a company like [RStudio](https://rstudio.com/). 
+
+4) Nonprofit - Beyond research and management positions at nonprofits performing scientific or clinical research, informatics mentees may have opportunities at other nonprofits with other types of goals. For example, your mentee might find work at a nonprofit that advocates for civil rights and investigates social interactions in social media platforms.
+
+According to [Brandon Rohrer](https://www.linkedin.com/in/brohrer/),a data scientists who formally worked at [Facebook](https://en.wikipedia.org/wiki/Facebook) and now works at [iRobot](https://en.wikipedia.org/wiki/IRobot), there are 4 major categories of knowledge and skills for data science:
+
+1) **Data Analysis** - domain knowledge, research skills, and interpretation skills
+2) **Data Modeling** - machine learning application skills, algorithm development skills
+3) **Data Engineering** - data management skills, skills to make code production-level ready (ex. automation), software engineering
+4) **Data Mechanics** - data formatting and cleaning, data handling (filtering, subsetting)
+
+
+
+_Archetypes of data scientists:_
+
+1) Beginner data scientists - exposure in each of the 4 areas - ideally how your mentee will be after training at a minimum if they hope to pursue a data science career!
+2) Generalist - proficient in all areas - data science manager or executive - good for mentees who wish to stay in research!
+3) Specialists
+  a) Detective - strong in data analysis and mechanics and exposure in all 4 areas
+  b) Oracle - strong in modeling and mechanics (great for machine learning companies)
+  c) Maker - strong in mechanics and engineering
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_dc-XzApGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 AVOCADO - add more about this
 https://www.manning.com/books/build-a-career-in-data-science 
+
+
+https://blogs.oracle.com/datascience/how-to-survive-your-data-science-interview
+
+" When looking for jobs.. ignore job titles, dont pay too much attention to specific tools or languages...pay attention to the skills that are being asked for"
 
 
 Intro to informatics/data science roles.
@@ -143,11 +183,18 @@ Note that you may not be aware of the barriers of achievement that your mentees 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ViDtnfQ9FHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"^[3](https://doi.org/10.1111/nyas.14470)^, as well as **microgaressions** "subtle verbal and nonverbal slights, insults, or invalidations directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"^[3](https://doi.org/10.1111/nyas.14470)^.
+Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"^[3](https://doi.org/10.1111/nyas.14470)^ and how they miss influence your mentees.
+
+Also, become aware of as  **microgaressions** - "subtle verbal and nonverbal slights, insults, or invalidations directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"^[3](https://doi.org/10.1111/nyas.14470)^.
+
+See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf) for a list of examples.
+
 
 Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" ^[3](https://doi.org/10.1111/nyas.14470)^. 
 
-2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate their career success. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^.
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate their career success. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
+
+**However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student without singling them out in front of the rest of a group.
 
 > "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." ^[5](http://dx.doi.org/10.1037/dhe0000106)^
 
@@ -176,6 +223,8 @@ Importantly, "mentors for students with disabilities should receive training, as
 8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they belong when you provide feedback^[3](https://doi.org/10.1111/nyas.14470), [7]^(https://doi.org/10.1038/447791a).
 
 9) In addition to creating a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, consider creating a document that outlines **mentor and mentee expectations**. See [here](https://doi.org/10.1371/journal.pcbi.1005709.s001) for an example of such document ^[8](https://doi.org/10.1371/journal.pcbi.1005709)^ and see [here](https://ictr.wisc.edu/mentoring/) for more information. Keep in mind that such forms should be tailored for different career stages of your mentees and for mentees who are pursuing different expertise. Informatics mentees should incorperate guidelines about data management practices.  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yiZQaE0q9BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Additional training
 
