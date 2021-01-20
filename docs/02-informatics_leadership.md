@@ -101,11 +101,11 @@ For research groups that are newer to informatics, some of these less traditiona
 
 ![Alternative Montorship](images/mentoring_pardigms.png)
 
-#### [source]](https://doi.org/10.1111/nyas.14176)
+[[source]](https://doi.org/10.1111/nyas.14176)
 
-### Comentoring/Collaborative mentoring
+### Comentoring/Collaborative/team mentoring
 
-As we described earlier, comentoring or collaborative mentoring of students by mentors with different backgrounds can be particularly beneficial to the student and also to the lab.  In the case of collaborative mentoring where a student is mentored by two research experts in two  different labs, this provides an opportunity not only to particularly strengthen a collaboration, but also for students to gain more diverse knowledge, and to in turn provide more of the expertise that the gain back to both labs. Comentoring could also occur within the same lab by a research leader and an informatics expert within the lab. This could also work well in a multilevel paradigm, where an informatics expert may guide informatics related aspects of research, while an overarching research adviser may guide the student's overall research mentorship experience.
+As we described earlier, comentoring or collaborative mentoring of students by multiple mentors with different backgrounds can be particularly beneficial to the student and also to the lab.  In the case of collaborative mentoring where a mentee is mentored by two research experts in two  different labs, this provides an opportunity not only to particularly strengthen a collaboration, but also for students to gain more diverse knowledge, and to in turn provide more of the expertise that they gain back to both labs. Comentoring could also occur within the same lab by a research leader and an informatics expert within the lab. This could also work well in a multilevel paradigm, where an informatics expert may guide informatics related aspects of research, while an overarching research adviser may guide the student's overall research mentorship experience.
 
 ### Peer mentoring
 
@@ -118,7 +118,7 @@ With the COVID-19 Pandemic, the transition to using electronic means of contact 
 
 ### Career goals 
 
-Career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. Cultivating an awareness of the students about the diversity of opportunities available to them will provide them the opportunity to choose the career path that suites them best. 
+The job landscape for scientists has changed in recent decades. Furthermore career goals for informatics students can be very different than that of other research students. By having informatics expertise, these students have additional career opportunities. Cultivating an awareness of the students about the diversity of opportunities available to them will provide them the opportunity to choose the career path that suites them best. Becoming aware of these opportunities yourself, as a research leader, is therefore critical. 
 
 AVOCADO - add more about this
 https://www.manning.com/books/build-a-career-in-data-science 
@@ -128,42 +128,64 @@ Intro to informatics/data science roles.
 
 ### Mentoring underrepresented students
 
-Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may lead to fewer computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm somehting about stelter et al paper...about cultural training etc... very good paper)
+Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may be responsible for fewer female computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm somehting about stelter et al paper...about cultural training etc... very good paper)
 
 Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider ^[3](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[4](https://doi.org/10.1641/B570705)^. 
 
 Overall suggestions:
 
+AVocado - I need to know about resources that might be more tailored to stem mentorships.... 
+
 1) Seek **training about disparities** in informatics and STEM career achievement and attitudes, biases, and stereotypes that are hindrances.
 
 Note that you may not be aware of the barriers of achievement that your mentees may face. For example, mentees from low socioeconomic backgrounds, mentees with disabilities, mentees who have immigrated, older mentees, mentees of traditionally underrepresented races and ethnic groups, and mentees with gender identities that are underrepresented face unique and overlapping challenges. It is also important to learn about how **intersectionality** (the idea that  some individuals may represent more than one underrepresented group (ex. female and black)) results in more nuanced challenges. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ViDtnfQ9FHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"^[3](https://doi.org/10.1111/nyas.14470)^, as well as **microgaressions** "subtle verbal and nonverbal slights, insults, or invalidations directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"^[3](https://doi.org/10.1111/nyas.14470)^.
 
 Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" ^[3](https://doi.org/10.1111/nyas.14470)^. 
 
-2) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and micrograrresions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate their career success. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^.
 
-3) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
+> "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." ^[5](http://dx.doi.org/10.1037/dhe0000106)^
 
-4) **Advocate for all mentees**, particularly those from underrepresented groups by introducing your mentee to other scientists and trainees, encouraging the participation of your mentees in support programs and groups such as graduate student groups and helping mentees cultivate self advocacy practices through open discussions and encouragement.
+>Two ideological perspectives – **colorblindness and multiculturalism** – have emerged to shed light on this question. Colorblindness downplays the salience and importance of race by focusing on the commonalities people share, such as one's underlying humanity. In contrast, multiculturalism acknowledges and highlights racial differences^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^.
 
-5) Support a **healthy relationship with failure** by being a good role model and openly discussing the role of failure in research. For example, you may describe failures in your own career or you may read some of the book Brilliant Blunders by Mario Livio with your mentees. This book describes how scientific advancement actually occurred due to mistakes of some of the most respected scientists. Educating mentees about the **[Growth Mindset](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)** described by Carol Dweck may also be helpful. The major themes of this mindset is an awareness that our abilities are not fixed, we can change our aptitudes with practice and work. 
+>"Exposure to colorblind (vs. multicultural) messages predicts negative outcomes among Whites such as greater implicit and explicit racial bias ([Richeson & Nussbaum, 2004](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0080))"^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^
 
+> "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^
+
+3) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and micrograrresions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
+
+4) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
+
+5) **Advocate for all mentees**, particularly those from underrepresented groups by introducing your mentee to other scientists and trainees, encouraging the participation of your mentees in support programs and groups such as graduate student groups and helping mentees cultivate self advocacy practices through open discussions and encouragement.
+
+6) Support a **healthy relationship with failure** by being a good role model and openly discussing the role of failure in research. For example, you may describe failures in your own career or you may read some of the book Brilliant Blunders by Mario Livio with your mentees. This book describes how scientific advancement actually occurred due to mistakes of some of the most respected scientists. Educating mentees about the **[Growth Mindset](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)** described by Carol Dweck may also be helpful. The major themes of this mindset is an awareness that our abilities are not fixed, we can change our aptitudes with practice and work. 
+
+{align=center}
 ![Growth Mindset](images/growthmindset.jpg)
 
-#### [[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+[[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
 
+7) **Celebration and microaffrimations** Be sure to celebrate all of your mentee's small and large successes. This has been shown to promote self-confidence and positivity ^[3](https://doi.org/10.1111/nyas.14470),[7](https://doi.org/10.1038/447791a)^.
+
+8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they belong when you provide feedback^[3](https://doi.org/10.1111/nyas.14470), [7]^(https://doi.org/10.1038/447791a).
+
+9) In addition to creating a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, consider creating a document that outlines **mentor and mentee expectations**. See [here](https://doi.org/10.1371/journal.pcbi.1005709.s001) for an example of such document ^[8](https://doi.org/10.1371/journal.pcbi.1005709)^ and see [here](https://ictr.wisc.edu/mentoring/) for more information. Keep in mind that such forms should be tailored for different career stages of your mentees and for mentees who are pursuing different expertise. Informatics mentees should incorperate guidelines about data management practices.  
 
 ### Additional training
 
 slack
 
-GitHub/Git
+
 
 reproducibility... (several options here...)
 
+GitHub/Git
 
 
 maybe look into this:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830162/
@@ -176,23 +198,14 @@ maybe look into this:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830162/
 
 3) Stelter, Rebecca L, Janis B Kupersmidt, and Kathryn N Stump. “Establishing Effective STEM Mentoring Relationships through Mentor Training.” Ann. N.Y. Acad. Sci., 1483 (2021): 224–243.  https://doi.org/10.1111/nyas.14470
 
-4) Katz, Samantha. “Mentoring Women in the Biological Sciences: Is Informatics Leading the Pack?,” : BioScience, 57(7) : 559 (2007). https://doi.org/10.1641/B570705.
+4) Katz, Samantha. “Mentoring Women in the Biological Sciences: Is Informatics Leading the Pack?,” : BioScience, 57(7) (2007): 559. https://doi.org/10.1641/B570705.
 
-Byars-Winston, Angela, Patrice Leverett, Ross J Benbow, Christine Pfund, Nancy Thayer-Hart, and Janet Branchaw. “Race and Ethnicity in Biology Research Mentoring Relationships,” n.d., 14.
+5) Byars-Winston, Angela, Patrice Leverett, Ross J Benbow, Christine Pfund, Nancy Thayer-Hart, and Janet Branchaw. “Race and Ethnicity in Biology Research Mentoring Relationships,” Journal of Diversity in Higher Education, 13, No. 3 (2020): 240–253. http://dx.doi.org/10.1037/dhe0000106
 
+6) Holoien, Deborah Son, and J. Nicole Shelton.  “You Deplete Me: The Cognitive Costs of Colorblindness on Ethnic Minorities.” Journal of Experimental Social Psychology 48 No. 2 (2012): 562–65. https://doi.org/10.1016/j.jesp.2011.09.010.
 
-Ayar, Mehmet C, and Bugrahan Yalvac. “Lessons Learned: Authenticity, Interdisciplinarity, and Mentoring for STEM Learning Environments,” International Journal of Education
-in Mathematics, Science and Technology (IJEMST) https://ijemst.net/index.php/ijemst/article/view/76/77
+7) Lee, Adrian, Carina Dennis, and Philip Campbell. “Nature’s Guide for Mentors.” Nature 447, no. 7146 (June 2007): 791–97. https://doi.org/10.1038/447791a.
 
-Karsai, Istvan, Jeff Knisley, Debra Knisley, Lev Yampolsky, and Anant Godbole. “Mentoring Interdisciplinary Undergraduate Students via a Team Effort.” Edited by John R. Jungck. CBE—Life Sciences Education 10, no. 3 (September 2011): 250–58. https://doi.org/10.1187/cbe.10-03-0027.
-
-Lee, Adrian, Carina Dennis, and Philip Campbell. “Nature’s Guide for Mentors.” Nature 447, no. 7146 (June 2007): 791–97. https://doi.org/10.1038/447791a.
+8) Masters, Kristyn S, and Pamela K Kreeger. “Ten Simple Rules for Developing a Mentor–Mentee Expectations Document,” PLOS Computational Biology,3 No.9 (September 21, 2017): e1005709.  https://doi.org/10.1371/journal.pcbi.1005709
 
 
-
-
-Masters, Kristyn S, and Pamela K Kreeger. “Ten Simple Rules for Developing a Mentor–Mentee Expectations Document,” n.d., 4.
-
-
-
-Stelter, Rebecca L, Janis B Kupersmidt, and Kathryn N Stump. “Establishing Effective STEM Mentoring Relationships through Mentor Training.” Ann. N.Y. Acad. Sci., n.d., 20.
