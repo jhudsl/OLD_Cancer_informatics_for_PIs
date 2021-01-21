@@ -164,7 +164,9 @@ https://blogs.oracle.com/datascience/how-to-survive-your-data-science-interview
 " When looking for jobs.. ignore job titles, dont pay too much attention to specific tools or languages...pay attention to the skills that are being asked for"
 
 
-Intro to informatics/data science roles.
+Discuss authorship priority differences.
+
+software papers - resource papers - research papers - for different roles
 
 ### Mentoring underrepresented students
 
