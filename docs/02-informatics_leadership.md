@@ -164,9 +164,14 @@ https://blogs.oracle.com/datascience/how-to-survive-your-data-science-interview
 " When looking for jobs.. ignore job titles, dont pay too much attention to specific tools or languages...pay attention to the skills that are being asked for"
 
 
-Discuss authorship priority differences.
+#### Authorship Considerations
 
-software papers - resource papers - research papers - for different roles
+There are also additional types of papers that your informatics mentee can publish, including:
+
+1) Data resource papers, where your mentee may publish an article introducing a data resource
+2) Software papers - an article where the functionality and development of piece of software is discussed
+
+When guiding your mentee through the publication process, it is a good idea to keep in mind their career goals as you priortize different paper ideas. For example a mentee that is interested in pursuing a data engineering career may benefit more from a Software paper than other mentees.
 
 ### Mentoring underrepresented students
 
