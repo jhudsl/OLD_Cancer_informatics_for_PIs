@@ -126,7 +126,7 @@ Becoming aware of these opportunities yourself, as a research leader, is therefo
 
 This will ultimately allow your mentees to choose the career path that suites them best. 
 
-Possible career paths:
+#### Career Paths for Informatics Mentees
 
 1) Academia - Your informatics mentees may have career opportunities as principal investigators, scientists, or educators just like other cancer biology mentees. In addition to opportunities as educators for informatics and biology, they will also have opportunities for data science.
 
@@ -144,8 +144,6 @@ According to [Brandon Rohrer](https://www.linkedin.com/in/brohrer/),a data scien
 3) **Data Engineering** - data management skills, skills to make code production-level ready (ex. automation), software engineering
 4) **Data Mechanics** - data formatting and cleaning, data handling (filtering, subsetting)
 
-
-
 _Archetypes of data scientists:_
 
 1) Beginner data scientists - exposure in each of the 4 areas - ideally how your mentee will be after training at a minimum if they hope to pursue a data science career!
@@ -160,11 +158,63 @@ _Archetypes of data scientists:_
 AVOCADO - add more about this
 https://www.manning.com/books/build-a-career-in-data-science 
 
+Major skillsets to focus on:
+1) statistics
+2) Machine learning
+3) programming (python and R)
+4) projects - hands on experience
+
 
 https://blogs.oracle.com/datascience/how-to-survive-your-data-science-interview
 
 " When looking for jobs.. ignore job titles, dont pay too much attention to specific tools or languages...pay attention to the skills that are being asked for"
 
+#### Expectations
+
+One common misconception is that informatics research projects work out more often or are faster than that of wet bench research. This is however not true and informatics projects are just as likely to fail and often take more time than one might expect. One advantage of an informatics project is however, that there is ample free data available to add to or shift or reframe a project if necessary. This is important to keep in mind when advising your mentees and guiding the planning of their projects.
+
+There are many reasons why an informatics project might fail:  
+1) the data is not of high enough quality or lacks consistency (this may be do to a faulty method, methodological differences between lab personnel, expired reagents, temperature differences on data collection days etc.)
+2) there is not a strong enough signal in the data to detect with the current data/methods - ie. you need more data or methods with greater granularity
+2) the method of data collection becomes obsolete (this may not make the project fail per se but can make publication difficult) 
+4) the signal does not exist  
+
+Ways to mitigate project failure:
+
+1) **Diversify projects**  
+It is a good idea to diversify your mentees' projects to enable them to have exposure to different projects, as well as more opportunities to contribute to a project that will ultimately result in a product such as an academic paper or a new software package. 
+
+2) **Safe project planning**  
+Make sure each mentee has at least one very solid project. For example, assign a review article, a simple software package, or a project with very promising pilot data.
+
+3) **Co-authorship**  
+Allow mentees to work together on projects. Assign one mentee as the main personnel, but allow other mentees to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fails. 
+
+4) **Plan for ample time**  
+Plan for projects to have adequate time to account for drawbacks. For example, if possible plan on the possibility that additional data may need to be collected or perhaps more data will need to be added from a data resource. It will take additional time to analyze the new data. Unfortunately, simply plugging in new data to an existing script hardly ever works. 
+ Instead the following tasks are required:  
+ 
+1) Check the quality of the new data  
+2) Reformat/wrangle the new data to match that of the existing data  
+3) Evaluate how different the new data is from the old data - are they similar enough to be included in a larger analysis or does this require two analyses?
+4) Perform the analysis on the new data  
+
+5) **Adjust and reframe**  
+When a project appears to fail because the data turns out to not be adequate for answering your original question, reframe the project to answer a question that the data actually can answer.  
+
+For example, if the goal of a project was to look for differential gene expression of a single gene and no significant difference is found, consider evaluating the gene expression of a pathway or network of genes that are involved in the same biological process. It is best to be transparent about your scientific process in your publications. 
+
+6) **Get new data**  
+In the worst case that the data does not appear to work for your initial goal and reframing the question does not seem possible, look for new data. Now there are many data resources available online. 
+
+examples: https://rd-connect.eu/
+The Cancer Genome Atlas (TCGA) (https://pubmed.ncbi.nlm.nih.gov/25691825/)
+https://www.cbioportal.org/
+https://www.nature.com/scitable/topicpage/genomic-data-resources-challenges-and-promises-743721/
+CGGA
+
+https://www.nature.com/scitable/topicpage/genomic-data-resources-challenges-and-promises-743721/
+Avocado could use help listing these...
 
 #### Authorship Considerations
 
