@@ -7,19 +7,21 @@ output: html_document
 
 # Cancer Informatics for Research Leaders
 
-Research is becoming evermore multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves or from each other. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
+Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
 
 ## Collaborating with Informatics Experts
 
-Studies investigating the nature of biology research labs over history indicate that collaboration has been on the rise since the 1950s^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^ and that the rate continues to increase^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^. Indeed the size of biology research teams appear to have doubled from 1955 to 1990^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^. But why? 
+Studies investigating biology research labs over history indicate that collaboration has been on the rise since the 1950s^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^ and that the rate continues to increase^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^. Indeed the size of biology research teams appear to have doubled from 1955 to 1990^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^. But why? 
 
 ### What are the benefits of collaboration?  
 
-1) **Shared cost** - Now that research often involves expensive technology, it is cost effective to share resources.    
+1) **Shared cost** - Research often involves expensive technology, thus it is cost effective to share resources.    
 2) **Shared expertise** - Now that technology affords answering in some cases more complex research questions or in some cases broader research questions, it is often more effective to employ multiple contributors with different knowledge, skills, and perspectives.  Researchers have noted that their own concept of their field changed as a result of working with investigators from other disciplines. Thus this can lead to innovation ^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^. 
-3) **Shared burden** - Doing part of the work for a project using the knowledge and skills that you are most comfortable with and seeking help from others who are more knowledgeable on other research aspects can be a more efficient strategy. 
+3) **Shared burden** - Doing part of the work for a project using the knowledge and skills that you are most comfortable with and seeking help from others who are more knowledgeable on other research aspects can be a more efficient strategy.
 4) **Shared reliability** - Including multiple team members who can each evaluate the research can improve the reliability of a project, as mistakes can be found by other members.
-5) **Shared credibility** - Collaborations involving experts of multiple areas can imporve the percieved credibility of the work by others.
+5) **Shared credibility** - Collaborations involving experts of multiple areas can improve the perceived credibility of the work by others.
+
+![](https://docs.google.com/presentation/d/1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4/edit#slide=id.p)
 
 ### Potential Challenges:
 
@@ -225,7 +227,7 @@ When guiding your mentee through the publication process, it is a good idea to k
 
 ### Mentoring underrepresented students
 
-Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may be responsible for fewer female computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm somehting about stelter et al paper...about cultural training etc... very good paper)
+Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may be responsible for fewer female computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm something about stelter et al paper...about cultural training etc... very good paper)
 
 Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider ^[3](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[4](https://doi.org/10.1641/B570705)^. 
 
@@ -249,9 +251,9 @@ See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in
 
 Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" ^[3](https://doi.org/10.1111/nyas.14470)^. 
 
-2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate their career success. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
 
-**However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student without singling them out in front of the rest of a group.
+**However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student in private without singling them out in front of the rest of a group.
 
 > "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." ^[5](http://dx.doi.org/10.1037/dhe0000106)^
 
@@ -269,7 +271,6 @@ Importantly, "mentors for students with disabilities should receive training, as
 
 6) Support a **healthy relationship with failure** by being a good role model and openly discussing the role of failure in research. For example, you may describe failures in your own career or you may read some of the book Brilliant Blunders by Mario Livio with your mentees. This book describes how scientific advancement actually occurred due to mistakes of some of the most respected scientists. Educating mentees about the **[Growth Mindset](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)** described by Carol Dweck may also be helpful. The major themes of this mindset is an awareness that our abilities are not fixed, we can change our aptitudes with practice and work. 
 
-{align=center}
 ![Growth Mindset](images/growthmindset.jpg)
 
 [[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
