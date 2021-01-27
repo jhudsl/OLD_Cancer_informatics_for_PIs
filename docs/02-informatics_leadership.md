@@ -21,11 +21,11 @@ Studies investigating biology research labs over history indicate that collabora
 4) **Shared reliability** - Including multiple team members who can each evaluate the research can improve the reliability of a project, as mistakes can be found by other members.
 5) **Shared credibility** - Collaborations involving experts of multiple areas can improve the perceived credibility of the work by others.
 
-![](https://docs.google.com/presentation/d/1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4/edit#slide=id.p)
+![](images/collaboration.png)
 
 ### Potential Challenges:
 
-1) **Challenging communication** - Extra care needs to be taken to ensure that communication across groups is effective.  
+1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
 Typically researchers will not meet as often with a collaborator as they would with an internal team member. Therefore, poor communication in a collaboration can lead to more costly misdirection and thus wasted time and effort.
 
 Furthermore, as investigators often have different backgrounds, differences in jargon and language can make communication more challenging. 
@@ -34,7 +34,7 @@ Having internal team members with some familiarity with informatics can be very 
 
 Another important method that can help resolve this issue is to have members provide educational seminars for participating members about the fundamentals of their work.
 
-2) **Differing research style and goals** -  Beyond differences in language, differences in research style and goals can lead to conflict.
+2) **Different research style and goals** -  Beyond differences in language, differences in research style and goals can lead to conflict.
 
 "Scholars’ different styles of thought, standards, research traditions, techniques, and languages can be difficult to translate across disciplinary domains." ^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^
 
@@ -43,7 +43,7 @@ Making clear research standards and goals, as well as outlining clear specific t
 Furthermore, it is critical to keep in mind the diversity of career goals of research team members, as junior team members may have a challenging time persuading others of their independence and contributions when they work on largely collaborative projects.  It is also necessary to ensure that junior members have time to devote to their own research programs. ^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^ Support should be provided for these junior collaborators by more senior collaborators.
 
 
-3) **Different contributions** - Research of multi-disciplinary collaborations have found that when collaborating members were unclear of how their expertise and work contributed to the projected, they were less motivated and felt less valued. Working with members of different backgrounds to determine how their expertise can contribute to the project will not only help with moral, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect!^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^
+3) **Different capabilities** - Research of multi-disciplinary collaborations have found that when collaborating members were unclear of how their expertise and work contributed to the projected, they were less motivated and felt less valued. Working with members of different backgrounds to determine how their expertise can contribute to the project will not only help with moral, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect!^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^
 
 4) **Reduced sense of responsibility** - Another concern of collaboration is that team members may feel less responsibility or commitment to a project than for a project within their own lab.
 
@@ -51,10 +51,11 @@ Defining tasks and expected due dates can help reduce this issue. Discussions to
 
 5) **Research is dynamic** - Research always has an element of trial and error. Protocols may change and new scientific questions may emerge. Frequent meetings with all group members to understand the dynamics of the project are critical. Furthermore, flexibility and understanding is required. It should be expected that aspects about the project will change.
 
-6) **Differences in resources** - Particularly when collaborating with community members, community colleges, and  institutions that are "Equity-oriented" serving populations that have historically been referred to as "minorities" ^[4](https://diverseeducation.com/article/91247/), it is important to keep in mind that large differences in resources may exist between collaborating members. 
+6) **Different levels of resources** - Particularly when collaborating with community members, community colleges, and  institutions that are "Equity-oriented" serving populations that have historically been referred to as "minorities" ^[4](https://diverseeducation.com/article/91247/), it is important to keep in mind that large differences in resources may exist between collaborating members. 
 
 Sharing and discussing budget information early and often can help research members to understand what expectations are reasonable and how collaboration partners may best assist one another.
 
+![](images/challenges.png)
 
 ### There are multiple ways to approach collaboration. 
 
