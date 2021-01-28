@@ -228,13 +228,13 @@ When guiding your mentee through the publication process, it is a good idea to k
 
 ### Mentoring underrepresented students
 
-Analyses of scientific article authorship indicate that women are underrepresented in computational biology.  This may be in part due to gender bias by research leadership in hiring female students ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Furthermore, women are more likely to be authors on papers where the last author is also female. Therefore, having fewer research leaders in computational biology may be responsible for fewer female computational biology mentees if females students are either more likely to be recruited or are more likely themselves to consider positions with a female role model as the research leader ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. Indeed training about bias awareness has been shown  (hmmm something about stelter et al paper...about cultural training etc... very good paper)
+The inclusion of diverse populations in scientific teams has been shown to improve innovation^[new1]( https://doi.org/10.1073/pnas.1915378117^.
 
-Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider ^[3](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[4](https://doi.org/10.1641/B570705)^. 
+> Scholars from underrepresented groups have origins, concerns, and experiences that differ from groups traditionally represented, and their inclusion in academe diversifies scholarly perspectives. In fact, historically underrepresented groups often draw relations between ideas and concepts that have been traditionally missed or ignored. 
 
-Overall suggestions:
+However, analyses of scientific article authorship indicate that women are underrepresented in computational biology ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^ and analyses of university faculty demonstrate that both women and historically marginalized populations remain underrepresented in science, technology, engineering, and mathematics (STEM) fields at large^[new1]( https://doi.org/10.1073/pnas.1915378117^. 
 
-AVocado - I need to know about resources that might be more tailored to stem mentorships.... 
+In order to best support and encourage mentees of underrepresented groups in cancer informatics, we suggested the following. 
 
 1) Seek **training about disparities** in informatics and STEM career achievement and attitudes, biases, and stereotypes that are hindrances.
 
@@ -249,24 +249,27 @@ Also, become aware of as  **microgaressions** - "subtle verbal and nonverbal sli
 
 See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf) for a list of examples.
 
-
 Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" ^[3](https://doi.org/10.1111/nyas.14470)^. 
 
-2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[5](http://dx.doi.org/10.1037/dhe0000106), [6](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[4](http://dx.doi.org/10.1037/dhe0000106), [5](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
 
 **However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student in private without singling them out in front of the rest of a group.
 
-> "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." ^[5](http://dx.doi.org/10.1037/dhe0000106)^
+> "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." ^[4](http://dx.doi.org/10.1037/dhe0000106)^
 
->Two ideological perspectives – **colorblindness and multiculturalism** – have emerged to shed light on this question. Colorblindness downplays the salience and importance of race by focusing on the commonalities people share, such as one's underlying humanity. In contrast, multiculturalism acknowledges and highlights racial differences^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^.
+>Two ideological perspectives – **colorblindness and multiculturalism** – have emerged to shed light on this question. Colorblindness downplays the salience and importance of race by focusing on the commonalities people share, such as one's underlying humanity. In contrast, multiculturalism acknowledges and highlights racial differences^[5](https://doi.org/10.1016/j.jesp.2011.09.010)^.
 
->"Exposure to colorblind (vs. multicultural) messages predicts negative outcomes among Whites such as greater implicit and explicit racial bias ([Richeson & Nussbaum, 2004](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0080))"^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^
+>"Exposure to colorblind (vs. multicultural) messages predicts negative outcomes among Whites such as greater implicit and explicit racial bias ([Richeson & Nussbaum, 2004](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0080))"^[5](https://doi.org/10.1016/j.jesp.2011.09.010)^
 
-> "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"^[6](https://doi.org/10.1016/j.jesp.2011.09.010)^
+> "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"^[5](https://doi.org/10.1016/j.jesp.2011.09.010)^
 
 3) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and micrograrresions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
 
 4) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
+
+Computational biology papers with female authors are more likely to have a last author is also female. It is unclear if this is because women are more likely to hire other women and or if females are more likely to choose a lab with a female advisor ^[2](https://doi.org/10.1371/journal.pcbi.1005134)^. 
+
+Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider^[3](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[6](https://doi.org/10.1641/B570705)^. 
 
 5) **Advocate for all mentees**, particularly those from underrepresented groups by introducing your mentee to other scientists and trainees, encouraging the participation of your mentees in support programs and groups such as graduate student groups and helping mentees cultivate self advocacy practices through open discussions and encouragement.
 
@@ -300,17 +303,19 @@ maybe look into this:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830162/
 
 ### Refrences
 
+new1)Hofstra, Bas, Vivek V. Kulkarni, Sebastian Munoz-Najar Galvez, Bryan He, Dan Jurafsky, and Daniel A. McFarland. 2020. “The Diversity–Innovation Paradox in Science.” Proceedings of the National Academy of Sciences 117 (17): 9284–91. https://doi.org/10.1073/pnas.1915378117
+
 1) Mullen, Carol A., and Cindy C. Klimaitis. “Defining Mentoring: A Literature Review of Issues, Types, and Applications.” Annals of the New York Academy of Sciences 1483, no. 1 (January 2021): 19–35. https://doi.org/10.1111/nyas.14176.
 
 2) Bonham, Kevin S., and Melanie I. Stefan. “Women Are Underrepresented in Computational Biology: An Analysis of the Scholarly Literature in Biology, Computer Science and Computational Biology.” Edited by Carl T. Bergstrom. PLOS Computational Biology 13, no. 10 (October 12, 2017): e1005134. https://doi.org/10.1371/journal.pcbi.1005134.
 
 3) Stelter, Rebecca L, Janis B Kupersmidt, and Kathryn N Stump. “Establishing Effective STEM Mentoring Relationships through Mentor Training.” Ann. N.Y. Acad. Sci., 1483 (2021): 224–243.  https://doi.org/10.1111/nyas.14470
 
-4) Katz, Samantha. “Mentoring Women in the Biological Sciences: Is Informatics Leading the Pack?,” : BioScience, 57(7) (2007): 559. https://doi.org/10.1641/B570705.
+4) Byars-Winston, Angela, Patrice Leverett, Ross J Benbow, Christine Pfund, Nancy Thayer-Hart, and Janet Branchaw. “Race and Ethnicity in Biology Research Mentoring Relationships,” Journal of Diversity in Higher Education, 13, No. 3 (2020): 240–253. http://dx.doi.org/10.1037/dhe0000106
 
-5) Byars-Winston, Angela, Patrice Leverett, Ross J Benbow, Christine Pfund, Nancy Thayer-Hart, and Janet Branchaw. “Race and Ethnicity in Biology Research Mentoring Relationships,” Journal of Diversity in Higher Education, 13, No. 3 (2020): 240–253. http://dx.doi.org/10.1037/dhe0000106
+5) Holoien, Deborah Son, and J. Nicole Shelton.  “You Deplete Me: The Cognitive Costs of Colorblindness on Ethnic Minorities.” Journal of Experimental Social Psychology 48 No. 2 (2012): 562–65. https://doi.org/10.1016/j.jesp.2011.09.010.
 
-6) Holoien, Deborah Son, and J. Nicole Shelton.  “You Deplete Me: The Cognitive Costs of Colorblindness on Ethnic Minorities.” Journal of Experimental Social Psychology 48 No. 2 (2012): 562–65. https://doi.org/10.1016/j.jesp.2011.09.010.
+6) Katz, Samantha. “Mentoring Women in the Biological Sciences: Is Informatics Leading the Pack?,” : BioScience, 57(7) (2007): 559. https://doi.org/10.1641/B570705.
 
 7) Lee, Adrian, Carina Dennis, and Philip Campbell. “Nature’s Guide for Mentors.” Nature 447, no. 7146 (June 2007): 791–97. https://doi.org/10.1038/447791a.
 
