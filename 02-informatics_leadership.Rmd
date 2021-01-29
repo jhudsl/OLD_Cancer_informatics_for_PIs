@@ -15,7 +15,7 @@ Research is becoming more and more multidisciplinary. This requires more flexibi
 
 Studies investigating biology research labs over history indicate that collaboration has been on the rise since the 1950s^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^ and that the rate continues to increase^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^. Indeed the size of biology research teams appear to have doubled from 1955 to 1990^[1](https://doi.org/10.1016/j.endeavour.2013.03.001)^. But why? 
 
-### What are the benefits of collaboration?  
+### The benefits of collaboration  
 
 1) **Shared cost** - Research often involves expensive technology, thus it is cost effective to share resources.    
 2) **Shared expertise** - Now that technology affords answering in some cases more complex or broader research questions, it is often more effective to employ multiple contributors with different knowledge, skills, and perspectives. Researchers have noted that their own concept of their field changed as a result of working with investigators from other disciplines. Thus this can lead to innovation ^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^. 
@@ -25,16 +25,21 @@ Studies investigating biology research labs over history indicate that collabora
 
 ![](images/collaboration.png)
 
-### Potential Challenges:
+### Potential Challenges
+
+There are always challenges when collabrating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
 
 1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
+
 Typically researchers will not meet as often with a collaborator as they would with an internal team member. Therefore, poor communication in a collaboration can lead to more costly misdirection and thus wasted time and effort.
 
 Furthermore, as investigators often have different backgrounds, differences in jargon and language can make communication more challenging. 
 
-Having internal team members with some familiarity with informatics can be very beneficial for translating discussions with collaborators who are informatics experts. One solution to this is to have trainees work in both labs. This can be especially beneficial time for the trainee who will become accustomed to two research styles allowing them to potentially have their own multi-disciplinary lab in the future^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^. 
+Having **internal** team members with some **familiarity** with informatics can be very beneficial for translating discussions with collaborators who are informatics experts. 
 
-Another important method that can help resolve this issue is to have members provide educational seminars for participating members about the fundamentals of their work.
+One solution to this is to have **trainees work in both labs**. This can be especially beneficial for the trainee who will become accustomed to two research styles and will learn a diverse set of skills, allowing them to potentially have their own multi-disciplinary lab in the future^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^. 
+
+Another important method that can help resolve this issue is to have members provide **educational seminars** for participating members about the fundamentals of their work.
 
 2) **Different research style and goals** -  Beyond differences in language, differences in research style and goals can lead to conflict.
 
@@ -45,7 +50,9 @@ Making clear research standards and goals, as well as outlining clear specific t
 Furthermore, it is critical to keep in mind the diversity of career goals of research team members, as junior team members may have a challenging time persuading others of their independence and contributions when they work on largely collaborative projects.  It is also necessary to ensure that junior members have time to devote to their own research programs. ^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^ Support should be provided for these junior collaborators by more senior collaborators.
 
 
-3) **Different capabilities** - Research of multi-disciplinary collaborations have found that when collaborating members were unclear of how their expertise and work contributed to the projected, they were less motivated and felt less valued. Working with members of different backgrounds to determine how their expertise can contribute to the project will not only help with moral, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect!^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^
+3) **Different capabilities** - Research of multi-disciplinary collaborations has revealed that when collaborating members are unclear of how their expertise and work contributes to the project, they are less motivated and fell less valued. 
+
+Working with members of different backgrounds to determine how their expertise can contribute to the project, as opposed to simply assigning them a task, will not only help with moral, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^.
 
 4) **Reduced sense of responsibility** - Another concern of collaboration is that team members may feel less responsibility or commitment to a project than for a project within their own lab.
 
@@ -59,21 +66,6 @@ Sharing and discussing budget information early and often can help research memb
 
 ![](images/challenges.png)
 
-### There are multiple ways to approach collaboration. 
-
-AVOCADO - this section needs to be more tailored or may drop?
-
-Four types have been defined by a study of scientific collaboration ^[5](https://doi.org/10.1016/S0048-7333(01)00145-7)^:
-
-1) **Bureaucratic** - Collaborations of this style have a high level of formality, hierarchy, guidelines, and rules with clear specialized divisions of labor and responsibilities. This is particularly a useful strategy if any collaboration members have been historically competitive with one another or there is a large amount of money involved. Legal contracts and external evaluations are common.
-2) **Leaderless** - There is administrative leadership but no scientific leadership. This allows for more flexibility scientifically. 
-3) **Non-specialized** - There is no specialized division of labor despite hierarchical leadership. This method is especially useful for assessing reproducibility of a finding or for evaluating the reliability of a method. Teams are given the same tasks to work on. 
-4) **Participatory** - This style is the least formal, yet still maintains aspects of leadership and division of labor. Researchers contribute equally to decisions about the project, there is no designated scientific leader. No legal or formal agreements are used, rather informal understandings are used as the foundation for guiding the project. 
-
-Of note, the term Participatory action in contrast, involves collaborating with community members.
-
->Participatory action research values the knowledge,experiences, and norms of community members and seeks to incorporate
-these into research projects. Its goal is to create new knowledge thatleads to effective social action that solves real-life problems.^[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration)^
 
 ### References
 
@@ -84,8 +76,6 @@ these into research projects. Its goal is to create new knowledge thatleads to e
 3) Mäkinen, Elina I., Eliza D. Evans, and Daniel A. McFarland. “The Patterning of Collaborative Behavior and Knowledge Culminations in Interdisciplinary Research Centers.” Minerva 58, no. 1 (March 2020): 71–95. https://doi.org/10.1007/s11024-019-09381-6.
 
 4) Blake, Daniel. "The Case for Rebranding Minority-serving Institutions." DiverseEducation.com (January, 17, 2017) https://diverseeducation.com/article/91247/. 
-
-5) Chompalov, Ivan, Joel Genuth, and Wesley Shrum. “The Organization of Scientific Collaborations.” Research Policy 31, no. 5 (July 2002): 749–67. https://doi.org/10.1016/S0048-7333(01)00145-7.
 
 
 ## Employing informatics experts
@@ -288,15 +278,6 @@ Indeed, research of females and other underrepresented groups in STEM including 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yiZQaE0q9BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Additional training
-
-slack
-
-reproducibility... (several options here...)
-
-GitHub/Git
-
-
 ### Refrences
 
 1) Mullen, Carol A., and Cindy C. Klimaitis. “Defining Mentoring: A Literature Review of Issues, Types, and Applications.” Annals of the New York Academy of Sciences 1483, no. 1 (January 2021): 19–35. https://doi.org/10.1111/nyas.14176.
@@ -321,4 +302,91 @@ GitHub/Git
 
 11) Masters, Kristyn S, and Pamela K Kreeger. “Ten Simple Rules for Developing a Mentor–Mentee Expectations Document,” PLOS Computational Biology,3 No.9 (September 21, 2017): e1005709.  https://doi.org/10.1371/journal.pcbi.1005709
 
+
+## Informatics Lab Management Tools
+
+There are a few tools that can be especially useful for assisting with day-to-day management of projects involving informatics regardless of if you are simply collaborating with an informatics expert or you are leading an informatics research team.
+
+### Slack
+
+
+![](images/slack.png)
+[[source](https://slack.com/)]
+
+[Slack](https://slack.com/) is a communication tool that allows you to communicate with lab members much more efficiently than email. It is a bit like a combination of an instant message system and email and dropbox. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EYqxQGmQkVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can do quite well with the free version of slack. It may be all that your research group needs indefinitely. The major difference between the free version and the paid versions is that the free version does not save all of your message history. 
+
+Currently, with the free version you can search through the history of the last 10,000 messages. From our experience using this with a department of about 250 people, it takes about a year to reach this. If there are any really important messages or files, make sure to save them just in case.
+
+### How to use slack?
+
+#### Workspaces
+
+The main landing page for slack is called a workspace, which looks like this:
+
+![](images/overall_slack.png)
+In the above image, this person has 5 workspaces which are indicated by the squares on the far left. Each workspace allows for multiple channels for communicating. These channels can include all members of the workspace or specific subsets of members. Team members can also have separate direct messages to have one-on-one discussions.
+
+It's a good idea to check if your department or institute is already using slack. If so, they may have a workspace that you can join. Otherwise you may want to think about recruiting your department or institute to start using slack. In this case you could start a workspace where people outside your research group can communicate. This would still allow you to have group messages with your lab or specific groups within the lab.  Otherwise, you can start a workspace just for your research group. 
+
+#### Channels
+
+Channels are the main way in which you can converse with your team on slack.
+
+We recommend making a slack channel for your entire research group. Everyone in your group will be able to discuss something by sending messages in real time. If someone is not available at that time, they will see the message when they next check slack. 
+We also recommend making project specific channels. For these channels you can add all of the team members working on a specific project, so that they can easily discuss and review discussions about the project. 
+
+Importantly, you can make channels private or public. If a channel is public, anyone in the workspace can join.
+
+![channels](images/channel.png)
+
+### Features
+
+#### Pins
+
+If someone sends a really important message, like a link to a relevant document, you can "pin" the message so that it is easier to find later. 
+
+Hovering over a message you will get the following options:
+
+![slack message options](images/slack_options.png)
+Clicking on the 3 dot button allows you to do several useful things for a message including pinning it to find it easily later.
+
+![Pin it for later!](images/pin.png)
+
+
+#### Code
+One great feature about slack, is that it is very convenient to message about code.
+
+![slack code](images/slack_code.png)
+You can also attach files directly to messages just like in the above message which has a screen shot image file.
+
+#### Reminders
+
+If you want to be reminded about a message in 20 minutes or next week you can also do that using the same hovering and 3 dot button option.
+
+![](images/slack_options.png)
+
+![](images/reminder.png)
+
+You may also notice in the image above that your messages can be **edited!** unlike an email.
+
+#### Polls
+
+One other nice feature for working with a team is that you can directly poll your team.
+
+![Quickly perform polls](images/poll.png)
+
+### Git and GitHub
+
+Informatics work can especially benefit from 
+
+
+reproducibility... (several options here...)
+
+GitHub/Git
+
+docker
 
