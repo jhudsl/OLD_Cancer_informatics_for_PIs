@@ -5,7 +5,7 @@ output: html_document
 
 # Computing for Cancer Research
 
-The main objectives of this tutorial are to:
+The main objectives of this tutorial are to:  
 1) Help you evaluate different computing platforms  
 2) Discuss the state of “Cloud” computing  
 3) Describe the key parts of a computer  
@@ -17,40 +17,49 @@ Finding the **"right"** computing platform depends on many different considerati
 
 Important questions to ask are:  
 
-1) Do I need an [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
+1) Do I need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
 
 What do we mean by this?
 
 A [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.
 
-Galaxy offers a graphical interface for performing analyses:
+Galaxy offers a graphical interface for performing analyses and tasks. For example in the following image we show a graphical interface for joining two files:
 
 ![](images/Galaxy.png)
 
 
-A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) also known as a character interface allows for software functions to be performed by specifiying through commands written in text. This typically offers more granular control than a Graphical interface, but is often less user friendly.
+A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more granular control than a graphical interface, but command line interfaces are often less user friendly, as they require that the user know the correct commands to use.
 
 For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
 
 ![](images/Biostrings.png)
 
 
-A situation where you might use both a command line interface and a graphic interface, is using RStudio to perform  an analysis in R with Bioconductor packages.
+A situation where you might use both a command line interface and a graphical interface, is using RStudio to performan analysis in R with Bioconductor packages.
 
 ![](images/both.png)
-As you can see you can click and save a plot with the graphic interface. 
+As you can see you can click and save a plot with the graphical interface. 
 
 2) Am I working with protected data that requires special security precautions?
 
-For example, are you working with electronic health records that require HIPAA compliance.
+For example, if you are working with electronic health records, [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/) requires that special measures are taken to ensure that only authorized users have access to the data.
 
 ![](images/HIPAA.jpg)
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
 
 3) How computationally intensive are my tasks? 
 
+If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop. 
+
+
+![](images/computationally_intensive.png)
 
 4) How much storage space do I need for both temporary and long term data?
+
+![](images/Storage.png)
+
+If you are working with large data sets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.
+
 
 Choosing a computing platform involves both software and hardware decisions.  With regards to hardware, two common options include:  
 

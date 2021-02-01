@@ -24,7 +24,7 @@
 <meta name="author" content="Carrie Wright" />
 
 
-<meta name="date" content="2021-01-29" />
+<meta name="date" content="2021-02-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -128,7 +128,7 @@
             <section class="normal" id="section-">
 <div id="computing-for-cancer-research" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Computing for Cancer Research</h1>
-<p>The main objectives of this tutorial are to:
+<p>The main objectives of this tutorial are to:<br />
 1) Help you evaluate different computing platforms<br />
 2) Discuss the state of “Cloud” computing<br />
 3) Describe the key parts of a computer</p>
@@ -137,28 +137,34 @@
 <p>Finding the <strong>“right”</strong> computing platform depends on many different considerations.</p>
 <p>Important questions to ask are:</p>
 <ol style="list-style-type: decimal">
-<li>Do I need an <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</li>
+<li>Do I need a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</li>
 </ol>
 <p>What do we mean by this?</p>
 <p>A <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a “user-centered” design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.</p>
-<p>Galaxy offers a graphical interface for performing analyses:</p>
+<p>Galaxy offers a graphical interface for performing analyses and tasks. For example in the following image we show a graphical interface for joining two files:</p>
 <p><img src="images/Galaxy.png" /></p>
-<p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> also known as a character interface allows for software functions to be performed by specifiying through commands written in text. This typically offers more granular control than a Graphical interface, but is often less user friendly.</p>
+<p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more granular control than a graphical interface, but command line interfaces are often less user friendly, as they require that the user know the correct commands to use.</p>
 <p>For example, one could perform functions in R using Bioconductor packages such as <a href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">Biostrings</a> with a command line interface:</p>
 <p><img src="images/Biostrings.png" /></p>
-<p>A situation where you might use both a command line interface and a graphic interface, is using RStudio to perform an analysis in R with Bioconductor packages.</p>
+<p>A situation where you might use both a command line interface and a graphical interface, is using RStudio to performan analysis in R with Bioconductor packages.</p>
 <p><img src="images/both.png" />
-As you can see you can click and save a plot with the graphic interface.</p>
+As you can see you can click and save a plot with the graphical interface.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Am I working with protected data that requires special security precautions?</li>
 </ol>
-<p>For example, are you working with electronic health records that require HIPAA compliance.</p>
+<p>For example, if you are working with electronic health records, <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a> requires that special measures are taken to ensure that only authorized users have access to the data.</p>
 <p><img src="images/HIPAA.jpg" />
 [<a href="https://www.paubox.com/blog/what-is-hipaa/">source</a>]</p>
 <ol start="3" style="list-style-type: decimal">
-<li><p>How computationally intensive are my tasks?</p></li>
-<li><p>How much storage space do I need for both temporary and long term data?</p></li>
+<li>How computationally intensive are my tasks?</li>
 </ol>
+<p>If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop.</p>
+<p><img src="images/computationally_intensive.png" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>How much storage space do I need for both temporary and long term data?</li>
+</ol>
+<p><img src="images/Storage.png" /></p>
+<p>If you are working with large data sets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.</p>
 <p>Choosing a computing platform involves both software and hardware decisions. With regards to hardware, two common options include:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Personal computers</strong> - whether it be a laptop, a desktop, or a <a href="https://techterms.com/definition/server">server</a><br />
