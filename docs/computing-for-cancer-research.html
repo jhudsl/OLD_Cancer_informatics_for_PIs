@@ -94,11 +94,15 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html"><i class="fa fa-check"></i><b>3</b> Computing for Cancer Research</a><ul>
-<li class="chapter" data-level="3.1" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#local-and-cloud-computing"><i class="fa fa-check"></i><b>3.1</b> Local and Cloud Computing</a><ul>
-<li class="chapter" data-level="3.1.1" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#state-of-cloud-computing"><i class="fa fa-check"></i><b>3.1.1</b> State of Cloud Computing</a></li>
+<li class="chapter" data-level="3.1" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>3.1</b> Choosing a Computing Platform</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#important-questions"><i class="fa fa-check"></i><b>3.1.1</b> Important questions</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#local-costs"><i class="fa fa-check"></i><b>3.2</b> Local Costs</a></li>
-<li class="chapter" data-level="3.3" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#cloud-costs"><i class="fa fa-check"></i><b>3.3</b> Cloud Costs</a></li>
+<li class="chapter" data-level="3.2" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#choosing-hardware"><i class="fa fa-check"></i><b>3.2</b> Choosing Hardware</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>3.2.1</b> Benefits of Cloud Computing</a></li>
+<li class="chapter" data-level="3.2.2" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>3.2.2</b> Challenges of Cloud Computing</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#local-costs"><i class="fa fa-check"></i><b>3.3</b> Local Costs</a></li>
+<li class="chapter" data-level="3.4" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html#cloud-costs"><i class="fa fa-check"></i><b>3.4</b> Cloud Costs</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="data-management-for-cancer-research.html"><a href="data-management-for-cancer-research.html"><i class="fa fa-check"></i><b>4</b> Data Management for Cancer Research</a><ul>
 <li class="chapter" data-level="4.1" data-path="data-management-for-cancer-research.html"><a href="data-management-for-cancer-research.html#good-practice"><i class="fa fa-check"></i><b>4.1</b> Good Practice</a></li>
@@ -128,31 +132,28 @@
             <section class="normal" id="section-">
 <div id="computing-for-cancer-research" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Computing for Cancer Research</h1>
-<p>The main objectives of this tutorial are to:<br />
-1) Help you evaluate different computing platforms<br />
-2) Discuss the state of “Cloud” computing<br />
-3) Describe the key parts of a computer</p>
-<div id="local-and-cloud-computing" class="section level2">
-<h2><span class="header-section-number">3.1</span> Local and Cloud Computing</h2>
-<p>Finding the <strong>“right”</strong> computing platform depends on many different considerations.</p>
-<p>Important questions to ask are:</p>
+<p>To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing hardware and software. It will also describe the benefits and drawbacks of local and “Cloud” computing, as well as the associated costs of each.</p>
+<div id="choosing-a-computing-platform" class="section level2">
+<h2><span class="header-section-number">3.1</span> Choosing a Computing Platform</h2>
+<p>In order to accomplish computational work, you will require a computing platform. A computing platform, is all the <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.</p>
+<p>Finding the <strong>“right”</strong> <a href="https://en.wikipedia.org/wiki/Computing_platform">computing platform</a> depends on many different considerations.</p>
+<div id="important-questions" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Important questions</h3>
+<p>Asking yourself and your research team these questions can help you find the right computing platform:</p>
 <ol style="list-style-type: decimal">
 <li>Do I need a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</li>
 </ol>
 <p>What do we mean by this?</p>
 <p>A <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a “user-centered” design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.</p>
-<p>Galaxy offers a graphical interface for performing analyses and tasks. For example in the following image we show a graphical interface for joining two files:</p>
+<p><a href="https://usegalaxy.org/">Galaxy</a> offers a graphical interface for performing analyses and tasks. For example in the following image we show a graphical interface for joining two files:</p>
 <p><img src="images/Galaxy.png" /></p>
-<p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more granular control than a graphical interface, but command line interfaces are often less user friendly, as they require that the user know the correct commands to use.</p>
+<p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.</p>
 <p>For example, one could perform functions in R using Bioconductor packages such as <a href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">Biostrings</a> with a command line interface:</p>
 <p><img src="images/Biostrings.png" /></p>
-<p>A situation where you might use both a command line interface and a graphical interface, is using RStudio to performan analysis in R with Bioconductor packages.</p>
+<p>A situation where you might use both a command line interface and a graphical interface, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development enviornment</a>, which is an application that supports writing code. There are many tools including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.</p>
 <p><img src="images/both.png" />
-As you can see you can click and save a plot with the graphical interface.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Am I working with protected data that requires special security precautions?</li>
-</ol>
-<p>For example, if you are working with electronic health records, <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a> requires that special measures are taken to ensure that only authorized users have access to the data.</p>
+2) Am I working with protected data that requires special security precautions?</p>
+<p>If you are working with data that might be protected by <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a>, such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.</p>
 <p><img src="images/HIPAA.jpg" />
 [<a href="https://www.paubox.com/blog/what-is-hipaa/">source</a>]</p>
 <ol start="3" style="list-style-type: decimal">
@@ -164,21 +165,52 @@ As you can see you can click and save a plot with the graphical interface.</p>
 <li>How much storage space do I need for both temporary and long term data?</li>
 </ol>
 <p><img src="images/Storage.png" /></p>
-<p>If you are working with large data sets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.</p>
+<p>If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or “Cloud” storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.</p>
+</div>
+</div>
+<div id="choosing-hardware" class="section level2">
+<h2><span class="header-section-number">3.2</span> Choosing Hardware</h2>
 <p>Choosing a computing platform involves both software and hardware decisions. With regards to hardware, two common options include:</p>
 <ol style="list-style-type: decimal">
-<li><strong>Personal computers</strong> - whether it be a laptop, a desktop, or a <a href="https://techterms.com/definition/server">server</a><br />
-</li>
-<li><strong>Shared computers</strong> - whether it be an institutional <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC cluster</a>(which stands for High Performance Computing) or a national resource like <a href="https://www.xsede.org/">Xsede</a></li>
+<li><strong>Personal computers</strong> - whether it be a laptop, a desktop, or a local <a href="https://techterms.com/definition/server">server</a>.</li>
 </ol>
-<p>More recently, commercial Cloud solutions are becoming a more viable solution, offered by companies like Amazon, Google, and Microsoft. Choosing a platform remains a sizable commitment with regards to the time required for training and setup. So how do you know whether the Cloud is right for you?</p>
+<p>In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more. For example, you could purchase a more powerful computer to act as a server for your lab and your lab members could connect to this server to allow each of them more computational power. Typically computers that act as servers are a bit different than our personal computers, as they do not need the same functionality- for instance they often dont have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Shared computers</strong> - whether it be an institutional <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC cluster</a>(which stands for High Performance Computing) or a national resource like <a href="https://www.xsede.org/">Xsede</a>.</li>
+</ol>
+<p>Your university or institution may have a HPC <a href="https://en.wikipedia.org/wiki/Computer_cluster">cluster</a>, this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.</p>
+<p>Alternatively, you could consider an option like <a href="https://www.xsede.org/">Xsede</a>.
+<a href="https://www.xsede.org/">Xsede</a> is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they support 16 supercomputers. Universities and non-profit reserachers in the United States can request access to their computational and data storage resources.</p>
+<p>Here you can see a photo of Stampede2, one of the supercomputers that users of Xsede can utilize.</p>
+<blockquote>
+<p>Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin’s flagship supercomputers.</p>
+</blockquote>
+<p>See <a href="https://portal.xsede.org/tacc-stampede2">here</a> for more information about how you could possibly connect to and utilize Stampede2.</p>
+<p><img src="images/Stampede2.jpg" />
+[<a href="https://www.xsede.org/ecosystem/resources">source</a>]</p>
+<p>Importantly when you use resources like Stampede2 available through Xsede as well as institutional computing clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:</p>
+<ol style="list-style-type: decimal">
+<li>Dont use all CPUs on a node if you don’t need to</li>
+<li>Dont use all RAM on a node if you don’t need to</li>
+<li>Communicate with others if you will be submitting a large or intensive job</li>
+</ol>
+<p>(We will describe more about CPUs and RAM later- so don’t worry if that is new information for you.)</p>
+<p>More recently, commercial “Cloud” solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. Choosing a platform remains a considerable commitment with regards to the time required for training and setup. So how do you know whether the “Cloud” is right for you?</p>
 <p>While no single factor is usually sufficient to make this decision, important considerations include:</p>
-<p>Are my local resources sufficient? When a local solution already works, one may rightly question the time required to migrate to the Cloud. However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.</p>
-<p>Am I working with especially big or controlled access datasets? Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud. If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option. Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like hippa and FedRAMP.</p>
-<p>Do I need to work with collaborators? Computational research increasingly involves larger and larger collaborations. While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment covering hardware, software, and datasets.</p>
+<ol style="list-style-type: decimal">
+<li>Are my local resources sufficient?</li>
+</ol>
+<p>When a local solution already works, one may rightly question the time required to migrate to the Cloud. However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Am I working with especially big or controlled access datasets?</li>
+</ol>
+<p>Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud. If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option. Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPPA and FedRAMP.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Do I need to work with collaborators? Computational research increasingly involves larger and larger collaborations. While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment covering hardware, software, and datasets.</li>
+</ol>
 <p>If Cloud Computing makes sense for you, then you’re in luck! The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable. As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.</p>
-<div id="state-of-cloud-computing" class="section level3">
-<h3><span class="header-section-number">3.1.1</span> State of Cloud Computing</h3>
+<div id="benefits-of-cloud-computing" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Benefits of Cloud Computing</h3>
 <p>The state of Cloud computing is continually evolving. Here, we highlight three main current opportunities:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Sharing Workflows</strong></li>
@@ -199,6 +231,9 @@ As you can see you can click and save a plot with the graphical interface.</p>
 <p>The third opportunity we highlight is the increasing ease by which one can provision commodity hardware at scale.</p>
 <p><img src="images/cloud_Services.png" /></p>
 <p>What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers – importantly stopping the bill when your analysis is complete. Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.</p>
+</div>
+<div id="challenges-of-cloud-computing" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Challenges of Cloud Computing</h3>
 <p>Balancing these three opportunities are four challenges:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Data Transfer</strong></li>
@@ -220,10 +255,10 @@ As you can see you can click and save a plot with the graphical interface.</p>
 </div>
 </div>
 <div id="local-costs" class="section level2">
-<h2><span class="header-section-number">3.2</span> Local Costs</h2>
+<h2><span class="header-section-number">3.3</span> Local Costs</h2>
 </div>
 <div id="cloud-costs" class="section level2">
-<h2><span class="header-section-number">3.3</span> Cloud Costs</h2>
+<h2><span class="header-section-number">3.4</span> Cloud Costs</h2>
 
 </div>
 </div>
