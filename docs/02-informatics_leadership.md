@@ -78,6 +78,10 @@ Sharing and discussing budget information early and often can help research memb
 
 ## Employing informatics experts
 
+AVOCADO - add more based on http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/
+http://www.opiniomics.org/the-lonely-bioinformatician-revisited-clinical-labs/
+https://www.reddit.com/r/bioinformatics/comments/1cxg9d/a_guide_for_the_lonely_bioinformatician/
+
 In contrast to collaborating with informatics experts, in some case it may be beneficial to directly employ them on your team. There are again pros and and cons for this strategy.
 
 By directly employing an informatics expert, rather than collaborating with an expert, research leaders will have more access to meet with these experts more often. Research leaders may also have more sway in terms of guiding the direction of the experts' work. Leaders can also potentially grow the informatics part of their research program more readily, leading to even more flexibility in the research questions that they may be able to assess.
@@ -216,11 +220,11 @@ When guiding your mentee through the publication process, it is a good idea to k
 
 ### Mentoring underrepresented students
 
-The inclusion of diverse populations in scientific teams has been shown to improve innovation^[2](https://doi.org/10.1073/pnas.1915378117^.
+The inclusion of diverse populations in scientific teams has been shown to improve innovation^[2](https://doi.org/10.1073/pnas.1915378117)^.
 
-> Scholars from underrepresented groups have origins, concerns, and experiences that differ from groups traditionally represented, and their inclusion in academe diversifies scholarly perspectives. In fact, historically underrepresented groups often draw relations between ideas and concepts that have been traditionally missed or ignored^[2](https://doi.org/10.1073/pnas.1915378117^. 
+> Scholars from underrepresented groups have origins, concerns, and experiences that differ from groups traditionally represented, and their inclusion in academe diversifies scholarly perspectives. In fact, historically underrepresented groups often draw relations between ideas and concepts that have been traditionally missed or ignored^[2](https://doi.org/10.1073/pnas.1915378117)^. 
 
-However, analyses of scientific article authorship indicate that women are underrepresented in computational biology^[3](https://doi.org/10.1371/journal.pcbi.1005134)^ and biomedical engineering^[4](https://doi.org/10.1007/s10439-019-02222-3)^ and analyses of university faculty and students demonstrate that both women and historically marginalized populations (such as Black, Hispanic, and Native American) remain underrepresented in science, technology, engineering, and mathematics (STEM) fields in the US and in Europe^[2](https://doi.org/10.1073/pnas.1915378117)^, [5](https://doi.org/10.1371/journal.pcbi.1008210)^. 
+However, analyses of scientific article authorship indicate that women are underrepresented in computational biology^[3](https://doi.org/10.1371/journal.pcbi.1005134)^ and biomedical engineering^[4](https://doi.org/10.1007/s10439-019-02222-3)^ and analyses of university faculty and students demonstrate that both women and historically marginalized populations (such as Black, Hispanic, and Native American) remain underrepresented in science, technology, engineering, and mathematics (STEM) fields in the US and in Europe^[2](https://doi.org/10.1073/pnas.1915378117)^,^[5](https://doi.org/10.1371/journal.pcbi.1008210)^. 
 
 In order to best support and encourage mentees of underrepresented groups in cancer informatics, we suggest the following: 
 
@@ -238,7 +242,7 @@ See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in
 
 Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" ^[6](https://doi.org/10.1111/nyas.14470)^. 
 
-2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[7](http://dx.doi.org/10.1037/dhe0000106), [8](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees ^[7](http://dx.doi.org/10.1037/dhe0000106)^,^[8](https://doi.org/10.1016/j.jesp.2011.09.010)^. 
 
 **However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student in private without singling them out in front of the rest of a group.
 
@@ -269,7 +273,7 @@ Indeed, research of females and other underrepresented groups in STEM including 
 
 7) **Celebration and microaffrimations** Be sure to celebrate all of your mentees' small and large successes. This has been shown to promote confidence and resilience ^[6](https://doi.org/10.1111/nyas.14470)^.
 
-8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they don't belong when you provide feedback^[6](https://doi.org/10.1111/nyas.14470), [10]^(https://doi.org/10.1038/447791a)^.
+8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they don't belong when you provide feedback^[6](https://doi.org/10.1111/nyas.14470)^,[10]^(https://doi.org/10.1038/447791a)^.
 
 9) In addition to creating a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, consider creating a document that outlines **mentor and mentee expectations**. See [here](https://doi.org/10.1371/journal.pcbi.1005709.s001) for an example of such document ^[11](https://doi.org/10.1371/journal.pcbi.1005709)^ and see [here](https://ictr.wisc.edu/mentoring/) for more information. Keep in mind that such forms should be tailored for different career stages of your mentees and for mentees who are pursuing different expertise. Informatics mentees should incorporate guidelines about data management practices.  
 
