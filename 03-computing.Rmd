@@ -13,6 +13,8 @@ In order to accomplish computational work, you will require a computing platform
 
 Finding the **"right"** [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
 
+![](images/Considerations.png)
+
 
 ### Important questions 
 
@@ -36,7 +38,7 @@ For example, one could perform functions in R using Bioconductor packages such a
 ![](images/Biostrings.png)
 
 
-A situation where you might use both a command line interface and a graphical interface, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio)  is what is called an IDE or an [integrated development enviornment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.
+A situation where you might use **both** a command line interface and a graphical interface, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio)  is what is called an IDE or an [integrated development enviornment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.
 
 ![](images/both.png)
 2) Am I working with protected data that requires special security precautions?
@@ -64,28 +66,39 @@ If you are working with large datasets you may also need storage options that go
 
 Choosing a computing platform involves both software and hardware decisions.  With regards to hardware, two common options include:  
 
+
 1) **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).
 
-In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. For example, you could purchase a more powerful computer to act as a server for your lab and  your lab members could connect to this server to allow each of them more computational power. Typically computers that act as servers are a bit different than our personal computers, as they do not need the same functionality- for instance they often dont have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.
+![](images/Personal.png)
+
+In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality- for instance they often don't have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.
+
+![](images/Servers.png)
 
 2) **Shared computers** - whether it be an institutional [HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster)(which stands for High Performance Computing) or a national resource like [Xsede](https://www.xsede.org/). 
 
+![](images/Shared.png)
+
 Your university or institution may have a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
 
+
+
 Alternatively, you could consider an option like [Xsede](https://www.xsede.org/).
-[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they support 16 supercomputers. Universities and non-profit reserachers in the United States can request access to their computational and data storage resources.
+[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
 
 
-Here you can see a photo of Stampede2, one of the supercomputers that users of Xsede can utilize.
+Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
+
+![](images/Stampede2.jpg)
+
+[[source](https://www.xsede.org/ecosystem/resources)]
 
 > Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin's flagship supercomputers.
 
 See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
 
-![](images/Stampede2.jpg)
-[[source](https://www.xsede.org/ecosystem/resources)]
 
-Importantly when you use resources like Stampede2 available through Xsede as well as institutional computing clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:
+Importantly when you use resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:
 
 1) Dont use all CPUs on a node if you don't need to
 2) Dont use all RAM on a node if you don't need to
@@ -94,9 +107,15 @@ Importantly when you use resources like Stampede2 available through Xsede as wel
 (We will describe more about CPUs and RAM later- so don't worry if that is new information for you.)
 
 
-More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft.  Choosing a platform remains a considerable commitment with regards to the time required for training and setup.  So how do you know whether the "Cloud" is right for you?
+3) **Cloud Computing** - More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.
+
+Choosing a platform remains a considerable commitment with regards to the time required for training and setup.  So how do you know whether the "Cloud" is right for you?
+
+![](images/Cloud.png)
 
 While no single factor is usually sufficient to make this decision, important considerations include:
+
+Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede
 
 1) Are my local resources sufficient? 
 
@@ -117,7 +136,7 @@ The state of Cloud computing is continually evolving.  Here, we highlight three 
 
 1) **Sharing Workflows**  
 
-The first opportunity is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of Galaxy whereby one can share not only datasets but also every computational manipulation that was performed.
+The first opportunity is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/) whereby one can share not only datasets but also every computational manipulation that was performed.
 
 ![](images/Galaxy_history.png)
 
@@ -165,7 +184,7 @@ While software platforms can help mitigate these challenges, Cloud computing sti
 
 4) **IT**  
 
-A final challenge is that many IT support staff do not have extensive experience managing Cloud resources.  Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, Galaxy, and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.  
+A final challenge is that many IT support staff do not have extensive experience managing Cloud resources.  Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.  
 
 
 ## Local Costs

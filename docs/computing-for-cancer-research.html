@@ -24,7 +24,7 @@
 <meta name="author" content="Carrie Wright" />
 
 
-<meta name="date" content="2021-02-01" />
+<meta name="date" content="2021-02-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -137,6 +137,7 @@
 <h2><span class="header-section-number">3.1</span> Choosing a Computing Platform</h2>
 <p>In order to accomplish computational work, you will require a computing platform. A computing platform, is all the <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.</p>
 <p>Finding the <strong>“right”</strong> <a href="https://en.wikipedia.org/wiki/Computing_platform">computing platform</a> depends on many different considerations.</p>
+<p><img src="images/Considerations.png" /></p>
 <div id="important-questions" class="section level3">
 <h3><span class="header-section-number">3.1.1</span> Important questions</h3>
 <p>Asking yourself and your research team these questions can help you find the right computing platform:</p>
@@ -150,7 +151,7 @@
 <p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.</p>
 <p>For example, one could perform functions in R using Bioconductor packages such as <a href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">Biostrings</a> with a command line interface:</p>
 <p><img src="images/Biostrings.png" /></p>
-<p>A situation where you might use both a command line interface and a graphical interface, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development enviornment</a>, which is an application that supports writing code. There are many tools including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.</p>
+<p>A situation where you might use <strong>both</strong> a command line interface and a graphical interface, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development enviornment</a>, which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.</p>
 <p><img src="images/both.png" />
 2) Am I working with protected data that requires special security precautions?</p>
 <p>If you are working with data that might be protected by <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a>, such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.</p>
@@ -174,29 +175,37 @@
 <ol style="list-style-type: decimal">
 <li><strong>Personal computers</strong> - whether it be a laptop, a desktop, or a local <a href="https://techterms.com/definition/server">server</a>.</li>
 </ol>
-<p>In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more. For example, you could purchase a more powerful computer to act as a server for your lab and your lab members could connect to this server to allow each of them more computational power. Typically computers that act as servers are a bit different than our personal computers, as they do not need the same functionality- for instance they often dont have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.</p>
+<p><img src="images/Personal.png" /></p>
+<p>In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more. For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality- for instance they often don’t have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.</p>
+<p><img src="images/Servers.png" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Shared computers</strong> - whether it be an institutional <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC cluster</a>(which stands for High Performance Computing) or a national resource like <a href="https://www.xsede.org/">Xsede</a>.</li>
 </ol>
+<p><img src="images/Shared.png" /></p>
 <p>Your university or institution may have a HPC <a href="https://en.wikipedia.org/wiki/Computer_cluster">cluster</a>, this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.</p>
 <p>Alternatively, you could consider an option like <a href="https://www.xsede.org/">Xsede</a>.
-<a href="https://www.xsede.org/">Xsede</a> is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they support 16 supercomputers. Universities and non-profit reserachers in the United States can request access to their computational and data storage resources.</p>
-<p>Here you can see a photo of Stampede2, one of the supercomputers that users of Xsede can utilize.</p>
+<a href="https://www.xsede.org/">Xsede</a> is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.</p>
+<p>Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.</p>
+<p><img src="images/Stampede2.jpg" /></p>
+<p>[<a href="https://www.xsede.org/ecosystem/resources">source</a>]</p>
 <blockquote>
 <p>Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin’s flagship supercomputers.</p>
 </blockquote>
 <p>See <a href="https://portal.xsede.org/tacc-stampede2">here</a> for more information about how you could possibly connect to and utilize Stampede2.</p>
-<p><img src="images/Stampede2.jpg" />
-[<a href="https://www.xsede.org/ecosystem/resources">source</a>]</p>
-<p>Importantly when you use resources like Stampede2 available through Xsede as well as institutional computing clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:</p>
+<p>Importantly when you use resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:</p>
 <ol style="list-style-type: decimal">
 <li>Dont use all CPUs on a node if you don’t need to</li>
 <li>Dont use all RAM on a node if you don’t need to</li>
 <li>Communicate with others if you will be submitting a large or intensive job</li>
 </ol>
 <p>(We will describe more about CPUs and RAM later- so don’t worry if that is new information for you.)</p>
-<p>More recently, commercial “Cloud” solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. Choosing a platform remains a considerable commitment with regards to the time required for training and setup. So how do you know whether the “Cloud” is right for you?</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Cloud Computing</strong> - More recently, commercial “Cloud” solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.</li>
+</ol>
+<p>Choosing a platform remains a considerable commitment with regards to the time required for training and setup. So how do you know whether the “Cloud” is right for you?</p>
+<p><img src="images/Cloud.png" /></p>
 <p>While no single factor is usually sufficient to make this decision, important considerations include:</p>
+<p>Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede</p>
 <ol style="list-style-type: decimal">
 <li>Are my local resources sufficient?</li>
 </ol>
@@ -215,7 +224,7 @@
 <ol style="list-style-type: decimal">
 <li><strong>Sharing Workflows</strong></li>
 </ol>
-<p>The first opportunity is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of Galaxy whereby one can share not only datasets but also every computational manipulation that was performed.</p>
+<p>The first opportunity is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of <a href="https://usegalaxy.org/">Galaxy</a> whereby one can share not only datasets but also every computational manipulation that was performed.</p>
 <p><img src="images/Galaxy_history.png" /></p>
 <p>By sharing such a History, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work.</p>
 <ol start="2" style="list-style-type: decimal">
@@ -251,7 +260,7 @@
 <ol start="4" style="list-style-type: decimal">
 <li><strong>IT</strong></li>
 </ol>
-<p>A final challenge is that many IT support staff do not have extensive experience managing Cloud resources. Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management. Fortunately, large initiatives like AnVIL, Galaxy, and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.</p>
+<p>A final challenge is that many IT support staff do not have extensive experience managing Cloud resources. Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management. Fortunately, large initiatives like AnVIL, <a href="https://usegalaxy.org/">Galaxy</a>, and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.</p>
 </div>
 </div>
 <div id="local-costs" class="section level2">
