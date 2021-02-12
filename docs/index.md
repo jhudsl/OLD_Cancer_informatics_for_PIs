@@ -1,7 +1,7 @@
 --- 
 title: "Informatics Technology for Cancer Research (ITCR): Cancer Informatics for PIs "
 author: "Carrie Wright"
-date: "2021-02-04"
+date: "2021-02-12"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -15,5 +15,5 @@ description: "This book provides an introduction to tools and key responsibiliti
 
 # About this Course {-}
 
-This course is part of a series of courses for the Informatics Technology for Cancer Research (ITCR) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. Our courses feature tools developed by ITCR Investigators and make it easier for principal invesitgators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at www.itcrtraining.org for more information.
+This course is part of a series of courses for the Informatics Technology for Cancer Research (ITCR) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at www.itcrtraining.org for more information.
 

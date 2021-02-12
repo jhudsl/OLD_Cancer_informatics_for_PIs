@@ -7,7 +7,7 @@ output: html_document
 
 # Cancer Informatics for Research Leaders
 
-Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
+Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together successfully. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
 
 ## Collaborating with Informatics Experts
 
@@ -25,7 +25,7 @@ Studies investigating biology research labs over history indicate that collabora
 
 ### Potential Challenges
 
-There are always challenges when collabrating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
+There are always challenges when collaborating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
 
 1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
 
@@ -50,7 +50,7 @@ Furthermore, it is critical to keep in mind the diversity of career goals of res
 
 3) **Different capabilities** - Research of multi-disciplinary collaborations has revealed that when collaborating members are unclear of how their expertise and work contributes to the project, they are less motivated and fell less valued. 
 
-Working with members of different backgrounds to determine how their expertise can contribute to the project, as opposed to simply assigning them a task, will not only help with moral, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^.
+Working with members of different backgrounds to determine how their expertise can contribute to the project, as opposed to simply assigning them a task, will not only help with morale, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect^[3](https://link.springer.com/article/10.1007/s11024-019-09381-6)^.
 
 4) **Reduced sense of responsibility** - Another concern of collaboration is that team members may feel less responsibility or commitment to a project than for a project within their own lab.
 
@@ -92,7 +92,7 @@ In addition, it is useful to become familiar with best practices for ethics, rel
 
 ## Mentoring informatics students
 
-Mentorship is a particularly unique relational experience. While traditional mentorship has been defined by the hierarchical structure of a single mentor who teaches subordinate mentees, new styles have emerged that are not as constrained or limited as the traditional paradigm. At it's optimum, mentors and mentees should learn from each other and together and expand what each can do alone. Importantly the more traditional paradigm that does not value "reciprocal learning" as highly, has been shown to be less effective for a larger diversity of students.^[1](https://doi.org/10.1111/nyas.14176)^
+Mentorship is a particularly unique relational experience. While traditional mentorship has been defined by the hierarchical structure of a single mentor who teaches subordinate mentees, new styles have emerged that are not as constrained or limited as the traditional paradigm. At its optimum, mentors and mentees should learn from each other and together and expand what each can do alone. Importantly the more traditional paradigm that does not value "reciprocal learning" as highly, has been shown to be less effective for a larger diversity of students.^[1](https://doi.org/10.1111/nyas.14176)^
 
 For research groups that are newer to informatics, some of these less traditional paradigms may be especially useful, we will focus on a few here. 
 
@@ -123,14 +123,14 @@ Becoming aware of these opportunities yourself, as a research leader, is therefo
 
 1) Academia - Your informatics mentees may have career opportunities as principal investigators, scientists, or educators just like other cancer biology mentees. In addition to opportunities as educators for informatics and biology, they will also have opportunities for data science.
 
-2) Government - Your informatics mentees will may have career opportunities as scientist or policy maker for research institutes just like other cancer biology mentees. However, additional agencies and institutes may have a need for their data science skills on topics outside of biology. For example your mentee may have the skills to work for city police department.
+2) Government - Your informatics mentees will may have career opportunities as scientist or policy maker for research institutes just like other cancer biology mentees. However, additional agencies and institutes may have a need for their data science skills on topics outside of biology. For example your mentee may have the skills to work for a city police department.
 
 3) Industry - Beyond the potential career options in the pharmaceutical industry, biotech, and medicine, your informatics mentees will have data science skills that may qualify them for jobs in a variety of industries. For example
-your informatics mentees could find jobs at companies such as [Stich Fix](https://www.stitchfix.com/) or [Ancestry](https://www.ancestry.com/) which use methods in machine learning and bioinformatics for their products. Additionally, your mentee may also have opportunities to join a software company as a computer programmer or even as a programming educator at a company like [RStudio](https://rstudio.com/). 
+your informatics mentees could find jobs at companies such as [Stitch Fix](https://www.stitchfix.com/) or [Ancestry](https://www.ancestry.com/) which use methods in machine learning and bioinformatics for their products. Additionally, your mentee may also have opportunities to join a software company as a computer programmer or even as a programming educator at a company like [RStudio](https://rstudio.com/). 
 
 4) Nonprofit - Beyond research and management positions at nonprofits performing scientific or clinical research, informatics mentees may have opportunities at other nonprofits with other types of goals. For example, your mentee might find work at a nonprofit that advocates for civil rights and investigates social interactions in social media platforms.
 
-According to [Brandon Rohrer](https://www.linkedin.com/in/brohrer/), a data scientists who formally worked at [Facebook](https://en.wikipedia.org/wiki/Facebook) and now works at [iRobot](https://en.wikipedia.org/wiki/IRobot), there are 4 major categories of knowledge and skills for data science:
+According to [Brandon Rohrer](https://www.linkedin.com/in/brohrer/), a data scientists who formerly worked at [Facebook](https://en.wikipedia.org/wiki/Facebook) and now works at [iRobot](https://en.wikipedia.org/wiki/IRobot), there are 4 major categories of knowledge and skills for data science:
 
 1) **Data Analysis** - domain knowledge, research skills, and interpretation skills  
 2) **Data Modeling** - machine learning application skills, algorithm development skills  
@@ -169,7 +169,7 @@ One common misconception is that informatics research projects work out more oft
 There are many reasons why an informatics project might fail:  
 1) the data is not of high enough quality or lacks consistency (this may be do to a faulty method, methodological differences between lab personnel, expired reagents, temperature differences on data collection days etc.)
 2) there is not a strong enough signal in the data to detect with the current data/methods - ie. you need more data or methods with greater granularity
-2) the method of data collection becomes obsolete (this may not make the project fail per se but can make publication difficult) 
+3) the method of data collection becomes obsolete (this may not make the project fail per se but can make publication difficult) 
 4) the signal does not exist  
 
 Ways to mitigate project failure:
@@ -181,16 +181,16 @@ It is a good idea to diversify your mentees' projects to enable them to have exp
 Make sure each mentee has at least one very solid project. For example, assign a review article, a simple software package, or a project with very promising pilot data.
 
 3) **Co-authorship**  
-Allow mentees to work together on projects. Assign one mentee as the main personnel, but allow other mentees to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fails. 
+Allow mentees to work together on projects. Assign one mentee as the main personnel, but allow other mentees to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fail. 
 
 4) **Plan for ample time**  
 Plan for projects to have adequate time to account for drawbacks. For example, if possible plan on the possibility that additional data may need to be collected or perhaps more data will need to be added from a data resource. It will take additional time to analyze the new data. Unfortunately, simply plugging in new data to an existing script hardly ever works. 
  Instead the following tasks are required:  
  
-1) Check the quality of the new data  
-2) Reformat/wrangle the new data to match that of the existing data  
-3) Evaluate how different the new data is from the old data - are they similar enough to be included in a larger analysis or does this require two analyses?
-4) Perform the analysis on the new data  
+* Check the quality of the new data  
+* Reformat/wrangle the new data to match that of the existing data  
+* Evaluate how different the new data is from the old data - are they similar enough to be included in a larger analysis or does this require two analyses?  
+* Perform the analysis on the new data  
 
 5) **Adjust and reframe**  
 When a project appears to fail because the data turns out to not be adequate for answering your original question, reframe the project to answer a question that the data actually can answer.  
@@ -234,9 +234,9 @@ Note that you may not be aware of the barriers of achievement that your mentees 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ViDtnfQ9FHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"^[6](https://doi.org/10.1111/nyas.14470)^ and how they miss influence your mentees.
+Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"^[6](https://doi.org/10.1111/nyas.14470)^ and how they might influence your mentees.
 
-Also, become aware of as  **microgaressions** - "subtle verbal and nonverbal slights, insults, or invalidations directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"^[6](https://doi.org/10.1111/nyas.14470)^.
+Also, become aware of as  **microaggressions* - "subtle verbal and nonverbal slights, insults, or invalidating remarks directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"^[6](https://doi.org/10.1111/nyas.14470)^.
 
 See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf) for a list of examples.
 
@@ -254,11 +254,11 @@ Importantly, "mentors for students with disabilities should receive training, as
 
 > "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"^[8](https://doi.org/10.1016/j.jesp.2011.09.010)^
 
-3) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and micrograrresions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
+3) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and microaggressions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
 
 4) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
 
-Computational biology papers with female authors are more likely to have a last author is also female. It is unclear if this is because women are more likely to hire other women and or if females are more likely to choose a lab with a female advisor ^[3](https://doi.org/10.1371/journal.pcbi.1005134)^. 
+Computational biology papers with female authors are more likely to have a last author is also female. It is unclear if this is because women are more likely to hire other women and or if females are more likely to choose a lab with a female adviser^[3](https://doi.org/10.1371/journal.pcbi.1005134)^. 
 
 Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider^[6](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[9](https://doi.org/10.1641/B570705)^. 
 
@@ -271,7 +271,7 @@ Indeed, research of females and other underrepresented groups in STEM including 
 [[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
 
-7) **Celebration and microaffrimations** Be sure to celebrate all of your mentees' small and large successes. This has been shown to promote confidence and resilience ^[6](https://doi.org/10.1111/nyas.14470)^.
+7) **Celebration and microaffirmations**  Be sure to celebrate all of your mentees' small and large successes. This has been shown to promote confidence and resilience ^[6](https://doi.org/10.1111/nyas.14470)^.
 
 8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they don't belong when you provide feedback^[6](https://doi.org/10.1111/nyas.14470)^,[10]^(https://doi.org/10.1038/447791a)^.
 
