@@ -29,6 +29,10 @@ reminders
 polls
 git-and-github
 computing-for-cancer-research
+computing
+core-computing-components-of-computers
+current-computer-capacity
+servers
 choosing-a-computing-platform
 important-questions
 choosing-hardware

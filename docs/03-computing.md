@@ -5,13 +5,62 @@ output: html_document
 
 # Computing for Cancer Research
 
-To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs.  This course aims to provide research leaders with some guidance about making decisions for computing hardware and software. It will also describe the benefits and drawbacks of local and "Cloud" computing, as well as the associated costs of each.
+To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and "Cloud" computing, as well as the associated costs of each.
+
+AVOCADO - This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [ANVil project](https://anvilproject.org/). See his book created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan] (https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).
+
+## Computing
+
+First we would like to start off with some background about computers. This will better enable you to make decisions about what type of hardware and software you might need for your research.
+
+### Core Computing Components of Computers
+
+There are **three** core and important components of computers for computing: 
+
+![](images/computing_comp.png)
+
+1) **CPU** - the Central Processing Unit  
+
+This is what is called **the brain** of the computer. It performs and orchestrates computational tasks. 
+Modern computers often perform multiple tasks at once, ranging from 4 tasks on a typical laptop. In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that can perform over 5,000 simpler tasks at once!
+
+2) **Memory or RAM** - short-term memory
+
+[RAM](https://www.computerhope.com/jargon/r/ram.htm) stands for **Random Access Memory**.  It is often simply referred to as memory.  This short-term memory holds the information that the CPU needs to perform calculations. Since CPUs are fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of memory is that it is temporary -- when the electricity is shut off, the data stored in memory disappears.  
+
+3) **Storage**  - long-term memory
+
+Storage is also sometimes referred to as long-term memory because electricity is not required to preserve the data. This type of memory is stored using [hard disk drives (HDD) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSD)](https://www.computerhope.com/jargon/s/ssd.htm), Typically ranging from gigabytes to terabytes or more, this type of storage offers big data capacity for a relatively low price at the cost of speed.
+
+
+### Current Computer Capacity
+
+So how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
+
+
+![](images/current_comp.png)
+These values will probably change very soon, but currently:
+
+* **Laptops** can perform 8 CPU tasks at once, storing 64 GB in memory and 8 TB on storage.  
+* **Handheld tablets** can now perform 8 CPU tasks, and store 6 GB in memory and 1 TB on storage. 
+* Some **phones** can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB on storage.  
+
+### Servers
+
+What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long on your personal computer or they may not even be possible.
+
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality- for instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
+
+![](images/Servers.png)
+
+
+
 
 ## Choosing a Computing Platform
 
 In order to accomplish computational work, you will require a computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
 
-Finding the **"right"** [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
+Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
 
 ![](images/Considerations.png)
 
@@ -55,25 +104,24 @@ If you have a large amount of data and/or are performing complex analyses, you m
 
 ![](images/computationally_intensive.png)
 
-4) How much storage space do I need for both temporary and long term data?
+4) How much storage space do I need for both temporary and long-term data?
 
 ![](images/Storage.png)
 
 If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or "Cloud" storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.
 
+Choosing a computing platform involves both software and hardware decisions. We will start with hardware.
 
 ## Choosing Hardware
 
-Choosing a computing platform involves both software and hardware decisions.  With regards to hardware, two common options include:  
+With regards to hardware, two common options include:  
 
 
-1) **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).
+1) **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).  
 
 ![](images/Personal.png)
 
-In this case in terms of hardware, the term server means a computer that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality- for instance they often don't have capabilities to support a graphical interface. They are designed to optimize data storage and computational power.
 
-![](images/Servers.png)
 
 2) **Shared computers** - whether it be an institutional [HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster)(which stands for High Performance Computing) or a national resource like [Xsede](https://www.xsede.org/). 
 

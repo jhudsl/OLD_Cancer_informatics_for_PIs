@@ -385,12 +385,15 @@ One other nice feature for working with a team is that you can directly poll you
 
 ### Git and GitHub
 
-Informatics work can especially benefit from 
+Informative work can especially benefit from 
 
 
 reproducibility... (several options here...)
 
 GitHub/Git
 
+https://r-bio.github.io/intro-git-rstudio/
+
+https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
 docker
 
