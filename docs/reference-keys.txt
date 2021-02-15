@@ -46,3 +46,7 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
+core-computing-components
+personal-computers---whether-it-be-a-laptop-a-desktop-or-a-local-server.
+shared-computers---whether-it-be-an-institutional-hpc-clusterwhich-stands-for-high-performance-computing-or-a-national-resource-like-xsede.
+cloud-computing

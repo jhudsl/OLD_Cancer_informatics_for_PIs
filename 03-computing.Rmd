@@ -7,13 +7,13 @@ output: html_document
 
 To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and "Cloud" computing, as well as the associated costs of each.
 
-AVOCADO - This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [ANVil project](https://anvilproject.org/). See his book created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan] (https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).
+AVOCADO - This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [ANVil project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).
 
 ## Computing
 
 First we would like to start off with some background about computers. This will better enable you to make decisions about what type of hardware and software you might need for your research.
 
-### Core Computing Components of Computers
+### Core Computing Components
 
 There are **three** core and important components of computers for computing: 
 
@@ -21,7 +21,7 @@ There are **three** core and important components of computers for computing:
 
 1) **CPU** - the Central Processing Unit  
 
-This is what is called **the brain** of the computer. It performs and orchestrates computational tasks. 
+The CPU is often called **the brain** of the computer. It performs and orchestrates computational tasks. 
 Modern computers often perform multiple tasks at once, ranging from 4 tasks on a typical laptop. In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that can perform over 5,000 simpler tasks at once!
 
 2) **Memory or RAM** - short-term memory
@@ -30,7 +30,7 @@ Modern computers often perform multiple tasks at once, ranging from 4 tasks on a
 
 3) **Storage**  - long-term memory
 
-Storage is also sometimes referred to as long-term memory because electricity is not required to preserve the data. This type of memory is stored using [hard disk drives (HDD) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSD)](https://www.computerhope.com/jargon/s/ssd.htm), Typically ranging from gigabytes to terabytes or more, this type of storage offers big data capacity for a relatively low price at the cost of speed.
+Storage is also sometimes referred to as long-term memory because electricity is not required to preserve the data. This type of memory is stored using [hard disk drives (HDD) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSD)](https://www.computerhope.com/jargon/s/ssd.htm). Typically ranging from gigabytes to terabytes or more, this type of storage offers big data capacity for a relatively low price at the cost of speed.
 
 
 ### Current Computer Capacity
@@ -47,7 +47,7 @@ These values will probably change very soon, but currently:
 
 ### Servers
 
-What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long on your personal computer or they may not even be possible.
+What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.
 
 In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
@@ -60,7 +60,7 @@ For example, you could purchase a more powerful computer to act as a server for 
 
 ## Choosing a Computing Platform
 
-In order to accomplish computational work, you will require a computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
+Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your own computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
 
@@ -77,7 +77,7 @@ What do we mean by this?
 
 A [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.
 
-[Galaxy](https://usegalaxy.org/) offers a graphical interface for performing analyses and tasks. For example in the following image we show a graphical interface for joining two files:
+[Galaxy](https://usegalaxy.org/) offers a graphical interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
 ![](images/Galaxy.png)
 
@@ -89,7 +89,7 @@ For example, one could perform functions in R using Bioconductor packages such a
 ![](images/Biostrings.png)
 
 
-A situation where you might use **both** a command line interface and a graphical interface, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio)  is what is called an IDE or an [integrated development enviornment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools to for example save a plot as is shown in the image below.
+A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development enviornment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI.
 
 ![](images/both.png)
 2) Am I working with protected data that requires special security precautions?
@@ -101,7 +101,7 @@ If you are working with data that might be protected by [HIPAA](https://www.hipa
 
 3) How computationally intensive are my tasks? 
 
-If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop. 
+If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called "Cloud" computing (more on that later). 
 
 
 ![](images/computationally_intensive.png)
@@ -119,13 +119,13 @@ Choosing a computing platform involves both software and hardware decisions. We 
 With regards to hardware, two common options include:  
 
 
-1) **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).  
+### **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).  
 
 ![](images/Personal.png)
 
 
 
-2) **Shared computers** - whether it be an institutional [HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster)(which stands for High Performance Computing) or a national resource like [Xsede](https://www.xsede.org/). 
+### **Shared computers** - whether it be an institutional [HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster)(which stands for High Performance Computing) or a national resource like [Xsede](https://www.xsede.org/). 
 
 ![](images/Shared.png)
 
@@ -157,7 +157,9 @@ Importantly when you use resources like Stampede2 available through Xsede, as we
 (We will describe more about CPUs and RAM later- so don't worry if that is new information for you.)
 
 
-3) **Cloud Computing** - More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.
+### **Cloud Computing** 
+
+More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.
 
 Choosing a platform remains a considerable commitment with regards to the time required for training and setup.  So how do you know whether the "Cloud" is right for you?
 
