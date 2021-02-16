@@ -50,3 +50,8 @@ core-computing-components
 personal-computers---whether-it-be-a-laptop-a-desktop-or-a-local-server.
 shared-computers---whether-it-be-an-institutional-hpc-clusterwhich-stands-for-high-performance-computing-or-a-national-resource-like-xsede.
 cloud-computing
+personal-computers
+shared-computers
+computing-platforms
+chchoosing-a-platform-remains-a-considerable-commitment-with-regards-to-the-time-required-for-training-and-setup.-so-how-do-you-know-whether-the-cloud-is-right-for-you
+hardware

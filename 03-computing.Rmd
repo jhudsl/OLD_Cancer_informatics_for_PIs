@@ -26,7 +26,7 @@ Modern computers often perform multiple tasks at once, ranging from 4 tasks on a
 
 2) **Memory or RAM** - short-term memory
 
-[RAM](https://www.computerhope.com/jargon/r/ram.htm) stands for **Random Access Memory**.  It is often simply referred to as memory.  This short-term memory holds the information that the CPU needs to perform calculations. Since CPUs are fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of memory is that it is temporary -- when the electricity is shut off, the data stored in memory disappears.  
+[RAM](https://www.computerhope.com/jargon/r/ram.htm) stands for **Random Access Memory**.  It is often simply referred to as memory.  This short-term memory holds the information that the CPU needs to perform calculations. Since CPUs are fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of memory is that it is temporary. When the electricity is shut off, the data stored in RAM disappears.  
 
 3) **Storage**  - long-term memory
 
@@ -49,23 +49,88 @@ These values will probably change very soon, but currently:
 
 What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
-For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality- for instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
+For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
 
 ![](images/Servers.png)
 
 
 
 
-## Choosing a Computing Platform
+## Computing Platforms
 
-Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your own computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
+Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
+
+Choosing a computing platform involves both software and hardware decisions. We will focus on hardware.
+
+## Hardware
+
+With regards to hardware, there are two major options:  
+
+1) Personal computers   
+2) Shared computers   
+
+Among shared computers there are three major options:   
+
+1) Shared Institutional clusters   
+2) National Resources   
+3) Commercial options called the "Cloud"   
+
+
+### **Personal computers**
+
+These are computers that your lab might own, such as a laptop, a desktop, or a small [server](https://techterms.com/definition/server).  
+
+![](images/Personal.png)
+If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.
+
+### **Shared computers**
+
+These are servers that are shared with other people that you can connect to from your computer (typically using the internet). 
+
+Options include institutional [HPC clusters](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) (which stands for High Performance Computing), national resources like [Xsede](https://www.xsede.org/), or the "Cloud" computing services.
+
+![](images/Shared.png)
+
+Your university or institution may have a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
+
+
+Alternatively, you could consider an option like [Xsede](https://www.xsede.org/).
+[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
+
+
+Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
+
+![](images/Stampede2.jpg)
+
+[[source](https://www.xsede.org/ecosystem/resources)]
+
+> Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin's flagship supercomputers.
+
+See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
+
+
+Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:
+
+1) Don't use all CPUs on a node if you don't need to
+2) Don't use all RAM on a node if you don't need to
+3) Communicate with others if you will be submitting a large or intensive job
+
+
+### **Cloud Computing** 
+
+More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.
+
+
+
+![](images/Cloud.png)
+
+## Choosing a Computing Platform
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
 
 ![](images/Considerations.png)
-
 
 ### Important questions 
 
@@ -112,60 +177,6 @@ If you have a large amount of data and/or are performing complex analyses, you m
 
 If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or "Cloud" storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.
 
-Choosing a computing platform involves both software and hardware decisions. We will start with hardware.
-
-## Choosing Hardware
-
-With regards to hardware, two common options include:  
-
-
-### **Personal computers** - whether it be a laptop, a desktop, or a local [server](https://techterms.com/definition/server).  
-
-![](images/Personal.png)
-
-
-
-### **Shared computers** - whether it be an institutional [HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster)(which stands for High Performance Computing) or a national resource like [Xsede](https://www.xsede.org/). 
-
-![](images/Shared.png)
-
-Your university or institution may have a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
-
-
-
-Alternatively, you could consider an option like [Xsede](https://www.xsede.org/).
-[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
-
-
-Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
-
-![](images/Stampede2.jpg)
-
-[[source](https://www.xsede.org/ecosystem/resources)]
-
-> Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin's flagship supercomputers.
-
-See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
-
-
-Importantly when you use resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. These will vary by the shared resource, however in general:
-
-1) Dont use all CPUs on a node if you don't need to
-2) Dont use all RAM on a node if you don't need to
-3) Communicate with others if you will be submitting a large or intensive job
-
-(We will describe more about CPUs and RAM later- so don't worry if that is new information for you.)
-
-
-### **Cloud Computing** 
-
-More recently, commercial "Cloud" solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet.
-
-Choosing a platform remains a considerable commitment with regards to the time required for training and setup.  So how do you know whether the "Cloud" is right for you?
-
-![](images/Cloud.png)
-
-While no single factor is usually sufficient to make this decision, important considerations include:
 
 Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede
 
@@ -177,39 +188,39 @@ When a local solution already works, one may rightly question the time required 
 
 Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud.  If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option.  Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPPA and FedRAMP.
 
-3) Do I need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment covering hardware, software, and datasets.
+3) Do I need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 If Cloud Computing makes sense for you, then you’re in luck!  The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable.  As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.
 
 ### Benefits of Cloud Computing
 
-The state of Cloud computing is continually evolving.  Here, we highlight three main current opportunities:
+The state of Cloud computing is continually evolving.  Here, we highlight three main current benefits:
 
 
 1) **Sharing Workflows**  
 
-The first opportunity is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/) whereby one can share not only datasets but also every computational manipulation that was performed.
+The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/). Using this, one can share not only what datasets they used but also every computational manipulation that was performed.
 
 ![](images/Galaxy_history.png)
 
-By sharing such a History, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work.
+By sharing such a history, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work with ease.
 
  
 
 2) **Sharing Workflows between Platforms**
 
-While sharing complete analysis histories is for the most part constrained to a particular software platform, a second opportunity that has arisen is the ability to share Workflows between platforms.
+While sharing complete analysis histories is for the most part constrained to a particular software platform, a second benefit that has arisen is the ability to share Workflows between platforms.
 
 Shown here is a diagram of a single cell analysis pipeline published by the Klarman Cell Observatory on Dockstore:
 
 ![](images/workflow.png)
 
-This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra and DNAnexus.
+This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra or DNAnexus.
 
 
-3) **Using Commondity Hardware**
+3) **Using Commodity Hardware**
 
-The third opportunity we highlight is the increasing ease by which one can provision commodity hardware at scale.  
+The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
 
 ![](images/cloud_Services.png)
 
@@ -218,15 +229,15 @@ What this means is that you can pay reasonable costs to complete your analysis i
 
 ### Challenges of Cloud Computing
 
-Balancing these three opportunities are four challenges:
+Balancing these three benefits are four challenges:
 
 1) **Data Transfer**  
 
-Data transfer and data management remains a cumbersome task.  While storing data in the Cloud has its advantages, many people are still not willing to be for the corresponding storage costs.  Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth.
+Data transfer and data management remains a cumbersome task.  While storing data in the "Cloud" has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth.
 
 2) **Data Security**  
 
-A discussion of data in the Cloud would not be complete without commenting on security compliance.  Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records.
+Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records.
 
 3) **Costs** 
 
