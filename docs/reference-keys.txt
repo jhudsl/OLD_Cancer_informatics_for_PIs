@@ -55,3 +55,6 @@ shared-computers
 computing-platforms
 chchoosing-a-platform-remains-a-considerable-commitment-with-regards-to-the-time-required-for-training-and-setup.-so-how-do-you-know-whether-the-cloud-is-right-for-you
 hardware
+shared-computers---aka-cloud-computing
+shared-computers---aka-distributed-computing
+accessing-shared-computer-resources
