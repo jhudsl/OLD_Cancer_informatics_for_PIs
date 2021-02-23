@@ -87,9 +87,11 @@ If you are not performing intensive computational tasks, it is possible that you
 
 https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf
 
-### **Shared computers**
+### **Shared Computers**
 
 These are servers (groups of computers) that are shared with other people that you can connect to from your computer (typically using the internet) to help you perform more intensive computational tasks or to store large amounts of data. 
+
+ 
 
 AVOCADO - maybe put the image here for shared computers - check how anvil images were added within lists
 
@@ -128,6 +130,12 @@ More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computin
 AVOCADO need a new shared computer image
 
 ### Accessing Shared Computer Resources
+
+All of the shared computing options that already exist and that you could utilize involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
+
+![](images/taylor-vick.jpg)
+
+Photo by [Taylor Vick](https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)>on [Unsplash](https://unsplash.com/s/photos/data-center?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. Or you could consider using national resources like [Xsede](https://www.xsede.org/).
 

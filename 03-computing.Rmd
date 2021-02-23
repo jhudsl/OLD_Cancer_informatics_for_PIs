@@ -51,11 +51,9 @@ What if we need to more computational power than our laptop? You may encounter t
 
 In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
-For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
+For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
 
 ![](images/Servers.png)
-However, purchasing a server with enough computational power for your lab may not be as economical, feasible (as having your own server would require that you personally maintain it), or importantly as scalable (you might outgrow your server) as other computing options that we will discuss in a bit. 
-
 
 
 ## Computing Platforms
@@ -71,33 +69,44 @@ With regards to hardware, there are two major options:
 1) Personal computers   
 2) Shared computers   
 
-Among shared computers there are three major options: 
 
-1) Clusters - institutional or national resources
-2) Grids - institutional or national resources
-3) the "Cloud" - commercial or national resources
 
 
 ### **Personal computers**
 
 These are computers that your lab might own, such as a laptop, a desktop, or a small [server](https://techterms.com/definition/server) used by just your lab.  
 
+
+
+
+
 ![](images/Personal.png)
 If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.
 
+Note that you could technically purchase your own server. However, this is very likely not as economical, feasible (as having your own server would require that you personally maintain it), or scalable (you might outgrow your server) as other computing options that we will discuss in a bit. 
+
+
 https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf
 
-### **Shared computers**
+### **Shared Computers**
 
 These are servers (groups of computers) that are shared with other people that you can connect to from your computer (typically using the internet) to help you perform more intensive computational tasks or to store large amounts of data. 
+
+ Among shared computers there are three major options: 
+
+1) Clusters - institutional or national resources
+2) Grids - institutional or national resources
+3) "Cloud" - commercial or national resources
 
 AVOCADO - maybe put the image here for shared computers - check how anvil images were added within lists
 
 1) [Computer Cluster](https://en.wikipedia.org/wiki/Computer_cluster)
 
-Several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform peices of the same single task simultaneously. The idea of performing multiple computations simultaneously is what called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
+In a computing cluster several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
 
-There are different designs or architectures for clusters. One common is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform. For example, if a large file needs to be converted to a different format, pieces of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
+There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform. 
+
+For example, if a large file needs to be converted to a different format, pieces of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
 
 It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.
 
@@ -105,9 +114,9 @@ See [here](https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cl
 
 2) [Computer Grid](https://hazelcast.com/glossary/grid-computing/)
 
-**Different** types of computers (often in different locations) work towards an overall common goal by performing **different** tasks. 
+In a computing grid **different** types of computers (often in different locations) work towards an overall common goal by performing **different** tasks. 
 
-The concept for grid computing is similar to that of an [electric power grid](https://en.wikipedia.org/wiki/Electrical_grid), where only computers (nodes) actively performing a task are using resources. 
+The concept for grid computing is similar to that of an [electric power grid](https://en.wikipedia.org/wiki/Electrical_grid), where only computers (nodes) actively performing a task are using resources at any given time. 
 
 Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.
 
@@ -128,6 +137,12 @@ More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computin
 AVOCADO need a new shared computer image
 
 ### Accessing Shared Computer Resources
+
+All of the shared computing options that already exist and that you could utilize involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
+
+![](images/taylor-vick.jpg)
+
+Photo by [Taylor Vick](https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/data-center?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. Or you could consider using national resources like [Xsede](https://www.xsede.org/).
 
@@ -166,7 +181,7 @@ https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-clo
 https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/
 
 
-More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream  wjhich is a more "Cloud-like" part of Xsede.
+More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream which is a more "Cloud-like" part of Xsede.
 
 
 What is the difference between the "Cloud" and other shared computer options?
