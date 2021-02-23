@@ -24,7 +24,7 @@
 <meta name="author" content="Carrie Wright" />
 
 
-<meta name="date" content="2021-02-12" />
+<meta name="date" content="2021-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -77,7 +77,9 @@
 <li class="chapter" data-level="2.1.2" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#potential-challenges"><i class="fa fa-check"></i><b>2.1.2</b> Potential Challenges</a></li>
 <li class="chapter" data-level="2.1.3" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#references"><i class="fa fa-check"></i><b>2.1.3</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#employing-informatics-experts"><i class="fa fa-check"></i><b>2.2</b> Employing informatics experts</a></li>
+<li class="chapter" data-level="2.2" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#employing-informatics-experts"><i class="fa fa-check"></i><b>2.2</b> Employing informatics experts</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#the-lonely-bioinformatician"><i class="fa fa-check"></i><b>2.2.1</b> The lonely bioinformatician</a></li>
+</ul></li>
 <li class="chapter" data-level="2.3" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#mentoring-informatics-students"><i class="fa fa-check"></i><b>2.3</b> Mentoring informatics students</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#co-mentoringcollaborativeteam-mentoring"><i class="fa fa-check"></i><b>2.3.1</b> Co-mentoring/Collaborative/team mentoring</a></li>
 <li class="chapter" data-level="2.3.2" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#peer-mentoring"><i class="fa fa-check"></i><b>2.3.2</b> Peer mentoring</a></li>
@@ -91,6 +93,7 @@
 <li class="chapter" data-level="2.4.2" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#how-to-use-slack"><i class="fa fa-check"></i><b>2.4.2</b> How to use slack?</a></li>
 <li class="chapter" data-level="2.4.3" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#features"><i class="fa fa-check"></i><b>2.4.3</b> Features</a></li>
 <li class="chapter" data-level="2.4.4" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#git-and-github"><i class="fa fa-check"></i><b>2.4.4</b> Git and GitHub</a></li>
+<li class="chapter" data-level="2.4.5" data-path="cancer-informatics-for-research-leaders.html"><a href="cancer-informatics-for-research-leaders.html#avocado-docker-other-tools"><i class="fa fa-check"></i><b>2.4.5</b> AVOCADO Docker??? other tools?</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="computing-for-cancer-research.html"><a href="computing-for-cancer-research.html"><i class="fa fa-check"></i><b>3</b> Computing for Cancer Research</a><ul>
@@ -181,9 +184,8 @@ These values will probably change very soon, but currently:</p>
 <h3><span class="header-section-number">3.1.3</span> Servers</h3>
 <p>What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.</p>
 <p>In terms of hardware, the term <a href="https://techterms.com/definition/server">server</a> means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more.</p>
-<p>For example, you could purchase a more powerful computer to act as a server for your lab. Your lab members could connect to this server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don’t have capabilities to support a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> (more on what that is later). They are designed to optimize data storage and computational power.</p>
-<p><img src="images/Servers.png" />
-However, purchasing a server with enough computational power for your lab may not be as economical, feasible (as having your own server would require that you personally maintain it), or importantly as scalable (you might outgrow your server) as other computing options that we will discuss in a bit.</p>
+<p>For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don’t have capabilities to support a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> (more on what that is later). They are designed to optimize data storage and computational power.</p>
+<p><img src="images/Servers.png" /></p>
 </div>
 </div>
 <div id="computing-platforms" class="section level2">
@@ -199,35 +201,37 @@ However, purchasing a server with enough computational power for your lab may no
 </li>
 <li>Shared computers</li>
 </ol>
-<p>Among shared computers there are three major options:</p>
-<ol style="list-style-type: decimal">
-<li>Clusters - institutional or national resources</li>
-<li>Grids - institutional or national resources</li>
-<li>the “Cloud” - commercial or national resources</li>
-</ol>
 <div id="personal-computers" class="section level3">
 <h3><span class="header-section-number">3.3.1</span> <strong>Personal computers</strong></h3>
 <p>These are computers that your lab might own, such as a laptop, a desktop, or a small <a href="https://techterms.com/definition/server">server</a> used by just your lab.</p>
 <p><img src="images/Personal.png" />
 If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.</p>
+<p>Note that you could technically purchase your own server. However, this is very likely not as economical, feasible (as having your own server would require that you personally maintain it), or scalable (you might outgrow your server) as other computing options that we will discuss in a bit.</p>
 <p><a href="https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf" class="uri">https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf</a></p>
 </div>
 <div id="shared-computers" class="section level3">
 <h3><span class="header-section-number">3.3.2</span> <strong>Shared Computers</strong></h3>
 <p>These are servers (groups of computers) that are shared with other people that you can connect to from your computer (typically using the internet) to help you perform more intensive computational tasks or to store large amounts of data.</p>
+<p>Among shared computers there are three major options:</p>
+<ol style="list-style-type: decimal">
+<li>Clusters - institutional or national resources</li>
+<li>Grids - institutional or national resources</li>
+<li>“Cloud” - commercial or national resources</li>
+</ol>
 <p>AVOCADO - maybe put the image here for shared computers - check how anvil images were added within lists</p>
 <ol style="list-style-type: decimal">
 <li><a href="https://en.wikipedia.org/wiki/Computer_cluster">Computer Cluster</a></li>
 </ol>
-<p>Several of the <strong>same</strong> type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform peices of the same single task simultaneously. The idea of performing multiple computations simultaneously is what called <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a>.</p>
-<p>There are different designs or architectures for clusters. One common is the <a href="https://en.wikipedia.org/wiki/Beowulf_cluster">Beowulf cluster</a> in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform. For example, if a large file needs to be converted to a different format, pieces of the file will be converted simultaneously by the different nodes. Thus each node is performing the <strong>same task</strong> just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how.</p>
+<p>In a computing cluster several of the <strong>same</strong> type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously. The idea of performing multiple computations simultaneously is called <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a>.</p>
+<p>There are different designs or architectures for clusters. One common one is the <a href="https://en.wikipedia.org/wiki/Beowulf_cluster">Beowulf cluster</a> in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform.</p>
+<p>For example, if a large file needs to be converted to a different format, pieces of the file will be converted simultaneously by the different nodes. Thus each node is performing the <strong>same task</strong> just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how.</p>
 <p>It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.</p>
 <p>See <a href="https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf">here</a> for more information.</p>
 <ol start="2" style="list-style-type: decimal">
 <li><a href="https://hazelcast.com/glossary/grid-computing/">Computer Grid</a></li>
 </ol>
-<p><strong>Different</strong> types of computers (often in different locations) work towards an overall common goal by performing <strong>different</strong> tasks.</p>
-<p>The concept for grid computing is similar to that of an <a href="https://en.wikipedia.org/wiki/Electrical_grid">electric power grid</a>, where only computers (nodes) actively performing a task are using resources.</p>
+<p>In a computing grid <strong>different</strong> types of computers (often in different locations) work towards an overall common goal by performing <strong>different</strong> tasks.</p>
+<p>The concept for grid computing is similar to that of an <a href="https://en.wikipedia.org/wiki/Electrical_grid">electric power grid</a>, where only computers (nodes) actively performing a task are using resources at any given time.</p>
 <p>Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.</p>
 <p>Both grids and clusters use a special type of software called middleware to coordinate the various computers involved.
 Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing.</p>
@@ -244,7 +248,7 @@ Users need to write their scripts in a way that can be performed by multiple com
 <h3><span class="header-section-number">3.3.3</span> Accessing Shared Computer Resources</h3>
 <p>All of the shared computing options that already exist and that you could utilize involve a <a href="https://en.wikipedia.org/wiki/Data_center">data center</a> where are large number of computers are physically housed.</p>
 <p><img src="images/taylor-vick.jpg" /></p>
-<p>Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taylor Vick</a>&gt;on <a href="https://unsplash.com/s/photos/data-center?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taylor Vick</a> on <a href="https://unsplash.com/s/photos/data-center?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 <p>You may have access to a <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC (which stands for High Performance Computing) cluster</a> at your institute. Or you could consider using national resources like <a href="https://www.xsede.org/">Xsede</a>.</p>
 <p>Your university or institution may have a HPC <a href="https://en.wikipedia.org/wiki/Computer_cluster">cluster</a>, this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.</p>
 <p>AVOCADO - update image below to say cluster and grid access</p>
@@ -269,7 +273,7 @@ Users need to write their scripts in a way that can be performed by multiple com
 <h3><span class="header-section-number">3.3.4</span> <strong>Cloud Computing</strong></h3>
 <p><a href="https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html" class="uri">https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html</a>
 <a href="https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/" class="uri">https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/</a></p>
-<p>More recently, commercial <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream wjhich is a more “Cloud-like” part of Xsede.</p>
+<p>More recently, commercial <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream which is a more “Cloud-like” part of Xsede.</p>
 <p>What is the difference between the “Cloud” and other shared computer options?</p>
 <p><img src="images/Cloud.png" /></p>
 </div>

@@ -78,10 +78,6 @@ Sharing and discussing budget information early and often can help research memb
 
 ## Employing informatics experts
 
-AVOCADO - add more based on http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/
-http://www.opiniomics.org/the-lonely-bioinformatician-revisited-clinical-labs/
-https://www.reddit.com/r/bioinformatics/comments/1cxg9d/a_guide_for_the_lonely_bioinformatician/
-
 In contrast to collaborating with informatics experts, in some case it may be beneficial to directly employ them on your team. There are again pros and and cons for this strategy.
 
 By directly employing informatics experts, rather than collaborating with an expert, research leaders will have more access to meet with these experts more often. Research leaders may also have more sway in terms of guiding the direction of the experts' work. Leaders can also potentially grow the informatics part of their research program more readily, leading to even more flexibility in the research questions that they may be able to assess.
@@ -91,6 +87,8 @@ However, direct employment of informatics experts requires all of the typical re
 In addition, it is useful to become familiar with best practices for ethics, reliability, and reproducibility in computational work. This requires some different tactics than that of experiment based research (often called "wet lab" research). Although it is also useful for informatics experts to keep track of the work that they have performed in general, similar to maintaining notes about experimental research with a lab notebook, a much deeper level of detail can be tracked and maintained for computational work. What we mean by this, is that the actual code and data used in their work can be saved over time. This can be invaluable for research reproducibility. Thus research leaders are advised to become familiar with best practices for data sharing and data management so that they can most effectively manage their informatics employees. This is also discussed in more detail later in the course.  Furthermore, it is very important to avoid issues that can happen if you employee a single bioinformatician that will be isolated from other informatics experts.
 
 ### The lonely bioinformatician
+
+AVOCADO cartoon??
 
 The section is titled "The lonely bioinformatician" in honor of a famous [blog post](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) written in 2013 that describes the angst that informatics experts often feel in labs when they are the only informatics expert. The blog post author, [Professor Mick Watson](https://www.ed.ac.uk/profile/mick-watson) at the University of Edinburgh, describes these individuals as "pet bioinformaticians" in his blog called [opiniomics](opiniomics.org).
 
@@ -145,8 +143,6 @@ Regardless of your emloyees' or students' backgrounds, make sure you advocate fo
 
 If nothing else, even if your employee is very busy on work for mid-level authorship, give them time to write a review or a software paper for a simple package, or a comparison of informatics methods. [Mick Watson](https://www.ed.ac.uk/profile/mick-watson) suggests making sure that your employees are authoring ~2 first author publications a year if possible. If necessary you can front-load collaboration work and then give your employee more time later to spend on their own work, but be careful about not protecting some of their time for their own career advancement. Also please see the Career Paths for Informatics Mentees section (coming up soon) and read it with your employees in mind, as well. 
 
-
-
 5. **Check on them!**
 
 **Most importantly**, make sure that your employee is getting help and feedback from other informatics experts. It can be easy for your employee to get stuck or go in the wrong direction if left in isolation.  How can you do this? Keep tabs on what they are doing in general, if they are still working on the same issue for an extensive amount of time, suggest that they seek help. Also by encouraging the relationships with other informatics experts you will provide them with the opportunity to ask others for their thoughts. 
@@ -154,6 +150,8 @@ If nothing else, even if your employee is very busy on work for mid-level author
 6. **Get external review of work**
 
 Particularly in informatics, we can especially track our steps. Make sure that your employees are keeping detailed records about their work and then get them to regularly ask for feedback from others. We all make mistakes, it's good to get external feedback early and often to ensure that the work is correct.
+
+AVOCADO will make graphic of this
 
 ## Mentoring informatics students
 
@@ -227,8 +225,6 @@ https://blogs.oracle.com/datascience/how-to-survive-your-data-science-interview
 
 " When looking for jobs.. ignore job titles, dont pay too much attention to specific tools or languages...pay attention to the skills that are being asked for"
 
-####  Informatics Project Expectations
-
 AVOCADO This is relevant for employees and collaborations... maybe just a new section?? maybe in the beginning??
 
 One common misconception is that informatics research projects work out more often or are faster than that of wet bench research projects. This is however not necessarily true and informatics projects are just as likely to fail and often take more time than one might expect. However, one advantage of an informatics project is that there is ample free data available to add to or shift or reframe a project if necessary. This is important to keep in mind when advising your mentees and guiding the planning of their projects.
@@ -247,16 +243,16 @@ Ways to mitigate project failure:
 1) **Discuss with experts**
 Discuss with trusted experts about your informatics hypotheses to make sure they are feasible with the data you have or will generate before you get too far down the research path. Ask for their help to make sure that your scientific questions are not too vague.
 
-1) **Diversify projects**  
+2) **Diversify projects**  
 It is a good idea to diversify your mentees' projects to enable them to have exposure to different projects, as well as more opportunities to contribute to a project that will ultimately result in a product such as an academic paper or a new software package. 
 
-2) **Safe project planning**  
+3) **Safe project planning**  
 Make sure each mentee has at least one very solid project. For example, assign a review article, a simple software package, or a project with very promising pilot data.
 
-3) **Co-authorship**  
+4) **Co-authorship**  
 Allow mentees to work together on projects. Assign one mentee as the main personnel, but allow other mentees to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fail. 
 
-4) **Plan for ample time**  
+5) **Plan for ample time**  
 Plan for projects to have adequate time to account for drawbacks. For example, if possible plan on the possibility that additional data may need to be collected or perhaps more data will need to be added from a data resource. It will take additional time to analyze the new data. Unfortunately, simply plugging in new data to an existing script hardly ever works. 
  Instead the following tasks are required:  
  
@@ -265,12 +261,12 @@ Plan for projects to have adequate time to account for drawbacks. For example, i
 * Evaluate how different the new data is from the old data - are they similar enough to be included in a larger analysis or does this require two analyses?  
 * Perform the analysis on the new data  
 
-5) **Adjust and reframe**  
+6) **Adjust and reframe**  
 When a project appears to fail because the data turns out to not be adequate for answering your original question, reframe the project to answer a question that the data actually can answer.  
 
 For example, if the goal of a project was to look for differential gene expression of a single gene and no significant difference is found, consider evaluating the gene expression of a pathway or network of genes that are involved in the same biological process. It is best to be transparent about your scientific process in your publications. 
 
-6) **Get new data**  
+7) **Get new data**  
 In the worst case that the data does not appear to work for your initial goal and reframing the question does not seem possible, look for new data. Now there are many data resources available online. 
 
 AVOCADO - we will list the link to the data table...
@@ -280,7 +276,6 @@ The Cancer Genome Atlas (TCGA) (https://pubmed.ncbi.nlm.nih.gov/25691825/)
 https://www.cbioportal.org/
 https://www.nature.com/scitable/topicpage/genomic-data-resources-challenges-and-promises-743721/
 CGGA
-
 
 #### Authorship Considerations
 
@@ -492,5 +487,9 @@ GitHub/Git
 https://r-bio.github.io/intro-git-rstudio/
 
 https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
-docker
+
+
+### AVOCADO Docker???  other tools?
+
+
 
