@@ -378,8 +378,8 @@ Indeed, research of females and other underrepresented groups in STEM including 
 There are a few tools that can be especially useful for assisting with day-to-day management of projects involving informatics regardless of if you are simply collaborating with an informatics expert or you are leading an informatics research team.
 
 ### Slack
-
-
+![](slack.png)
+![](resources/images/slack.png)
 ![](images/slack.png)
 [[source](https://slack.com/)]
 
