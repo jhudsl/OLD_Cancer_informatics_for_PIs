@@ -52,3 +52,10 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
+guidelines-for-working-with-informatics-experts
+section
+avocado-docker-for-later-with-figshare-etc.
+r-markdown-jupyter
+communication-tips
+finding-good-collaborators-employees-and-students
+finding-and-creating-goog-relationships-with-collaborators-employees-and-students

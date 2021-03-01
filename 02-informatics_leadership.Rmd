@@ -11,88 +11,126 @@ library(here)
 
 Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together successfully. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
 
-## Collaborating with Informatics Experts
 
-Studies investigating biology research labs over history indicate that collaboration has been on the rise since the 1950s [[1]](https://doi.org/10.1016/j.endeavour.2013.03.001) and that the rate continues to increase[2](https://www.researchgate.net/publication/220040763_Scientific_collaboration). Indeed the size of biology research teams appear to have doubled from 1955 to 1990 [1](https://doi.org/10.1016/j.endeavour.2013.03.001). But why? 
+We will focus on how to:
 
-### The benefits of collaboration  
+1. **Work with informatics personnel well** 
 
-1) **Shared cost** - Research often involves expensive technology, thus it is cost effective to share resources.    
-2) **Shared expertise** - Now that technology affords answering in some cases more complex or broader research questions, it is often more effective to employ multiple contributors with different knowledge, skills, and perspectives. Researchers have noted that their own concept of their field changed as a result of working with investigators from other disciplines. Thus this can lead to innovation [3](https://link.springer.com/article/10.1007/s11024-019-09381-6). 
-3) **Shared burden** - Doing part of the work for a project using the knowledge and skills that you are most comfortable with and seeking help from others who are more knowledgeable on other research aspects can be a more efficient strategy.
-4) **Shared reliability** - Including multiple team members who can each evaluate the research can improve the reliability of a project, as mistakes can be found by other members.
-5) **Shared credibility** - Collaborations involving experts of multiple areas can improve the perceived credibility of the work by others.
+Having an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees will face and how you as a research leader can help will not only improve their work environment, but it will improve the potential impact of your work.
 
-![](images/collaboration.png)
+2. **Perform informatics research well**
 
-### Potential Challenges
+Particularly in informatics research, we need to be mindful of making mistakes or accidentally (or intentionally):
 
-There are always challenges when collaborating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
+> Fudging things to find things.
 
-1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
-
-Typically researchers will not meet as often with a collaborator as they would with an internal team member. Therefore, poor communication in a collaboration can lead to more costly misdirection and thus wasted time and effort.
-
-Furthermore, as investigators often have different backgrounds, differences in jargon and language can make communication more challenging. 
-
-Having **internal** team members with some **familiarity** with informatics can be very beneficial for translating discussions with collaborators who are informatics experts. 
-
-One solution to this is to have **trainees work in both labs**. This can be especially beneficial for the trainee who will become accustomed to two research styles and will learn a diverse set of skills, allowing them to potentially have their own multi-disciplinary lab in the future [3](https://link.springer.com/article/10.1007/s11024-019-09381-6). 
-
-Another important method that can help resolve this issue is to have members provide **educational seminars** for participating members about the fundamentals of their work.
-
-2) **Different research style and goals** -  Beyond differences in language, differences in research style and goals can lead to conflict.
-
->"Scholars’ different styles of thought, standards, research traditions, techniques, and languages can be difficult to translate across disciplinary domains." [3](https://link.springer.com/article/10.1007/s11024-019-09381-6)
-
-Making clear research standards and goals, as well as outlining clear specific tasks at the beginning of a project can help to avoid this issue. Furthermore, meeting consistently throughout the duration of a project can also help to make sure that standards are maintained.  Additionally, these meetings should include discussions about intellectual property, authorship, leadership, and defining what success looks likes to each of the various members. Defining these details early can avoid major conflict later. 
-
-Furthermore, it is critical to keep in mind the diversity of career goals of research team members, as junior team members may have a challenging time persuading others of their independence and contributions when they work on largely collaborative projects.  It is also necessary to ensure that junior members have time to devote to their own research programs. [2](https://www.researchgate.net/publication/220040763_Scientific_collaboration) Support should be provided for these junior collaborators by more senior collaborators.
+We will describe some best practices to get the most out of your informatics projects. 
 
 
-3) **Different capabilities** - Research of multi-disciplinary collaborations has revealed that when collaborating members are unclear of how their expertise and work contributes to the project, they are less motivated and fell less valued. 
+## Guidelines for working with Informatics Experts
 
-Working with members of different backgrounds to determine how their expertise can contribute to the project, as opposed to simply assigning them a task, will not only help with morale, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect [3](https://link.springer.com/article/10.1007/s11024-019-09381-6).
+AVOCADO - overarching graphic and brief summary
 
-4) **Reduced sense of responsibility** - Another concern of collaboration is that team members may feel less responsibility or commitment to a project than for a project within their own lab.
+### Communication Tips
 
-Defining tasks and expected due dates can help reduce this issue. Discussions to establish due dates should **always include** team members with **expertise in each area** of science, as tasks may not take the amount of time that another researcher would expect. It is a common misconception that informatics tasks take less time than the tasks actually take in reality. 
+Communication is vital for all good work relationships, particularly in a multidisciplinary team. Here are a few tips for keeping communication smooth regardless of if you are an informatics expert yourself or you are employing, mentoring, or collaborating with an informatics expert. 
 
-5) **Research is dynamic** - Research always has an element of trial and error. Protocols may change and new scientific questions may emerge. Frequent meetings with all group members to understand the dynamics of the project are critical. Furthermore, flexibility and understanding is required. It should be expected that aspects about the project will change.
+1) **Talk first**
 
-6) **Different levels of resources** - Particularly when collaborating with community members, community colleges, and institutions that are "Equity-oriented" serving populations that have historically been marginalized or "minoritized" [4](https://diverseeducation.com/article/91247/), it is important to keep in mind that large differences in resources may exist between collaborating members. 
+Start talking to your collaborators, students, or employees  **before** you even begin a project, so that you can plan the project in the optimal way.  This is especially critical for forming the right statistically testable and scientifically useful questions and for collecting the right data to address such questions.
 
-Sharing and discussing budget information early and often can help research members to understand what expectations are reasonable and how collaboration partners may best assist one another.
+Collecting the **right** data can be vital to the success of a project. It may not always be obvious what is possible for the experimental biologists to create samples. Is 30 samples actually feasible? How about 300? Would that be performed in different batches?
 
-![](images/challenges.png)
+What is necessary or possible for an informatics project to be able to test certain questions with statistical methods? 
 
+These are discussions that should happen long before regents are purchased, before IRB submissions, and before grant submissions if possible.
 
-### References
+2) **Come up with Questions/Hypotheses together**
 
-1) Vermeulen, Niki, John N. Parker, and Bart Penders. “Understanding Life Together: A Brief History of Collaboration in Biology.” Endeavour 37, no. 3 (September 2013): 162–71. https://doi.org/10.1016/j.endeavour.2013.03.001.
+Not knowing what may be feasible in terms of data collection and analysis can make it nearly impossible to form an appropriately testable hypothesis. Furthermore, it may be difficult to know how your questions fit into the context of a field and what is actually useful to advance treatment and prevention if you are not a domain expert of the cancer or disease that you are studying. By working together in multidisciplinary teams we can determine the best hypotheses to advance science. 
 
-2) Sonnenwald, Diane."Scientific collaboration."  Annual Review Of Information Science And Technology. 41 (2007): 643-681. https://www.researchgate.net/publication/220040763_Scientific_collaboration.
+Domain experts can help to ensure that the question is feasible from a standpoint of data collection, leads to other important questions, that it is new, that it is useful, and that the plan to test it will actually lead to interpretations that are useful.
 
-3) Mäkinen, Elina I., Eliza D. Evans, and Daniel A. McFarland. “The Patterning of Collaborative Behavior and Knowledge Culminations in Interdisciplinary Research Centers.” Minerva 58, no. 1 (March 2020): 71–95. https://doi.org/10.1007/s11024-019-09381-6.
+Informatics experts can help to ensure that the question is feasible from as standpoint of data collection and data analysis, that a question is testable, and leads to the interpretations that the domain experts hope to gain.
 
-4) Blake, Daniel. "The Case for Rebranding Minority-serving Institutions." DiverseEducation.com (January, 17, 2017) https://diverseeducation.com/article/91247/. 
+We suggests the following  to take a great scientific question and make into a great statistically testable question:
 
+1) Start with what you know and determine what is unknown
+2) Clarify what is most important to learn about what is unknown. What would provide key information to asking more questions leading to more understanding? What would be most helpful to know to lead to a new treatment or prevention strategy?
+3) Narrow down what is unknown into specific statements
+4) Write the unknown statements into questions 
+5) Make the questions specific - make questions into an actionable test
+6) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data and rework as necessary, possibly returning to a different question from step 5.
 
-## Employing informatics experts
+3) **Be specific**
 
-In contrast to collaborating with informatics experts, in some case it may be beneficial to directly employ them on your team. There are again pros and and cons for this strategy.
+Give and ask for specific feedback. If your collaborator/employee/student says something that you do not quite understand, ask them for more specific clarification. In addition, give feedback that is specific where possible without assuming knowledge that might be necessary and avoid jargon. 
 
-By directly employing informatics experts, rather than collaborating with an expert, research leaders will have more access to meet with these experts more often. Research leaders may also have more sway in terms of guiding the direction of the experts' work. Leaders can also potentially grow the informatics part of their research program more readily, leading to even more flexibility in the research questions that they may be able to assess.
+For example, if the number of samples would be underpowered for a specific statistical method, simply stating this is not enough. State that you believe that the sample size is too small to allow for specific statistical methods to be utilized. 
 
-However, direct employment of informatics experts requires all of the typical responsibilities and costs of employing another lab member. It also requires the additional resource requirements for the informatics work of the particular expert. This will be discussed more in a later section of this course.  
+4) **Be compassionate**
 
-In addition, it is useful to become familiar with best practices for ethics, reliability, and reproducibility in computational work. This requires some different tactics than that of experiment based research (often called "wet lab" research). Although it is also useful for informatics experts to keep track of the work that they have performed in general, similar to maintaining notes about experimental research with a lab notebook, a much deeper level of detail can be tracked and maintained for computational work. What we mean by this, is that the actual code and data used in their work can be saved over time. This can be invaluable for research reproducibility. Thus research leaders are advised to become familiar with best practices for data sharing and data management so that they can most effectively manage their informatics employees. This is also discussed in more detail later in the course.  Furthermore, it is very important to avoid issues that can happen if you employee a single bioinformatician that will be isolated from other informatics experts.
+Consider the stage of the project and how your discussions may impact your coworker.
+
+For example, pointing out that there is not enough data to do what your collaborator had hoped during later stages of the project can be very disappointing as it is often not possible to collect new data. Being polite and considerate when you make suggestions can make a major difference. Furthermore, suggesting an idea about how the project can still be productive can save your collaborator/coworkers/students stress and heartache. They may not be aware that there is public data available that can still save the project.
+
+5) **Keep organized records of communication**
+
+Keep a record of your communications. Organizing your emails for a project into a separate folder with easily recognizable titles can save you hassle later when something comes into question. 
+
+6) **Keep organized records of work**
+Besides recording communications, record and communicate notes about your analyses. Be mindful of overwhelming your coworkers of course, but generally speaking provide extra info where possible. The more people aware of details about what samples where in what batch, the more likely important details are not missed or forgotten. For example if you are sending data to a collaborator send as much information as possible about how it was generated in the email in which you send it to them, even if you have already discussed the data. This can help ensure that no important details fall through the cracks.  
+
+7) **Use reports**
+Instead of sending informal short emails (which are useful at some points in a workflow), we suggest intermittently sending lab reports with as much information about what was done and why as possible. For informatics related work we **highly** suggest using R markdown or jypter notebooks to track what informatics steps you have performed and why. Beginning these reports with a short description of what the data was that you used and when you received it can be critical for ensuring that you are using the correct data! We will describe more about how to use such reports in the data management section of the course.
+
+8)**Keep contact**
+Regular communication continues the momentum of a project and ensures that important details get discussed when necessary. It also relieves anxiety among coworkers to help everyone know the status of the project and if someone needs help.  
+
+AVOCADO create graphic and references from Jeff
+
+### Finding and creating goog relationships with collaborators, employees, and students
+
+This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/).
+
+In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees to work on informatics cancer projects particularly when they are an expert in an area that differs from yourself. We will also provide information about how to maintain a good relationship.
+
+1) **Look for people who are easy to communicate with.**
+
+Especially for projects with multidisciplinary teams, good communication is vital. Particallary look for people who are easy to talk to.
+
+This can vary by your personality traits, but in general we suggest that you look for people who are:
+
+ - compassionate/polite   
+ - explain things clearly  
+ - seem open and enthusiastic to learn new things  
+ - respect your knowledge  
+ - appear to get things done (based on their CV / reputation)
+
+In Roger's words:
+
+> "If you dont feel comfortable asking (stupid) questions, pointing out problems, or making suggestions, then chances are the science will not be as good as it could be."
+
+2) **Take your time**
+
+It is not always obvious determining who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
+
+For emplyees and mentees, allow time to get comfortable talking about eachother's work. Given the power dynamic, it is important to openly express areas that are new to you and communicate respect for their knowledge. 
+
+In all cases, (with collaborators, employees, and mentees) build in extra time for such projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately payoff in the end, as you will better be able to work as a team to ask the most useful and testable hypotheses.
+
+3) **Continue to take your time**
+
+As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific proccess specific to your domain. Build in breathing room with the project schedule where possible, to allow for time for set backs as you may be unaware of the setbacks that you may encounter for work outside of your expertise.
+
+AVOCADO move other stuff here about time etc.
+
 
 ### The lonely bioinformatician
 
 AVOCADO cartoon??
 
-The section is titled "The lonely bioinformatician" in honor of a famous [blog post](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) written in 2013 that describes the angst that informatics experts often feel in labs when they are the only informatics expert. The blog post author, [Professor Mick Watson](https://www.ed.ac.uk/profile/mick-watson) at the University of Edinburgh, describes these individuals as "pet bioinformaticians" in his blog called [opiniomics](opiniomics.org).
+The section is titled "The lonely bioinformatician" in honor of a famous [blog post](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) written in 2013 that describes the angst that informatics personnel often feel in labs when they are the only person with their skill set. The blog post author, [Professor Mick Watson](https://www.ed.ac.uk/profile/mick-watson) at the University of Edinburgh, describes these individuals as "pet bioinformaticians" in his blog called [opiniomics](opiniomics.org).
 
 He states: 
 > "it is possible they [the pet bioinformaticians] will become isolated and pick up bad practices as they don’t have a senior bioinformatician to guide them. It also concerns me that their career and profesional development might suffer."
@@ -139,9 +177,11 @@ Encourage feedback and discussion from all of your employees in scientific discu
 
 If your employee is helping with work for a grant, provide the proposal to them. Have a discussion with your employee about your expectations and how feasible they are, as well as to make your informatics hypotheses specific. Avoid projects where the informatics goals are vague. Also remember that many informatics tasks may take more time than you anticipate and your employee may have a better sense of how long something will take. (or vice verse if you are an informatics expert employing lab scientists). Be clear with your employee in these discussions that you are unclear about how long tasks will take, if that is indeed the case. Continue to have open dialogue about expectations and goals as the work proceeds.
 
-4. **Advocate authorship for all and idea generation**
+4. **Advocate authorship and idea generation for all**
 
 Regardless of your emloyees' or students' backgrounds, make sure you advocate for authorship for each of them (particularly if they are interested in a career in research). Informatics experts will also need **first author papers**. Allow your employees to **generate ideas** for such publications and discuss this with them. Often the work to help with other projects  may not be as interesting for your employee as an idea that they come up with themselves. 
+
+Often you can create one technical paper and one biological paper from each project. 
 
 If nothing else, even if your employee is very busy on work for mid-level authorship, give them time to write a review or a software paper for a simple package, or a comparison of informatics methods. [Mick Watson](https://www.ed.ac.uk/profile/mick-watson) suggests making sure that your employees are authoring ~2 first author publications a year if possible. If necessary you can front-load collaboration work and then give your employee more time later to spend on their own work, but be careful about not protecting some of their time for their own career advancement. Also please see the Career Paths for Informatics Mentees section (coming up soon) and read it with your employees in mind, as well. 
 
@@ -155,9 +195,91 @@ Particularly in informatics, we can especially track our steps. Make sure that y
 
 AVOCADO will make graphic of this
 
+
+
+
+
+## Collaborating with Informatics Experts
+
+Studies investigating biology research labs over history indicate that collaboration has been on the rise since the 1950s [[1]](https://doi.org/10.1016/j.endeavour.2013.03.001) and that the rate continues to increase [[2]](https://www.researchgate.net/publication/220040763_Scientific_collaboration). Indeed the size of biology research teams appear to have doubled from 1955 to 1990 [[1]](https://doi.org/10.1016/j.endeavour.2013.03.001). But why? 
+
+### The benefits of collaboration  
+
+1) **Shared cost** - Research often involves expensive technology, thus it is cost effective to share resources.    
+2) **Shared expertise** - Now that technology affords answering in some cases more complex or broader research questions, it is often more effective to employ multiple contributors with different knowledge, skills, and perspectives. Researchers have noted that their own concept of their field changed as a result of working with investigators from other disciplines. Thus this can lead to innovation [[3]](https://link.springer.com/article/10.1007/s11024-019-09381-6). 
+3) **Shared burden** - Doing part of the work for a project using the knowledge and skills that you are most comfortable with and seeking help from others who are more knowledgeable on other research aspects can be a more efficient strategy.
+4) **Shared reliability** - Including multiple team members who can each evaluate the research can improve the reliability of a project, as mistakes can be found by other members.
+5) **Shared credibility** - Collaborations involving experts of multiple areas can improve the perceived credibility of the work by others.
+
+![](images/collaboration.png)
+
+### Potential Challenges
+
+There are always challenges when collaborating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
+
+1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
+
+Typically researchers will not meet as often with a collaborator as they would with an internal team member. Therefore, poor communication in a collaboration can lead to more costly misdirection and thus wasted time and effort.
+
+Furthermore, as investigators often have different backgrounds, differences in jargon and language can make communication more challenging. 
+
+Having **internal** team members with some **familiarity** with informatics can be very beneficial for translating discussions with collaborators who are informatics experts. 
+
+One solution to this is to have **trainees work in both labs**. This can be especially beneficial for the trainee who will become accustomed to two research styles and will learn a diverse set of skills, allowing them to potentially have their own multi-disciplinary lab in the future [[3]](https://link.springer.com/article/10.1007/s11024-019-09381-6). 
+
+Another important method that can help resolve this issue is to have members provide **educational seminars** for participating members about the fundamentals of their work.
+
+
+2) **Different research style and goals** -  Beyond differences in language, differences in research style and goals can lead to conflict.
+
+>"Scholars’ different styles of thought, standards, research traditions, techniques, and languages can be difficult to translate across disciplinary domains." [[3]](https://link.springer.com/article/10.1007/s11024-019-09381-6)
+
+Making clear research standards and goals, as well as outlining clear specific tasks at the beginning of a project can help to avoid this issue. Furthermore, meeting consistently throughout the duration of a project can also help to make sure that standards are maintained.  Additionally, these meetings should include discussions about intellectual property, authorship, leadership, and defining what success looks likes to each of the various members. Defining these details early can avoid major conflict later. 
+
+Furthermore, it is critical to keep in mind the diversity of career goals of research team members, as junior team members may have a challenging time persuading others of their independence and contributions when they work on largely collaborative projects.  It is also necessary to ensure that junior members have time to devote to their own research programs. [[2]](https://www.researchgate.net/publication/220040763_Scientific_collaboration) Support should be provided for these junior collaborators by more senior collaborators.
+
+
+3) **Different capabilities** - Research of multi-disciplinary collaborations has revealed that when collaborating members are unclear of how their expertise and work contributes to the project, they are less motivated and fell less valued. 
+
+Working with members of different backgrounds to determine how their expertise can contribute to the project, as opposed to simply assigning them a task, will not only help with morale, but it can also better define how a collaborator can further contribute to a project in ways that you may not already expect [[3]](https://link.springer.com/article/10.1007/s11024-019-09381-6).
+
+4) **Reduced sense of responsibility** - Another concern of collaboration is that team members may feel less responsibility or commitment to a project than for a project within their own lab.
+
+Defining tasks and expected due dates can help reduce this issue. Discussions to establish due dates should **always include** team members with **expertise in each area** of science, as tasks may not take the amount of time that another researcher would expect. It is a common misconception that informatics tasks take less time than the tasks actually take in reality. 
+
+5) **Research is dynamic** - Research always has an element of trial and error. Protocols may change and new scientific questions may emerge. Frequent meetings with all group members to understand the dynamics of the project are critical. Furthermore, flexibility and understanding is required. It should be expected that aspects about the project will change.
+
+6) **Different levels of resources** - Particularly when collaborating with community members, community colleges, and institutions that are "Equity-oriented" serving populations that have historically been marginalized or "minoritized" [[4]](https://diverseeducation.com/article/91247/), it is important to keep in mind that large differences in resources may exist between collaborating members. 
+
+Sharing and discussing budget information early and often can help research members to understand what expectations are reasonable and how collaboration partners may best assist one another.
+
+![](images/challenges.png)
+
+
+### References
+
+1) Vermeulen, Niki, John N. Parker, and Bart Penders. “Understanding Life Together: A Brief History of Collaboration in Biology.” Endeavour 37, no. 3 (September 2013): 162–71. https://doi.org/10.1016/j.endeavour.2013.03.001.
+
+2) Sonnenwald, Diane."Scientific collaboration."  Annual Review Of Information Science And Technology. 41 (2007): 643-681. https://www.researchgate.net/publication/220040763_Scientific_collaboration.
+
+3) Mäkinen, Elina I., Eliza D. Evans, and Daniel A. McFarland. “The Patterning of Collaborative Behavior and Knowledge Culminations in Interdisciplinary Research Centers.” Minerva 58, no. 1 (March 2020): 71–95. https://doi.org/10.1007/s11024-019-09381-6.
+
+4) Blake, Daniel. "The Case for Rebranding Minority-serving Institutions." DiverseEducation.com (January, 17, 2017) https://diverseeducation.com/article/91247/. 
+
+
+## Employing informatics experts
+
+In contrast to collaborating with informatics experts, in some case it may be beneficial to directly employ them on your team. There are again pros and and cons for this strategy.
+
+By directly employing informatics experts, rather than collaborating with an expert, research leaders will have more access to meet with these experts more often. Research leaders may also have more sway in terms of guiding the direction of the experts' work. Leaders can also potentially grow the informatics part of their research program more readily, leading to even more flexibility in the research questions that they may be able to assess.
+
+However, direct employment of informatics experts requires all of the typical responsibilities and costs of employing another lab member. It also requires the additional resource requirements for the informatics work of the particular expert. This will be discussed more in a later section of this course.  
+
+In addition, it is useful to become familiar with best practices for ethics, reliability, and reproducibility in computational work. This requires some different tactics than that of experiment based research (often called "wet lab" research). Although it is also useful for informatics experts to keep track of the work that they have performed in general, similar to maintaining notes about experimental research with a lab notebook, a much deeper level of detail can be tracked and maintained for computational work. What we mean by this, is that the actual code and data used in their work can be saved over time. This can be invaluable for research reproducibility. Thus research leaders are advised to become familiar with best practices for data sharing and data management so that they can most effectively manage their informatics employees. This is also discussed in more detail later in the course.  Furthermore, it is very important to avoid issues that can happen if you employee a single bioinformatician that will be isolated from other informatics experts.
+
 ## Mentoring informatics students
 
-Mentorship is a particularly unique relational experience. While traditional mentorship has been defined by the hierarchical structure of a single mentor who teaches subordinate mentees, new styles have emerged that are not as constrained or limited as the traditional paradigm. At its optimum, mentors and mentees should learn from each other and together and expand what each can do alone. Importantly the more traditional paradigm that does not value "reciprocal learning" as highly, has been shown to be less effective for a larger diversity of students.[1](https://doi.org/10.1111/nyas.14176)
+Mentorship is a particularly unique relational experience. While traditional mentorship has been defined by the hierarchical structure of a single mentor who teaches subordinate mentees, new styles have emerged that are not as constrained or limited as the traditional paradigm. At its optimum, mentors and mentees should learn from each other and together and expand what each can do alone. Importantly the more traditional paradigm that does not value "reciprocal learning" as highly, has been shown to be less effective for a larger diversity of students.[[1]](https://doi.org/10.1111/nyas.14176)
 
 For research groups that are newer to informatics, some of these less traditional paradigms may be especially useful, we will focus on a few here. 
 
@@ -171,7 +293,7 @@ As we described earlier, co-mentoring or collaborative mentoring of students by 
 
 ### Peer mentoring
 
-Peer mentoring also provides great opportunities to expand students' expertise and skills without as much time constraints for the research leaders of a lab, particularly for skills that may be new to lab leadership. Furthermore, such paradigms are helpful for improving students' teaching skills, collaboration skills, self-reliance, and self-confidence. Teaching a peer is often useful for students to identify gaps in their own knowledge, and assisting in their quest to "learn how to learn"[1](https://doi.org/10.1111/nyas.14176). Furthermore, such paradigms appear to be especially beneficial to students of historically marginalized populations.[1](https://doi.org/10.1111/nyas.14176) However, there are challenges for research leaders from a management standpoint. Mentors should be mindful of any conflicts that may arise between students. These can often be avoided with clear and distinct goals and projects for students, to avoid making students feel like they are competing with one another. Additionally, we highly recommend establishing a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, so that students and staff members are clear about what behavior is expected.
+Peer mentoring also provides great opportunities to expand students' expertise and skills without as much time constraints for the research leaders of a lab, particularly for skills that may be new to lab leadership. Furthermore, such paradigms are helpful for improving students' teaching skills, collaboration skills, self-reliance, and self-confidence. Teaching a peer is often useful for students to identify gaps in their own knowledge, and assisting in their quest to "learn how to learn" [[1]](https://doi.org/10.1111/nyas.14176). Furthermore, such paradigms appear to be especially beneficial to students of historically marginalized populations.[[1]](https://doi.org/10.1111/nyas.14176) However, there are challenges for research leaders from a management standpoint. Mentors should be mindful of any conflicts that may arise between students. These can often be avoided with clear and distinct goals and projects for students, to avoid making students feel like they are competing with one another. Additionally, we highly recommend establishing a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, so that students and staff members are clear about what behavior is expected.
 
 ### Electronic mentoring 
 
@@ -290,11 +412,11 @@ When guiding your mentee through the publication process, it is a good idea to k
 
 ### Mentoring underrepresented students
 
-The inclusion of diverse populations in scientific teams has been shown to improve innovation[2](https://doi.org/10.1073/pnas.1915378117).
+The inclusion of diverse populations in scientific teams has been shown to improve innovation [[2]](https://doi.org/10.1073/pnas.1915378117).
 
-> Scholars from underrepresented groups have origins, concerns, and experiences that differ from groups traditionally represented, and their inclusion in academe diversifies scholarly perspectives. In fact, historically underrepresented groups often draw relations between ideas and concepts that have been traditionally missed or ignored[2](https://doi.org/10.1073/pnas.1915378117). 
+> Scholars from underrepresented groups have origins, concerns, and experiences that differ from groups traditionally represented, and their inclusion in academe diversifies scholarly perspectives. In fact, historically underrepresented groups often draw relations between ideas and concepts that have been traditionally missed or ignored [[2]](https://doi.org/10.1073/pnas.1915378117). 
 
-However, analyses of scientific article authorship indicate that women are underrepresented in computational biology[3](https://doi.org/10.1371/journal.pcbi.1005134) and biomedical engineering[4](https://doi.org/10.1007/s10439-019-02222-3) and analyses of university faculty and students demonstrate that both women and historically marginalized populations (such as Black, Hispanic, and Native American) remain underrepresented in science, technology, engineering, and mathematics (STEM) fields in the US and in Europe[2](https://doi.org/10.1073/pnas.1915378117),[5](https://doi.org/10.1371/journal.pcbi.1008210). 
+However, analyses of scientific article authorship indicate that women are underrepresented in computational biology [[3]](https://doi.org/10.1371/journal.pcbi.1005134) and biomedical engineering [[4]](https://doi.org/10.1007/s10439-019-02222-3) and analyses of university faculty and students demonstrate that both women and historically marginalized populations (such as Black, Hispanic, and Native American) remain underrepresented in science, technology, engineering, and mathematics (STEM) fields in the US and in Europe[[2]](https://doi.org/10.1073/pnas.1915378117),[[5]](https://doi.org/10.1371/journal.pcbi.1008210). 
 
 In order to best support and encourage mentees of underrepresented groups in cancer informatics, we suggest the following: 
 
@@ -304,33 +426,33 @@ Note that you may not be aware of the barriers of achievement that your mentees 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ViDtnfQ9FHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"[6](https://doi.org/10.1111/nyas.14470) and how they might influence your mentees.
+Become aware of **stereotype threat** - "an internal feeling and concern about confirming a negative stereotype associated with a group (e.g., racial, ethnic, gender, and age) with which the individual identifies"[[6]](https://doi.org/10.1111/nyas.14470) and how they might influence your mentees.
 
-Also, become aware of as  **microaggressions* - "subtle verbal and nonverbal slights, insults, or invalidating remarks directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"[6](https://doi.org/10.1111/nyas.14470).
+Also, become aware of as  **microaggressions* - "subtle verbal and nonverbal slights, insults, or invalidating remarks directed at individuals due to their membership in a group (e.g., racial, ethnic, gender, sexual orientation, and physical disability), which are rooted in biases about individuals in that group"[[6]](https://doi.org/10.1111/nyas.14470).
 
 See [here](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf) for a list of examples.
 
-Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" [6](https://doi.org/10.1111/nyas.14470). 
+Importantly, "mentors for students with disabilities should receive training, as needed, on their mentee’s specific disability and should be made aware of the accommodations that students may need to succeed in activities and courses" [[6]](https://doi.org/10.1111/nyas.14470). 
 
-2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees [7](http://dx.doi.org/10.1037/dhe0000106),[8](https://doi.org/10.1016/j.jesp.2011.09.010). 
+2) **Appreciate and acknowledge mentee's differences**. Research shows that mentees of underrepresented racial groups would prefer their mentors to directly discuss their background differences and how to best cultivate the mentee's career success given their background. An attitude of ["color-blindness"](https://doi.org/10.1016/j.jesp.2011.09.010) about race has shown to hinder the success of mentees [[7]](http://dx.doi.org/10.1037/dhe0000106),[[8]](https://doi.org/10.1016/j.jesp.2011.09.010). 
 
 **However, singling out individuals for their differences is often felt as a microaggression.**  There are ways to discuss these topics with your student in private without singling them out in front of the rest of a group.
 
-> "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..."[7](http://dx.doi.org/10.1037/dhe0000106)
+> "Racial/ethnic differences between mentees and mentors in interracial mentoring relationships can pose cultural barriers to effective mentoring of HU (Historically underrepresented) students and even affect students’ professional and psychosocial success, especially when complex racial/ethnic issues are not effectively handled or addressed..." [[7]](http://dx.doi.org/10.1037/dhe0000106)
 
->Two ideological perspectives – **colorblindness and multiculturalism** – have emerged to shed light on this question. Colorblindness downplays the salience and importance of race by focusing on the commonalities people share, such as one's underlying humanity. In contrast, multiculturalism acknowledges and highlights racial differences[8](https://doi.org/10.1016/j.jesp.2011.09.010).
+>Two ideological perspectives – **colorblindness and multiculturalism** – have emerged to shed light on this question. Colorblindness downplays the salience and importance of race by focusing on the commonalities people share, such as one's underlying humanity. In contrast, multiculturalism acknowledges and highlights racial differences [[8]](https://doi.org/10.1016/j.jesp.2011.09.010).
 
->"Exposure to colorblind (vs. multicultural) messages predicts negative outcomes among Whites such as greater implicit and explicit racial bias ([Richeson & Nussbaum, 2004](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0080))"^[8](https://doi.org/10.1016/j.jesp.2011.09.010)^
+>"Exposure to colorblind (vs. multicultural) messages predicts negative outcomes among Whites such as greater implicit and explicit racial bias ([Richeson & Nussbaum, 2004](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0080))"  [[8]](https://doi.org/10.1016/j.jesp.2011.09.010)
 
-> "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"^[8](https://doi.org/10.1016/j.jesp.2011.09.010)^
+> "Not only do minorities prefer multiculturalism ([Ryan et al., 2007](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0085), [Verkuyten, 2006](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0105)), they benefit when others around them endorse multiculturalism ([Plaut et al., 2009](https://www.sciencedirect.com/science/article/pii/S002210311100240X?via%3Dihub#bb0070))"[[8]](https://doi.org/10.1016/j.jesp.2011.09.010)
 
 3) **Work to create a safe environment**. Educate lab mentors about cultural sensitivity and microaggressions. Highlight the importance of collaboration and create a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab.
 
 4) **Role models** make career goals seem possible. Expose all mentees to a diverse range of role models through seminars, journal clubs, and participation in conferences.
 
-Computational biology papers with female authors are more likely to have a last author is also female. It is unclear if this is because women are more likely to hire other women and or if females are more likely to choose a lab with a female adviser^[3](https://doi.org/10.1371/journal.pcbi.1005134)^. 
+Computational biology papers with female authors are more likely to have a last author is also female. It is unclear if this is because women are more likely to hire other women and or if females are more likely to choose a lab with a female adviser [[3]](https://doi.org/10.1371/journal.pcbi.1005134). 
 
-Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider^[6](https://doi.org/10.1111/nyas.14470)^. One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent^[9](https://doi.org/10.1641/B570705)^. 
+Indeed, research of females and other underrepresented groups in STEM including students with disabilities and of certain racial and ethnic groups suggests that role models of underrepresented populations are particularly important for recruiting and keeping students interested in fields where they may feel like an outsider [[6]](https://doi.org/10.1111/nyas.14470). One strategy to encourage students of underrepresented populations is to provide students with exposure to such role models through regular seminars where scientists who represent these populations are prominent [[9]](https://doi.org/10.1641/B570705). 
 
 5) **Advocate for all mentees**, particularly those from underrepresented groups by introducing your mentee to other scientists and trainees, encouraging the participation of your mentees in support programs and groups such as graduate student groups and helping mentees cultivate self advocacy practices through open discussions and encouragement.
 
@@ -341,11 +463,11 @@ Indeed, research of females and other underrepresented groups in STEM including 
 [[source]](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
 
-7) **Celebration and microaffirmations**  Be sure to celebrate all of your mentees' small and large successes. This has been shown to promote confidence and resilience ^[6](https://doi.org/10.1111/nyas.14470)^.
+7) **Celebration and microaffirmations**  Be sure to celebrate all of your mentees' small and large successes. This has been shown to promote confidence and resilience [[6]](https://doi.org/10.1111/nyas.14470).
 
-8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they don't belong when you provide feedback^[6](https://doi.org/10.1111/nyas.14470)^,[10]^(https://doi.org/10.1038/447791a)^.
+8) **Give feedback with cultural sensitivity** - It is important to be aware that your mentee may be struggling with feeling like they don't belong when you provide feedback [[6]](https://doi.org/10.1111/nyas.14470), [[10]](https://doi.org/10.1038/447791a).
 
-9) In addition to creating a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, consider creating a document that outlines **mentor and mentee expectations**. See [here](https://doi.org/10.1371/journal.pcbi.1005709.s001) for an example of such document ^[11](https://doi.org/10.1371/journal.pcbi.1005709)^ and see [here](https://ictr.wisc.edu/mentoring/) for more information. Keep in mind that such forms should be tailored for different career stages of your mentees and for mentees who are pursuing different expertise. Informatics mentees should incorporate guidelines about data management practices.  
+9) In addition to creating a [code of conduct](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/) for the lab, consider creating a document that outlines **mentor and mentee expectations**. See [here](https://doi.org/10.1371/journal.pcbi.1005709.s001) for an example of such document  [[11]](https://doi.org/10.1371/journal.pcbi.1005709) and see [here](https://ictr.wisc.edu/mentoring/) for more information. Keep in mind that such forms should be tailored for different career stages of your mentees and for mentees who are pursuing different expertise. Informatics mentees should incorporate guidelines about data management practices.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yiZQaE0q9BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -491,7 +613,7 @@ https://r-bio.github.io/intro-git-rstudio/
 https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
 
 
-### AVOCADO Docker???  other tools?
-
+### AVOCADO Docker??? for later with Figshare etc.
+### R Markdown /Jupyter
 
 
