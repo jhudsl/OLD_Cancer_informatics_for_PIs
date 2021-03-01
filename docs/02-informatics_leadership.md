@@ -51,14 +51,16 @@ Domain experts can help to ensure that the question is feasible from a standpoin
 
 Informatics experts can help to ensure that the question is feasible from as standpoint of data collection and data analysis, that a question is testable, and leads to the interpretations that the domain experts hope to gain.
 
-We suggests the following  to take a great scientific question and make into a great statistically testable question:
+See the next section about testable questions.
 
-1) Start with what you know and determine what is unknown
-2) Clarify what is most important to learn about what is unknown. What would provide key information to asking more questions leading to more understanding? What would be most helpful to know to lead to a new treatment or prevention strategy?
-3) Narrow down what is unknown into specific statements
-4) Write the unknown statements into questions 
-5) Make the questions specific - make questions into an actionable test
-6) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data and rework as necessary, possibly returning to a different question from step 5.
+
+
+
+
+
+
+
+
 
 3) **Be specific**
 
@@ -86,6 +88,84 @@ Instead of sending informal short emails (which are useful at some points in a w
 Regular communication continues the momentum of a project and ensures that important details get discussed when necessary. It also relieves anxiety among coworkers to help everyone know the status of the project and if someone needs help.  
 
 AVOCADO create graphic and references from Jeff
+
+### Identifying Good Questions
+
+There are many important considerations when considering asking an informatics question. 
+
+1) Is it testable experimentally and statistically speaking? (Make sure it is not too vague!) 
+2) Is it feasible (cost, time, resources - such as data storage)? Does public data already exist?
+3) Are we using the appropriate methods (experimentally and statistically)?
+4) Are we considering confounders, biases, controls etc.?
+5) What will this mean for science and my lab members if this succeeds?
+6) What will this mean for my lab members if this fails? Is there a back up plan?
+
+We suggests the following to take a great scientific question and make into a great statistically testable question:
+
+1) Start with what you know and determine what is unknown
+2) Clarify what is most important to learn about what is unknown. What key information would lead to more understanding? What would be most helpful to know to lead to a new treatment or prevention strategy? What would lead to more questions?
+3) Narrow down what is unknown into specific statements based on what you identified as important to know from step 2.
+4) Write the unknown statements into specific questions. (Look out for vague phrases!)
+5) Make the questions into an actionable test by thinking about what would be measured or observed and ultimately what your variables would be in a statistical test.
+6) Make a mock-up of what the data would look like. (Do you have any necessary controls?)
+7) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data and rework as necessary, possibly returning to a different question from step 5. Think about possible biases or confounders.
+8) Evaluate if the interpretation of the test would provide the insights that you are interested in
+
+For example, say we were interested to identify new diagnostic biomarkers for colerectal cancer. Note that this is only an illustrative example.
+
+First we would identify what is known:
+
+Several potential blood-based biomarkers have been identified, however many are lacking evidence due to the previous samples including small sample sizes. 
+
+![](https://www.frontiersin.org/files/Articles/476229/fonc-09-01284-HTML/image_m/fonc-09-01284-t001.jpg)
+
+[[source]](https://www.frontiersin.org/articles/10.3389/fonc.2019.01284/full) 
+
+You might ask, are these biomarkers indeed useful for diagnosis colorectal cancer? 
+
+So now we think about what is unknown:
+
+You know the sizes of the previous samples that have assessed these biomarkers and you know the level of sensitivity reported by previous reports. However, it is unknown how sensitive and specific these biomarkers are with sufficent sample sizes. It is unknown how collectively these biomarkers help to identify patients with cancer. It is unknown which biomarkers are more important. It is unknown which biomarkers or combinations are particularly useful for determining disease progression or what treatment options might be best.  
+
+Step two then involves determining which unknowns are the most important to you. This could be what is more translatable to aiding better diagnostics in a nonivasive way. This could be to better understand cancer progression and what these biomarkers tell us about patient prognosis beyond. Determine what unknowns best fit your interest/expertise. Let's say that we want to know what is most translatable to aiding diagnostic tests now. 
+
+Step three then involves writing out specific statements for what is unknown related to making these biomarkers more useful for tests now. 
+
+It is unknown how useful many of these biomarkers are individually for the diagnosis of colerectal cancer in larger samples. It is unknown if combining these biomarkers together is useful in diagnosis colerectal cancer. It is unknown if combining these blood-based screens with other screens is useful. 
+
+(You can probably imagine many more statements but we will keep this example simple)
+
+Step 4 involves transforming these into questions:
+
+How useful are these biomarkers for the diagnosiss of coleretal cancer? 
+How useful is the combination of these biomarkers for the diagnosis of colerectal cancer?
+How useful is the combination of any of these biomarkers with other non-blood-based screens?
+
+
+Step 5 is to transform these questions into an actionable test. For simplicity purposes we will stick with only the second question.
+
+For a question to be testable it must meet several requirements. We need to have variables that can be measured. We need to have at least one variable we can modify or control and we need to figure out what we cannot control. 
+
+Look for terms of phrases that our vague in your question. 
+
+How useful... can be more specific.
+
+
+Does a combination of the detection of these biomarkers improve diagnostic sensitivity for colerectal cancer than single biomarkers alone?
+
+Ok that's getting better! Now what are our variables, what can we control or observe? We will be observing diagnostic rates of colerectal cancer, and we can modify or control how many biomarkers we choose to focus on to compare samples. 
+For simplicity sake we could compare 1 vs all of the biomarkers. Which single biomarker will we choose to compare to or will we look at all of them? Do we have the sample sizes to allow for the statistical power for so many tests? how will we look at the combination of biomarkers? A total score? will it be additive or something more complicated? For example we could priortize some biomarkers over others. These are good questions to ask an informatics expert about. However we are getting to a more testable question. So let's get back to thinking about what the data we would need and what it would look like.
+
+Would it be that we have blood results for these biomarkers for patients where we know based on surgical pathology if they have cancer?
+
+What would these blood results look like? Would it be absolute expression levels of mRNA or protein. Do we have a threshold of elevated expression that we can use? Will we assign samples as yes or no in terms of meeting this threshold or will we use an absolute quantity or relative percentage over this threshold? It is a good idea to actually draw a mock-up of what the data might look like. Thus here is the result of step 6.
+
+![mock-up example of data](images/example_data.png)
+
+Step 7 is then to think about what statistical tests you might perform. Could we use a t-test  to compare the scores among the patient groups? Would we want to account for other factors like the patients age or gender? Would another test be better? 
+
+Step 8 is then to think about what this would mean. What would it mean if our results showed a difference in score between the groups? What can we interpret? Do we want to be able to predict patient status? This may involve moving back a step or 2. 
+
 
 ### Finding and creating goog relationships with collaborators, employees, and students
 
