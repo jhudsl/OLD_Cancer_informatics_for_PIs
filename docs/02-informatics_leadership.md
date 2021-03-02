@@ -29,16 +29,17 @@ We will describe some best practices to get the most out of your informatics pro
 
 AVOCADO - overarching graphic and brief summary
 
+
+
 ### Communication Tips
 
-Communication is vital for all good work relationships, particularly in a multidisciplinary team. Here are a few tips for keeping communication smooth regardless of if you are an informatics expert yourself or you are employing, mentoring, or collaborating with an informatics expert. 
+Communication is vital for all good work relationships, but especially in a multidisciplinary team. Here are a few tips for keeping communication smooth regardless of if you are an informatics expert yourself or you are employing, mentoring, or collaborating with an informatics expert. 
 
 1) **Talk first**
 
-Start talking to your collaborators, students, or employees  **before** you even begin a project, so that you can plan the project in the optimal way.  This is especially critical for forming the right statistically testable and scientifically useful questions and for collecting the right data to address such questions.
+Start talking to your collaborators, students, or employees  **before** you even begin a project, so that you can plan the project in the optimal way. This is especially critical for forming the right statistically testable and scientifically useful questions and for collecting the right data to address such questions.
 
 Collecting the **right** data can be vital to the success of a project. It may not always be obvious what is possible for the experimental biologists to create samples. Is 30 samples actually feasible? How about 300? Would that be performed in different batches?
-
 What is necessary or possible for an informatics project to be able to test certain questions with statistical methods? 
 
 These are discussions that should happen long before regents are purchased, before IRB submissions, and before grant submissions if possible.
@@ -49,17 +50,9 @@ Not knowing what may be feasible in terms of data collection and analysis can ma
 
 Domain experts can help to ensure that the question is feasible from a standpoint of data collection, leads to other important questions, that it is new, that it is useful, and that the plan to test it will actually lead to interpretations that are useful.
 
-Informatics experts can help to ensure that the question is feasible from as standpoint of data collection and data analysis, that a question is testable, and leads to the interpretations that the domain experts hope to gain.
+Informatics experts can help to ensure that the question is feasible from as standpoint of data collection and data analysis, that a question is testable, and that it leads to the interpretations that the domain experts hope to gain.
 
-See the next section about testable questions.
-
-
-
-
-
-
-
-
+See the next section about forming good informatics questions.
 
 
 3) **Be specific**
@@ -76,108 +69,151 @@ For example, pointing out that there is not enough data to do what your collabor
 
 5) **Keep organized records of communication**
 
-Keep a record of your communications. Organizing your emails for a project into a separate folder with easily recognizable titles can save you hassle later when something comes into question. 
+Keep a record of your communications. Organizing your emails for projects into a separate folders with easily recognizable titles can save you hassle later when something comes into question. 
 
 6) **Keep organized records of work**
-Besides recording communications, record and communicate notes about your analyses. Be mindful of overwhelming your coworkers of course, but generally speaking provide extra info where possible. The more people aware of details about what samples where in what batch, the more likely important details are not missed or forgotten. For example if you are sending data to a collaborator send as much information as possible about how it was generated in the email in which you send it to them, even if you have already discussed the data. This can help ensure that no important details fall through the cracks.  
+
+Besides recording communications, record and communicate notes about your data collection and analyses. Be mindful of overwhelming your coworkers of course, but generally speaking provide extra information where possible. The more people aware of details about what samples where in what batch, the more likely important details are not missed or forgotten. For example if you are sending data to a collaborator send as much information as possible about how it was generated in the email in which you send it to them, even if you have already discussed the data. This can help ensure that no important details fall through the cracks.  
 
 7) **Use reports**
-Instead of sending informal short emails (which are useful at some points in a workflow), we suggest intermittently sending lab reports with as much information about what was done and why as possible. For informatics related work we **highly** suggest using R markdown or jypter notebooks to track what informatics steps you have performed and why. Beginning these reports with a short description of what the data was that you used and when you received it can be critical for ensuring that you are using the correct data! We will describe more about how to use such reports in the data management section of the course.
 
-8)**Keep contact**
-Regular communication continues the momentum of a project and ensures that important details get discussed when necessary. It also relieves anxiety among coworkers to help everyone know the status of the project and if someone needs help.  
+Instead of sending informal short emails (which are useful at some points in a workflow), we suggest intermittently sending lab reports with as much information about what was done and why as possible. For informatics related work in R or Python (or other supported languages) we **highly** suggest using R markdown or jypter notebooks to track what informatics steps you have performed and why. Beginning these reports with a short description of what the data was that you used and when you received it can be critical for ensuring that you are using the correct data! We will describe more about how to use such reports in the data management section of the course.
+
+8) **Keep contact**
+
+Regular communication continues the momentum of a project and ensures that important details get discussed when necessary. It also relieves anxiety among coworkers by keeping everyone aware of the status of the project and helping to start discussions if someone needs help.  
 
 AVOCADO create graphic and references from Jeff
 
-### Identifying Good Questions
+### Identifying Good Informatics Questions
 
-There are many important considerations when considering asking an informatics question. 
+There are many important considerations to keep in mind when asking an informatics question: 
 
 1) Is it testable experimentally and statistically speaking? (Make sure it is not too vague!) 
 2) Is it feasible (cost, time, resources - such as data storage)? Does public data already exist?
 3) Are we using the appropriate methods (experimentally and statistically)?
 4) Are we considering confounders, biases, controls etc.?
 5) What will this mean for science and my lab members if this succeeds?
-6) What will this mean for my lab members if this fails? Is there a back up plan?
+6) What will this mean for my lab members if this fails? Is there a back-up plan?
 
-We suggests the following to take a great scientific question and make into a great statistically testable question:
+We suggests the following steps to take a great scientific question and make into a great statistically testable question.
+
+#### Steps for forming questions
 
 1) Start with what you know and determine what is unknown
 2) Clarify what is most important to learn about what is unknown. What key information would lead to more understanding? What would be most helpful to know to lead to a new treatment or prevention strategy? What would lead to more questions?
 3) Narrow down what is unknown into specific statements based on what you identified as important to know from step 2.
 4) Write the unknown statements into specific questions. (Look out for vague phrases!)
-5) Make the questions into an actionable test by thinking about what would be measured or observed and ultimately what your variables would be in a statistical test.
+5) Make the questions into actionable tests by thinking about what would be measured or observed and ultimately what your variables would be in a statistical test.
 6) Make a mock-up of what the data would look like. (Do you have any necessary controls?)
-7) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data and rework as necessary, possibly returning to a different question from step 5. Think about possible biases or confounders.
-8) Evaluate if the interpretation of the test would provide the insights that you are interested in
+7) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data. Rework as necessary, possibly returning to a different question from step 5. Think about possible biases or confounders.
+8) Evaluate if the interpretation of the test would provide the insights that you are interested in.
 
-For example, say we were interested to identify new diagnostic biomarkers for colerectal cancer. Note that this is only an illustrative example.
+For example, say we were interested in identify new diagnostic biomarkers for colerectal cancer. Note that this is only an illustrative example.
 
-First we would identify what is known:
+#### STEP 1
 
-Several potential blood-based biomarkers have been identified, however many are lacking evidence due to the previous samples including small sample sizes. 
+First we would identify what is known and unknown:
+
+Several potential blood-based biomarkers have been identified, however many are lacking evidence due to the previous studies having small sample sizes. 
 
 ![](https://www.frontiersin.org/files/Articles/476229/fonc-09-01284-HTML/image_m/fonc-09-01284-t001.jpg)
 
 [[source]](https://www.frontiersin.org/articles/10.3389/fonc.2019.01284/full) 
 
-You might ask, are these biomarkers indeed useful for diagnosis colorectal cancer? 
+You might ask, How useful are these biomarkers for diagnosing colorectal cancer? 
 
 So now we think about what is unknown:
 
-You know the sizes of the previous samples that have assessed these biomarkers and you know the level of sensitivity reported by previous reports. However, it is unknown how sensitive and specific these biomarkers are with sufficent sample sizes. It is unknown how collectively these biomarkers help to identify patients with cancer. It is unknown which biomarkers are more important. It is unknown which biomarkers or combinations are particularly useful for determining disease progression or what treatment options might be best.  
+You know the sizes of the previous samples that have assessed these biomarkers and you know the level of sensitivity reported by previous reports. However, it is unknown how sensitive and specific some of these biomarkers are with sufficient sample sizes. It is unknown how collectively these biomarkers help to identify patients with cancer. It is unknown which biomarkers are more important. It is unknown which biomarkers or combinations are particularly useful for determining disease progression or what treatment options might be best.  
 
-Step two then involves determining which unknowns are the most important to you. This could be what is more translatable to aiding better diagnostics in a nonivasive way. This could be to better understand cancer progression and what these biomarkers tell us about patient prognosis beyond. Determine what unknowns best fit your interest/expertise. Let's say that we want to know what is most translatable to aiding diagnostic tests now. 
+#### STEP 2 
 
-Step three then involves writing out specific statements for what is unknown related to making these biomarkers more useful for tests now. 
+Step 2 then involves determining which unknowns are the most important to you. This could be what is more translatable to aiding better diagnostics in a noninvasive way. This could be to better understand cancer progression and what these biomarkers tell us about patient prognosis. Determine what unknowns best fit your interest/expertise. Let's say that we want to know what is most translatable to aiding diagnostic tests now. 
+
+#### STEP 3
+
+Step 3 then involves writing out specific statements for what is unknown related to making these biomarkers more useful for tests now. 
 
 It is unknown how useful many of these biomarkers are individually for the diagnosis of colerectal cancer in larger samples. It is unknown if combining these biomarkers together is useful in diagnosis colerectal cancer. It is unknown if combining these blood-based screens with other screens is useful. 
 
-(You can probably imagine many more statements but we will keep this example simple)
+You can probably imagine many more statements but we will keep this example simple.
+
+#### STEP 4
 
 Step 4 involves transforming these into questions:
 
-How useful are these biomarkers for the diagnosiss of coleretal cancer? 
+How useful are these biomarkers for the diagnosis of coleretal cancer? 
 How useful is the combination of these biomarkers for the diagnosis of colerectal cancer?
 How useful is the combination of any of these biomarkers with other non-blood-based screens?
 
 
-Step 5 is to transform these questions into an actionable test. For simplicity purposes we will stick with only the second question.
+Look for terms of phrases that our vague in your questions and make them more specific. For simplicity purposes we will stick with only the second question.
 
-For a question to be testable it must meet several requirements. We need to have variables that can be measured. We need to have at least one variable we can modify or control and we need to figure out what we cannot control. 
-
-Look for terms of phrases that our vague in your question. 
-
-How useful... can be more specific.
-
+The phrase "How useful" can be more specific.
 
 Does a combination of the detection of these biomarkers improve diagnostic sensitivity for colerectal cancer than single biomarkers alone?
 
-Ok that's getting better! Now what are our variables, what can we control or observe? We will be observing diagnostic rates of colerectal cancer, and we can modify or control how many biomarkers we choose to focus on to compare samples. 
-For simplicity sake we could compare 1 vs all of the biomarkers. Which single biomarker will we choose to compare to or will we look at all of them? Do we have the sample sizes to allow for the statistical power for so many tests? how will we look at the combination of biomarkers? A total score? will it be additive or something more complicated? For example we could priortize some biomarkers over others. These are good questions to ask an informatics expert about. However we are getting to a more testable question. So let's get back to thinking about what the data we would need and what it would look like.
+Ok that's getting better!
 
+#### STEP 5
+
+Step 5 is to transform questions into actionable tests. For a question to be testable it must meet several requirements. We need to have variables that can be measured or observed. We need to have a variable we can modify or control and we need to figure out what we cannot control. 
+
+Now what are our variables, what can we control or observe? We will be observing diagnostic rates of colerectal cancer and biomarker expression, and we can modify or control how many biomarkers we choose to focus on to compare samples. 
+
+This leads to many questions: 
+
+Should we compare one biomarker vs all of the biomarkers?
+Which single biomarker will we choose to compare to or will we look at all of them? 
+Do we have the sample sizes to allow for the statistical power for so many tests? 
+How will we look at the combination of biomarkers? A total score? 
+Will it be additive or something more complicated? For example we could prioritize some biomarkers over others. 
+
+These are good questions to ask an informatics expert about. However we are getting to a more testable question. Now let's really think about what the data we would need and what it would look like.
+
+Which brings us to step 6 where we create a mock-up of the data.
+
+### STEP 6
+
+Creating a mock-up of the data can make you ask yourself more questions about what you are asking and what you need to ask that question.
 Would it be that we have blood results for these biomarkers for patients where we know based on surgical pathology if they have cancer?
 
-What would these blood results look like? Would it be absolute expression levels of mRNA or protein. Do we have a threshold of elevated expression that we can use? Will we assign samples as yes or no in terms of meeting this threshold or will we use an absolute quantity or relative percentage over this threshold? It is a good idea to actually draw a mock-up of what the data might look like. Thus here is the result of step 6.
+What would these blood results look like? 
+Would it be absolute expression levels of mRNA or protein? 
+Do we have a threshold of elevated expression that we can use? 
+Will we assign samples as yes or no in terms of meeting this threshold or will we use an absolute quantity or relative percentage over this threshold? 
+
+Actually creating a mock-up of what the data might look like can reveal other important aspects that you may not yet have thought about. Thus here is the result of step 6.
 
 ![mock-up example of data](images/example_data.png)
 
-Step 7 is then to think about what statistical tests you might perform. Could we use a t-test  to compare the scores among the patient groups? Would we want to account for other factors like the patients age or gender? Would another test be better? 
+#### STEP 7
 
-Step 8 is then to think about what this would mean. What would it mean if our results showed a difference in score between the groups? What can we interpret? Do we want to be able to predict patient status? This may involve moving back a step or 2. 
+Step 7 is then to think about what statistical tests you might perform. Could we use a t-test to compare the scores among the patient groups? Would we want to account for other factors like the patients age or gender? Would another test be better? 
+
+#### STEP 8
+
+Step 8 is then to think about what this would mean. What would it mean if our results showed a difference in score between the groups? What can we interpret? Do we want to be able to predict patient status? This may involve moving back a step or two. 
+
+Remember that working with your research teammates can help you to come up with a better research plan before you start collecting data. By involving experts from different domains you can make the most out of your research efforts. 
+
+We would also suggest that you work with your informatics experts to come up with a biological research question or set of questions and a more technical question for each project. This can be a good strategy to ensure that everyone in your team gets authorship and that your team is being as productive as possible.
+
+For this example, your informatics employees or students might write a paper using simulated data or publicly available data to look at methods for creating biomarkers scores. Their studies could better inform you about how to think about testing the utility of colerectal biomarkers for diagnosis purposes.
 
 
-### Finding and creating goog relationships with collaborators, employees, and students
+### Finding and creating good relationships with collaborators, employees, and students
 
 This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/).
 
-In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees to work on informatics cancer projects particularly when they are an expert in an area that differs from yourself. We will also provide information about how to maintain a good relationship.
+In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees, to work on informatics cancer projects particularly if you have different expertise. We will also provide information about how to maintain a good relationship.
 
 1) **Look for people who are easy to communicate with.**
 
-Especially for projects with multidisciplinary teams, good communication is vital. Particallary look for people who are easy to talk to.
+Especially for projects with multidisciplinary teams, good communication is vital. Look for people who are easy for you to talk to.
 
-This can vary by your personality traits, but in general we suggest that you look for people who are:
+This can **vary** by your unique personality traits, but in general we suggest that you look for people who are:
 
  - compassionate/polite   
  - explain things clearly  
@@ -191,36 +227,38 @@ In Roger's words:
 
 2) **Take your time**
 
-It is not always obvious determining who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
+It is not always obvious who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
 
-For emplyees and mentees, allow time to get comfortable talking about eachother's work. Given the power dynamic, it is important to openly express areas that are new to you and communicate respect for their knowledge. 
+For emplyees and mentees, allow time to get comfortable talking to one another. Given the power dynamic, it is important to openly express areas that are new to you and communicate respect for their knowledge. 
 
-In all cases, (with collaborators, employees, and mentees) build in extra time for such projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately payoff in the end, as you will better be able to work as a team to ask the most useful and testable hypotheses.
+In all cases, (with collaborators, employees, and mentees) build in extra time for such projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately pay off more in the end, as you will better be able to work as a team to ask the most **useful and testable** hypotheses.
 
 3) **Continue to take your time**
 
-As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific proccess specific to your domain. Build in breathing room with the project schedule where possible, to allow for time for set backs as you may be unaware of the setbacks that you may encounter for work outside of your expertise.
+As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific process specific to your domain. Build in breathing room in the project schedule where possible, to allow for time for setbacks. You may be unaware of the setbacks that you may encounter for work outside of your expertise.
 
 AVOCADO move other stuff here about time etc.
 
 
 ### The lonely bioinformatician
 
-AVOCADO cartoon??
+![](images/lonely_comic_too_much.png)
 
 The section is titled "The lonely bioinformatician" in honor of a famous [blog post](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) written in 2013 that describes the angst that informatics personnel often feel in labs when they are the only person with their skill set. The blog post author, [Professor Mick Watson](https://www.ed.ac.uk/profile/mick-watson) at the University of Edinburgh, describes these individuals as "pet bioinformaticians" in his blog called [opiniomics](opiniomics.org).
 
 He states: 
+
 > "it is possible they [the pet bioinformaticians] will become isolated and pick up bad practices as they don’t have a senior bioinformatician to guide them. It also concerns me that their career and profesional development might suffer."
 
 He also acknowledges the challenges of the opposite case:
->"Consider the opposite situation – how many bioinformatician PIs manage lab staff?  How could we possibly guide a young post doc on how to run gels, PCRs etc nevermind more complicated laboratory SOPs?"
 
-He has since then stated for the PIs of experts who do not share the same skillsets:
+> "Consider the opposite situation – how many bioinformatician PIs manage lab staff?  How could we possibly guide a young post doc on how to run gels, PCRs etc nevermind more complicated laboratory SOPs?"
 
-> Just look after them, and recognise you can’t give them everything that they need.You can give them a lot, just not everything.
+He has since then stated for the PIs of experts who do not share the same skill-sets:
 
->Secondly, there is nothing wrong with being a pet bioinformatician – it can be a really stimulating role, and opens your eyes to lab-based science.  I am not criticizing the pets either, I just urge you to look after yourselves. 
+> "Just look after them, and recognise you can’t give them everything that they need.You can give them a lot, just not everything."
+
+> "Secondly, there is nothing wrong with being a pet bioinformatician – it can be a really stimulating role, and opens your eyes to lab-based science.  I am not criticizing the pets either, I just urge you to look after yourselves." 
 
 And ultimately provides a guide for the "pet bioinformaticians" that can be useful for both informatics expert employees and also for leaders of such individuals as well as for informatics lab leaders who employ lab-based scientists.
 
@@ -232,7 +270,7 @@ If possible, employ more than one informatics expert or at least collaborate hea
 
 In Mick Watson's words: 
 
->"I am aware of a few lone bioinformaticians working in clinical labs.  I want to make this clear – this is a bad idea.  In fact, it’s a terrible idea.  Through no fault of their own, these guys will make mistakes.  Those mistakes may have dire consequences if the data are then used to inform a treatment plan or diagnosis."
+> "I am aware of a few lone bioinformaticians working in clinical labs.  I want to make this clear – this is a bad idea.  In fact, it’s a terrible idea.  Through no fault of their own, these guys will make mistakes.  Those mistakes may have dire consequences if the data are then used to inform a treatment plan or diagnosis."
 
 In any case, we highly encourage guideline #2 regardless of what option you choose.
 
@@ -244,12 +282,12 @@ AVOCADO Examples?? - Seems like the ITCR community could be very helpful and sho
 
 2. **Encourage growth outside their domain**
 
-On the flip-side, it is important that you also cultivate and encourage your employee's growth in your domain by again suggesting and enabling their participation in conferences and journal clubs on topics relevant to your lab.  
+On the other hand, it is important that you also cultivate and encourage your employee's growth in your domain by again suggesting and enabling their participation in conferences and journal clubs on topics relevant to your lab.  
 
 
 2. **Value their perspective about science in general**
 
-Encourage feedback and discussion from all of your employees in scientific discussions. Make their input feel welcomed regardless about the topic. Especially because a fresh perspective can sometimes lead to really important insights about things that are taken for granted by experts.
+Encourage feedback and discussion from all of your employees in scientific discussions. Make their input feel welcomed regardless of the topic. A fresh perspective can sometimes lead to really important insights about things that are taken for granted by experts.
 
 3. **Discuss expectations and hypotheses**
 

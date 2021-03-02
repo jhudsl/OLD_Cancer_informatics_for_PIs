@@ -1,6 +1,8 @@
 introduction
 motivation
 informatics-for-cancer-research
+tools
+galaxy
 cancer-informatics-for-research-leaders
 guidelines-for-working-with-informatics-experts
 communication-tips
@@ -57,3 +59,14 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
+identifying-good-informatics-questions
+finding-and-creating-good-relationships-with-collaborators-employees-and-students
+step-1
+step-2
+step-3
+step-4
+step-5
+step-6
+steps-for-forming-questions
+step-7
+step-8
