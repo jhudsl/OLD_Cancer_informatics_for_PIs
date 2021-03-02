@@ -69,3 +69,4 @@ data-privacy
 data-reproducibility
 nih-data-sharing-policies
 informatics-project-pitfalls
+good-informatics-leader-practices
