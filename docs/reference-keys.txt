@@ -70,3 +70,5 @@ step-6
 steps-for-forming-questions
 step-7
 step-8
+finding-and-creating-good-relationships-for-informatics-projects
+best-communication-practices-for-informatics-projects

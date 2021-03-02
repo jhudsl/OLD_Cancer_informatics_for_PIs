@@ -29,9 +29,44 @@ We will describe some best practices to get the most out of your informatics pro
 
 AVOCADO - overarching graphic and brief summary
 
+### Finding and creating good relationships for informatics projects
+
+This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/).
+
+In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees, to work on informatics cancer projects particularly if you have different expertise. We will also provide information about how to maintain a good relationship.
+
+1) **Look for people who are easy to communicate with.**
+
+Especially for projects with multidisciplinary teams, good communication is vital. Look for people who are easy for you to talk to.
+
+This can **vary** by your unique personality traits, but in general we suggest that you look for people who are:
+
+ - compassionate/polite   
+ - explain things clearly  
+ - seem open and enthusiastic to learn new things  
+ - respect your knowledge  
+ - appear to get things done (based on their CV / reputation)
+
+In Roger's words:
+
+> "If you dont feel comfortable asking (stupid) questions, pointing out problems, or making suggestions, then chances are the science will not be as good as it could be."
+
+2) **Take your time**
+
+It is not always obvious who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
+
+For emplyees and mentees, allow time to get comfortable talking to one another. Given the power dynamic, it is important to openly express areas that are new to you and communicate respect for their knowledge. 
+
+In all cases, (with collaborators, employees, and mentees) build in extra time for such projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately pay off more in the end, as you will better be able to work as a team to ask the most **useful and testable** hypotheses.
+
+3) **Continue to take your time**
+
+As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific process specific to your domain. Build in breathing room in the project schedule where possible, to allow for time for setbacks. You may be unaware of the setbacks that you may encounter for work outside of your expertise.
+
+AVOCADO move other stuff here about time etc.
 
 
-### Communication Tips
+### Best communication practices for informatics projects
 
 Communication is vital for all good work relationships, but especially in a multidisciplinary team. Here are a few tips for keeping communication smooth regardless of if you are an informatics expert yourself or you are employing, mentoring, or collaborating with an informatics expert. 
 
@@ -83,9 +118,9 @@ Instead of sending informal short emails (which are useful at some points in a w
 
 Regular communication continues the momentum of a project and ensures that important details get discussed when necessary. It also relieves anxiety among coworkers by keeping everyone aware of the status of the project and helping to start discussions if someone needs help.  
 
-AVOCADO create graphic and references from Jeff
+AVOCADO create graphic and add references from Jeff
 
-### Identifying Good Informatics Questions
+### Identifying good informatics questions
 
 There are many important considerations to keep in mind when asking an informatics question: 
 
@@ -174,7 +209,7 @@ These are good questions to ask an informatics expert about. However we are gett
 
 Which brings us to step 6 where we create a mock-up of the data.
 
-### STEP 6
+#### STEP 6
 
 Creating a mock-up of the data can make you ask yourself more questions about what you are asking and what you need to ask that question.
 Would it be that we have blood results for these biomarkers for patients where we know based on surgical pathology if they have cancer?
@@ -203,41 +238,6 @@ We would also suggest that you work with your informatics experts to come up wit
 For this example, your informatics employees or students might write a paper using simulated data or publicly available data to look at methods for creating biomarkers scores. Their studies could better inform you about how to think about testing the utility of colerectal biomarkers for diagnosis purposes.
 
 
-### Finding and creating good relationships with collaborators, employees, and students
-
-This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/).
-
-In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees, to work on informatics cancer projects particularly if you have different expertise. We will also provide information about how to maintain a good relationship.
-
-1) **Look for people who are easy to communicate with.**
-
-Especially for projects with multidisciplinary teams, good communication is vital. Look for people who are easy for you to talk to.
-
-This can **vary** by your unique personality traits, but in general we suggest that you look for people who are:
-
- - compassionate/polite   
- - explain things clearly  
- - seem open and enthusiastic to learn new things  
- - respect your knowledge  
- - appear to get things done (based on their CV / reputation)
-
-In Roger's words:
-
-> "If you dont feel comfortable asking (stupid) questions, pointing out problems, or making suggestions, then chances are the science will not be as good as it could be."
-
-2) **Take your time**
-
-It is not always obvious who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
-
-For emplyees and mentees, allow time to get comfortable talking to one another. Given the power dynamic, it is important to openly express areas that are new to you and communicate respect for their knowledge. 
-
-In all cases, (with collaborators, employees, and mentees) build in extra time for such projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately pay off more in the end, as you will better be able to work as a team to ask the most **useful and testable** hypotheses.
-
-3) **Continue to take your time**
-
-As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific process specific to your domain. Build in breathing room in the project schedule where possible, to allow for time for setbacks. You may be unaware of the setbacks that you may encounter for work outside of your expertise.
-
-AVOCADO move other stuff here about time etc.
 
 
 ### The lonely bioinformatician
@@ -264,7 +264,7 @@ And ultimately provides a guide for the "pet bioinformaticians" that can be usef
 
 Extending the major themes from [his guide](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) and from his post about [clinical labs](http://www.opiniomics.org/the-lonely-bioinformatician-revisited-clinical-labs/) here are guidelines for lab leaders:
 
-1.**Avoid employee isolation**
+1. **Avoid employee isolation**
 
 If possible, employ more than one informatics expert or at least collaborate heavily with others - especially those with experience working with human data. Alternatively hire a more senior expert (with expertise studying in the domain you intend) with a higher salary.  
 
@@ -274,26 +274,26 @@ In Mick Watson's words:
 
 In any case, we highly encourage guideline #2 regardless of what option you choose.
 
-1. **Encourage relationships with others in their domain**
+2. **Encourage relationships with others in their domain**
 
 Enable and encourage your employee to cultivate relationships with others who have similar skill-sets at your institution or local community.  If there is no local group of such individuals, see if your employee would be interested in starting one - such as a seminar group or journal club. Also encourage them to join online forums and attend conferences and workshops.
 
 AVOCADO Examples?? - Seems like the ITCR community could be very helpful and should be listed - but also probably smaller cancer specific forums? 
 
-2. **Encourage growth outside their domain**
+3. **Encourage growth outside their domain**
 
 On the other hand, it is important that you also cultivate and encourage your employee's growth in your domain by again suggesting and enabling their participation in conferences and journal clubs on topics relevant to your lab.  
 
 
-2. **Value their perspective about science in general**
+4. **Value their perspective about science in general**
 
 Encourage feedback and discussion from all of your employees in scientific discussions. Make their input feel welcomed regardless of the topic. A fresh perspective can sometimes lead to really important insights about things that are taken for granted by experts.
 
-3. **Discuss expectations and hypotheses**
+5. **Discuss expectations and hypotheses**
 
 If your employee is helping with work for a grant, provide the proposal to them. Have a discussion with your employee about your expectations and how feasible they are, as well as to make your informatics hypotheses specific. Avoid projects where the informatics goals are vague. Also remember that many informatics tasks may take more time than you anticipate and your employee may have a better sense of how long something will take. (or vice verse if you are an informatics expert employing lab scientists). Be clear with your employee in these discussions that you are unclear about how long tasks will take, if that is indeed the case. Continue to have open dialogue about expectations and goals as the work proceeds.
 
-4. **Advocate authorship and idea generation for all**
+6. **Advocate authorship and idea generation for all**
 
 Regardless of your emloyees' or students' backgrounds, make sure you advocate for authorship for each of them (particularly if they are interested in a career in research). Informatics experts will also need **first author papers**. Allow your employees to **generate ideas** for such publications and discuss this with them. Often the work to help with other projects  may not be as interesting for your employee as an idea that they come up with themselves. 
 
@@ -301,11 +301,11 @@ Often you can create one technical paper and one biological paper from each proj
 
 If nothing else, even if your employee is very busy on work for mid-level authorship, give them time to write a review or a software paper for a simple package, or a comparison of informatics methods. [Mick Watson](https://www.ed.ac.uk/profile/mick-watson) suggests making sure that your employees are authoring ~2 first author publications a year if possible. If necessary you can front-load collaboration work and then give your employee more time later to spend on their own work, but be careful about not protecting some of their time for their own career advancement. Also please see the Career Paths for Informatics Mentees section (coming up soon) and read it with your employees in mind, as well. 
 
-5. **Check on them!**
+7. **Check on them!**
 
 **Most importantly**, make sure that your employee is getting help and feedback from other informatics experts. It can be easy for your employee to get stuck or go in the wrong direction if left in isolation.  How can you do this? Keep tabs on what they are doing in general, if they are still working on the same issue for an extensive amount of time, suggest that they seek help. Also by encouraging the relationships with other informatics experts you will provide them with the opportunity to ask others for their thoughts. 
 
-6. **Get external review of work**
+8. **Get external review of work**
 
 Particularly in informatics, we can especially track our steps. Make sure that your employees are keeping detailed records about their work and then get them to regularly ask for feedback from others. We all make mistakes, it's good to get external feedback early and often to ensure that the work is correct.
 
