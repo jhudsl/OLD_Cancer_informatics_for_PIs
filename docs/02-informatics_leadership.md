@@ -260,7 +260,7 @@ He has since then stated for the PIs of experts who do not share the same skill-
 
 > "Secondly, there is nothing wrong with being a pet bioinformatician – it can be a really stimulating role, and opens your eyes to lab-based science.  I am not criticizing the pets either, I just urge you to look after yourselves." 
 
-And ultimately provides a guide for the "pet bioinformaticians" that can be useful for both informatics expert employees and also for leaders of such individuals as well as for informatics lab leaders who employ lab-based scientists.
+And ultimately provides a [guide](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) for the "pet bioinformaticians" that can be useful for both informatics expert employees and also for leaders of such individuals as well as for informatics lab leaders who employ lab-based scientists.
 
 Extending the major themes from [his guide](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) and from his post about [clinical labs](http://www.opiniomics.org/the-lonely-bioinformatician-revisited-clinical-labs/) here are guidelines for lab leaders:
 
@@ -314,31 +314,47 @@ AVOCADO will make graphic of this
 
 ### Informatics project pitfalls
 
-One common misconception is that informatics research projects work out more often or are faster than that of wet bench research projects. This is however not necessarily true and informatics projects are just as likely to fail and often take more time than one might expect. However, one advantage of having an informatics team member on a project is that there is ample free data available to add to or shift or reframe a study if necessary. This is important to keep in mind when advising your mentees and guiding the planning of their projects.
+One common misconception is that informatics research projects work out more often or are faster than wet bench experimental research projects. This is however not necessarily true and informatics projects are just as likely to fail and often take more time than one might expect. However, one advantage of having an informatics team member on a project is that there is ample free data available to add to or shift or reframe a study if necessary. This is important to keep in mind when advising your mentees and guiding the planning of their projects.
 
-There are many reasons why an informatics project might fail:  
+Common reasons why an informatics project might fail:  
+
 1) The goals were too vague  (see the previous section about identifying good informatics questions) 
-2) The data is not of high enough quality or lacks consistency (this may be do to a faulty method, methodological differences between lab personnel, expired reagents, temperature differences on data collection days etc.)
-3) There is not a strong enough signal in the data to detect with the current data/methods - ie. you need more data or methods with greater granularity
-4) The method of data collection becomes obsolete (this may not make the project fail per se but can make publication difficult) 
-5) The signal does not exist  
+Sadly this happens quite often and it can easily lead informatics emloyees and mentees down the wrong path.
+
+2) The data is not of high enough quality or lacks consistency  
+This may be do to a faulty method, methodological differences between lab personnel, expired reagents, temperature differences on data collection days, or aging of a machine over time etc. Some of these issues can be avoided or reduced, while others are unavoidable. Do not be quick to blame your experimental research team members if the data does not look like you expect. Some variation in data is just a part of life. 
+
+3) There is not a strong enough signal in the data to detect the effect of interest with the current data/methods
+This is also a very common problem if you are not sure what the strength of the effect you are looking for might be (which is often the case in Biology). In this case you need more data or methods with greater granularity.
+
+4) The method of data collection becomes obsolete
+
+This may not make the project fail per se but can make publication difficult. Staying on top of what methods are currently being used can help to avoid this.
+
+5) The signal does not exist
+
+Sometimes our hypotheses are just wrong. 
+
+AVOCADO -Add reference to the book
+
+We can mitigate some of these project weak points. (You may notice how some of these have been discussed previously.) However some of these are a bit unavoidable and it is best to have realistic expectations and flexibility about backup project ideas.
 
 Ways to mitigate project failure:
 
 1) **Discuss with experts**
-Discuss with trusted experts about your informatics hypotheses to make sure they are feasible with the data you have or will generate before you get too far down the research path. Ask for their help to make sure that your scientific questions are not too vague. Do this as early as possible.
+Discuss with trusted experts across all necessary domains about your informatics hypotheses to make sure they are feasible with the data you have or will generate before you get too far down the research path. Ask for their help to make sure that your scientific questions are not too vague. Do this as early as possible.
 
 2) **Diversify projects**  
-It is a good idea to diversify your mentees' and employees projects to enable them to have exposure to different projects, as well as more opportunities to contribute to a project that will ultimately result in a product such as an academic paper or a new software package. 
+It is a good idea to diversify your mentees' and employees' projects to enable them to have exposure to different projects, as well as more opportunities to contribute to a project that will ultimately result in a product such as an academic paper or a new software package. 
 
 3) **Safe project planning**  
-Make sure each mentee has at least one very solid project. For example, assign a review article, a simple software package, or a project with very promising pilot data.
+Make sure mentees and employees have at least one very solid project. For example, assign a review article, a simple software package, or a project with very promising pilot data.
 
 4) **Co-authorship**  
-Allow mentees to work together on projects. Assign one mentee as the main personnel, but allow other mentees to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fail. 
+Allow lab members (especially mentees) to work together on projects. Assign one mentee or employee as the main personnel, but allow other team members to contribute in small ways to allow them to at least get co-authorship, just in case their main projects fail. 
 
 5) **Plan for ample time**  
-Plan for projects to have adequate time to account for setbacks. For example, if possible plan on the possibility that additional data may need to be collected or perhaps more data will need to be added from a data resource. It will take additional time to analyze the new data. Unfortunately, simply plugging in new data to an existing script hardly ever works. 
+Plan for projects to have adequate time to account for setbacks. For example, if possible plan on the possibility that additional data may need to be collected or perhaps more data will need to be added from a data resource. It will take additional time to analyze the new data. Unfortunately, **simply plugging in new data to an existing script hardly ever works**.
 
  Instead the following tasks are required:  
  
@@ -357,8 +373,10 @@ In the worst case that the data does not appear to work for your initial goal an
 
 AVOCADO - we will list the link to the data table...
 
-examples: https://rd-connect.eu/
-The Cancer Genome Atlas (TCGA) (https://pubmed.ncbi.nlm.nih.gov/25691825/)
+We have curated a [list of cancer research related data](https://docs.google.com/spreadsheets/d/1gyVMGunwXMnMeVxEUauuTcz7xWMji4daCkFAWnhuF7o/edit?usp=sharing) with the help of the [National Cancer Insitute (NCI) Informatics Technology for Cancer Reserach (ITCR)](https://itcr.cancer.gov/) faculty. 
+
+examples: 
+https://pubmed.ncbi.nlm.nih.gov/25691825/
 https://www.cbioportal.org/
 https://www.nature.com/scitable/topicpage/genomic-data-resources-challenges-and-promises-743721/
 CGGA
