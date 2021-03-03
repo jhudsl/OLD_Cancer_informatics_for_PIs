@@ -17,7 +17,8 @@ step-5
 step-6
 step-7
 step-8
-the-lonely-bioinformatician
+good-informatics-leader-practices
+informatics-project-pitfalls
 informatics-lab-management-tools
 slack
 how-to-use-slack
@@ -68,5 +69,3 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
-informatics-project-pitfalls
-good-informatics-leader-practices

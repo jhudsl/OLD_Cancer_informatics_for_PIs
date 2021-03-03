@@ -1,13 +1,31 @@
 ---
 title: "Cancer Informatics Leadership"
 output: html_document
+references:
+- id: fenner2012a
+  title: One-click science marketing
+  author:
+  - family: Fenner
+    given: Martin
+  container-title: Nature Materials
+  volume: 11
+  URL: 'http://dx.doi.org/10.1038/nmat3283'
+  DOI: 10.1038/nmat3283
+  issue: 4
+  publisher: Nature Publishing Group
+  page: 261-263
+  type: article-journal
+  issued:
+    year: 2012
+    month: 3
+
 ---
 
 
 
 # Cancer Informatics for Research Leaders
 
-Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.
+Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with some guidance about how to effectively interact with and guide team members on informatics projects.[@fenner2012a]
 
 
 We will focus on how to:
