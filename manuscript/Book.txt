@@ -1,5 +1,7 @@
 01-intro.md
+quiz_1.md
 02-informatics_leadership.md
-03-computing.md
-04-data_management.md
+03-informatics_tools.md
+04-computing.md
+05-data_management.md
 about.md
