@@ -4,8 +4,9 @@ repo: https://github.com/jhudsl/ITCR_Cancer_informatics_for_PIs/
 rmd_files: ["index.Rmd", 
             "01-intro.Rmd", 
             "02-informatics_leadership.Rmd", 
-            "03-computing.Rmd", 
-            "04-data_management.Rmd", 
+            "03-informatics_tools.Rmd",
+            "04-computing.Rmd", 
+            "05-data_management.Rmd", 
             "about.Rmd"]
 new_session: yes
 delete_merged_file: true

@@ -1,8 +1,5 @@
 introduction
 motivation
-informatics-for-cancer-research
-tools
-galaxy
 cancer-informatics-for-research-leaders
 guidelines-for-working-with-informatics-experts
 finding-and-creating-good-relationships-for-informatics-projects
@@ -46,6 +43,9 @@ career-paths-for-informatics-mentees
 authorship-considerations
 mentoring-underrepresented-students
 refrences
+informatics-tools-for-cancer-research
+tools
+galaxy
 computing-for-cancer-research
 computing
 core-computing-components
