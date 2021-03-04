@@ -10,23 +10,17 @@ csl: cell.csl
 # Cancer Informatics for Research Leaders
 
 
-Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about how to effectively interact with and guide team members on informatics projects.
+Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about:  
 
+ 1) how to effectively lead team members on informatics projects  
+ 2) how to perform informactics projects well   
 
+We will provide you with an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees might face, as well as ways to mitigate these challenges. By creating a better work environment for your informatics research team, you will ultimately improve the potential impact of your work. We will also discuss the major pitfalls of informatics research and discuss best practices for performing informatics research correctly and well, so that you can get the most out of your informatics projects. 
 
-We will focus on how to:
+In order to familiarize you with these informatics research guidelines we are going to introduce you to some characters of people that you may encounter on your journey. 
 
-1. **Work with informatics personnel well** 
+![](images/slides_1.png)
 
-We will give provide you with an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees might face. We will also give you guidance about how you as a research leader can help improve the work environment. This will ultimately improve the potential impact of your work.
-
-2. **Perform informatics research well**
-
-Particularly in informatics research, we may have many different steps that can have a profound impact on our results. Thus we need to be extra mindful of making mistakes and of accidentally (or intentionally):
-
-> Fudging things to find things.
-
-We will describe best practices to get the most out of your informatics projects. 
 
 ## Guidelines for working with informatics experts
 
