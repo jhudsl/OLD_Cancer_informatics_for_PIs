@@ -10,10 +10,10 @@ csl: cell.csl
 # Cancer Informatics for Research Leaders
 
 
-Research is becoming more and more multidisciplinary. This requires more flexibility to communicate with team members with distinct backgrounds. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about:  
+Informatics research often requires multidisciplinary teams. This requires more flexibility to communicate with team members with distinct backgrounds. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about:  
 
- 1) how to effectively lead team members on informatics projects  
- 2) how to perform informatics projects well   
+ 1) How to effectively lead team members on informatics projects  
+ 2) How to perform informatics projects well   
 
 We will provide you with an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees might face, as well as ways to mitigate these challenges. By creating a better work environment for your informatics research team, you will ultimately improve the potential impact of your work. 
 
@@ -38,7 +38,7 @@ Now we have our informaticists. First is Jack, who is often forgotten by his lab
 
 
 
-We also have Hilda, an example of a happy informaticists. She feels supported in all the ways that she needs, allowing her to be as productive and helpful as possible.
+We also have Hilda, an example of a happy informaticist. She feels supported in all the ways that she needs, allowing her to be as productive and helpful as possible.
 
 ![](images/intro_hilda.png)
 
@@ -58,7 +58,7 @@ We will now describe some guidelines for how to be an effective leader, collabor
 
 The first step to performing a good research study is to find the right people for your research team. 
 
-We suggest that you look out for collaborators before you even design your studies. If you are new to informatics and you plan to employ or menter informatics experts in your lab, we suggest that you seek help from an informatics expert before you start an informatics project. 
+We suggest that you look out for collaborators before you even design your studies. If you are new to informatics and you plan to employ or mentor informatics experts in your lab, we suggest that you seek help from an informatics expert before you start an informatics project. 
 
 This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/) of the [simply statistics](https://simplystatistics.org/) blog which has many other useful discussions and resources. 
 
@@ -109,6 +109,7 @@ There are many important considerations to keep in mind when asking an informati
 6) What will this mean for my lab members if this fails? Is there a back-up plan?
 
 ![](images/discuss_data_cartoon.png)
+![](images/discuss_data_cartoon2.png)
 
 We suggests the following steps to take a great scientific question and make into a great statistically testable question.
 
@@ -694,6 +695,11 @@ _Archetypes of data scientists:_
   c) Maker - strong in mechanics and engineering
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M_dc-XzApGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
+![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
+
+![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 AVOCADO - add more about this
 https://www.manning.com/books/build-a-career-in-data-science 
