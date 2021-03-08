@@ -3,7 +3,6 @@ motivation
 cancer-informatics-for-research-leaders
 guidelines-for-working-with-informatics-experts
 finding-and-creating-good-relationships-for-informatics-projects
-best-communication-practices-for-informatics-projects
 identifying-good-informatics-questions
 steps-for-forming-questions
 step-1
@@ -14,6 +13,7 @@ step-5
 step-6
 step-7
 step-8
+starting-a-project
 good-informatics-leader-practices
 informatics-project-pitfalls
 informatics-lab-management-tools
@@ -69,4 +69,3 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
-starting-a-project

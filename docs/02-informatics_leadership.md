@@ -10,16 +10,18 @@ csl: cell.csl
 # Cancer Informatics for Research Leaders
 
 
-Research is becoming more and more multidisciplinary. This requires more flexibility in our ability to communicate with team members who may have a distinct background from ourselves. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about:  
+Research is becoming more and more multidisciplinary. This requires more flexibility to communicate with team members with distinct backgrounds. Furthermore, team members often have different research and career goals. This can present unique challenges in making sure that everyone is on the same page and cohesively working together. This course aims to provide research leaders with guidance about:  
 
  1) how to effectively lead team members on informatics projects  
- 2) how to perform informactics projects well   
+ 2) how to perform informatics projects well   
 
-We will provide you with an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees might face, as well as ways to mitigate these challenges. By creating a better work environment for your informatics research team, you will ultimately improve the potential impact of your work. We will also discuss the major pitfalls of informatics research and discuss best practices for performing informatics research correctly and well, so that you can get the most out of your informatics projects. 
+We will provide you with an awareness for the **specific challenges** that your informatics collaborators, employees, and mentees might face, as well as ways to mitigate these challenges. By creating a better work environment for your informatics research team, you will ultimately improve the potential impact of your work. 
+
+We will also discuss the major pitfalls of informatics research and discuss best practices for performing informatics research correctly and well, so that you can get the most out of your informatics projects. 
 
 ## Guidelines for working with informatics experts
 
-In order to familiarize you with guidelines for how to make the most out of your informatics projects we are going to introduce you to some characters of people that you may encounter on your journey. 
+In order to familiarize you with guidelines for how to make the most out of your informatics projects we are going to introduce you to some characters of the type of people you may encounter on your journey. 
 
 First our fearless lab leaders who lead informatics research projects. We have Sally who is experienced with working with team members from many disciplines including informatics experts. She helps guide her lab through successful projects all the time.
 
@@ -36,7 +38,7 @@ Now we have our informaticists. First is Jack, who is often forgotten by his lab
 
 
 
-We also have Hilda, an example of a happy informaticists. She feels supported in all the ways that she needs and allowing her to be as productive and helpful as possible.
+We also have Hilda, an example of a happy informaticists. She feels supported in all the ways that she needs, allowing her to be as productive and helpful as possible.
 
 ![](images/intro_hilda.png)
 
@@ -49,18 +51,18 @@ Finally we have Harry, the helpful collaborator.
 ![](images/intro_harry.png)
 
 
-We will now describe some guidelines for how to be an effective leader, collaborator and mentor of informatics projects so that you can be more like Sally with mentees and employees like Hilda and collaborators like Harry.
+We will now describe some guidelines for how to be an effective leader, collaborator and mentor on informatics projects so that you can be more like Sally with mentees and employees like Hilda and collaborators like Harry.
 
-AVOCADO... where to put this:
-
-Need to add  "deep work" and the value of uninterrupted time for an analyst
 
 ### Finding and creating good relationships for informatics projects
 
-The first step to performing a good research study is to find the right people for your research team.
+The first step to performing a good research study is to find the right people for your research team. 
+
+We suggest that you look out for collaborators before you even design your studies. If you are new to informatics and you plan to employ or menter informatics experts in your lab, we suggest that you seek help from an informatics expert before you start an informatics project. 
+
 This section is based on a [blog post](https://simplystatistics.org/2011/10/20/finding-good-collaborators) from [Roger Peng](http://www.biostat.jhsph.edu/~rpeng/) of the [simply statistics](https://simplystatistics.org/) blog which has many other useful discussions and resources. 
 
-In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees, to work on informatics cancer projects particularly for multidisciplinary teams of people with different expertise.
+In this section we will provide a guide for finding good coworkers, whether they are mentees, collaborators, or employees, to work on informatics cancer projects particularly for multidisciplinary teams.
 
 ![](images/graphic_findteams.png)
 
@@ -71,7 +73,7 @@ Especially for projects with multidisciplinary teams, good communication is vita
 This can **vary** by your unique personality traits, but in general we suggest that you look for people who are:
 
  - compassionate/polite   
- - explain things clearly  
+ - explain clearly  
  - seem open and enthusiastic to learn new things  
  - respect your knowledge  
  - appear to get things done (based on their CV and or reputation)
@@ -80,7 +82,7 @@ In Roger's words:
 
 > "If you dont feel comfortable asking (stupid) questions, pointing out problems, or making suggestions, then chances are the science will not be as good as it could be."
 
-2) **Take your time**
+2) **Take your time** 
 
 It is not always obvious who you feel most comfortable working with until you encounter an issue. In the case of finding a collaborator, take the time to get to know people at seminars and workshops. Chat with people casually about your work.
 
@@ -88,21 +90,25 @@ For emplyees and mentees, allow time to get comfortable talking to one another. 
 
 In all cases (with collaborators, employees, and mentees), build in extra time for projects to allow for teaching time. You can teach them about your domain and they can teach you about theirs. This may feel like it is taking extra time but it will ultimately pay off in the end, as you will better be able to work as a team to ask the most **useful and testable** hypotheses.
 
-3) **Continue to take your time**
+3) **Schedule extra time**
 
-As a project continues, new challenges will arise and this will again require more time for teaching one another about the scientific process specific to your domain. Build in breathing room in the project schedule where possible, to allow for time for setbacks. **Keep in mind that you may be unaware of the setbacks that you may encounter for work outside of your expertise.** Creating a situation that is less stressful makes it easier for everyone to maintain positive relationships.
+As a project continues, new challenges will arise that will again require more time for teaching one another about the scientific process specific to your domain. Build in breathing room in the project schedule where possible, to allow for time for setbacks. **Keep in mind that you may be unaware of the setbacks that you may encounter for work outside of your expertise.** Creating a situation that is less stressful makes it easier for everyone to maintain positive relationships.
 
 
 ### Identifying good informatics questions
 
+Once you have identified your research team, your next step is to start thinking more deeply about the specific informatics questions you would like to evaluate. **Be sure to include team members of each discipline in these discussions.**
+
 There are many important considerations to keep in mind when asking an informatics question: 
 
-1) Is it testable experimentally and statistically speaking? (Make sure it is not too vague!)
-2) Is it feasible (cost, time, resources - such as data storage)? Does public data already exist?
+1) Is it testable experimentally and statistically speaking?
+2) Is it feasible (in terms of cost, time, resources - such as data storage)? Does public data already exist?
 3) Are we using the appropriate methods (experimentally and statistically)?
 4) Are we considering confounders, biases, controls etc.?
 5) What will this mean for science and my lab members if this succeeds?
 6) What will this mean for my lab members if this fails? Is there a back-up plan?
+
+![](images/discuss_data_cartoon.png)
 
 We suggests the following steps to take a great scientific question and make into a great statistically testable question.
 
@@ -117,7 +123,8 @@ We suggests the following steps to take a great scientific question and make int
 7) Evaluate if that actionable test can be assessed with statistical methods and if you have access or can collect the necessary data. Rework as necessary, possibly returning to a different question from step 5. Think about possible biases or confounders.
 8) Evaluate if the interpretation of the test would provide the insights that you are interested in.
 
-For example, say we were interested in identify new diagnostic biomarkers for colerectal cancer. Note that this is only an illustrative example.
+For example, say we were interested in identify new diagnostic biomarkers for colerectal cancer. 
+***Note:** this is only an illustrative example.*
 
 #### STEP 1
 
@@ -344,6 +351,13 @@ Particularly in informatics, we can especially track our steps. Make sure that y
 AVOCADO will make graphic of this
 
 
+AVOCADO... where to put this:
+
+Need to add  "deep work" and the value of uninterrupted time for an analyst
+
+
+
+
 ### Informatics project pitfalls
 
 One common misconception is that informatics research projects work out more often or are faster than wet bench experimental research projects. This is however not necessarily true and informatics projects are just as likely to fail and often take more time than one might expect. However, one advantage of having an informatics team member on a project is that there is ample free data available to add to or shift or reframe a study if necessary. This is important to keep in mind when advising your mentees and guiding the planning of their projects.
@@ -554,6 +568,14 @@ Studies investigating biology research labs over history indicate that collabora
 ### Potential Challenges
 
 There are always challenges when collaborating with others, but some of these are particularly enhanced in multi-disciplinary teams. Here are some challenges that you may encounter when a collaboration involves informatics experts.
+
+Good Collaboration:
+
+![](images/good_collab.png)
+
+Bad collaboration:
+
+![](images/bad_collab.png)
 
 1) **Communication Differences** - Extra care needs to be taken to ensure that communication across groups is effective.  
 
