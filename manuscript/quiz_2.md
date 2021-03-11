@@ -13,6 +13,7 @@ a) Hundreds
 b) Millions
 b) Trillions
 C) Billions
+C) billions
 d) Tens
 d) Impossible to know
 
