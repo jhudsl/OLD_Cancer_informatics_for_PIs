@@ -3,21 +3,28 @@ title: "Quiz_2"
 output: html_document
 ---
 
-{quiz, id: computation, choose-answers:4}
+{quiz, id: leadership, attempts: 5, random-choice-order: true}
+# Leadership Quiz test
 
-? How many grams are in a pound?
+?1 How many times has the most-viewed cat video of all time been viewed online?
 
-A) 454
-b) 453
-b) 451
-b) 1000
-c) 100
-c) 150
-d) 200
-d) 250
-d) 300
-d) 500
+a) Thousands
+b) Millions
+c) Billions
+D) Impossible to know
 
+?1 How many times has the most-viewed cat video of all time been viewed on YouTube?
+
+a) Hundreds
+b) Trillions
+c) Billions
+D) Impossible to know
+
+?1 How many times has the most-viewed cat video been viewed on YouTube?
+
+a) Thousands
+b) Millions
+c) Billions
+D) Impossible to know
 
 {/quiz}
-
