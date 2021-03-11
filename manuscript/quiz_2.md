@@ -8,8 +8,8 @@ output: html_document
 
 ? How many grams are in a pound?
 
-C) 454
-C) 453
+c) 454
+c) 453
 m) 451
 m) 1000
 o) 100
