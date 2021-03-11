@@ -12,9 +12,9 @@ a) Thousands
 a) Hundreds
 b) Millions
 b) Trillions
-c) Billions
-c) Tens
-D) Impossible to know
+C) Billions
+d) Tens
+d) Impossible to know
 
 
 {/quiz}
