@@ -7,16 +7,16 @@ output: html_document
 
 ? How many grams are in a pound?
 
-C) 454
-C) 453
-m) 451
-m) 1000
-o) 100
-o) 150
-o) 200
-o) 250
-o) 300
-o) 500
+A) 454
+A) 453
+b) 451
+b) 1000
+c) 100
+c) 150
+d) 200
+d) 250
+d) 300
+d) 500
 
 
 {/quiz}
