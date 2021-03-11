@@ -1,24 +1,24 @@
 ---
-title: "Quiz_1"
+title: "Quiz_2"
 output: html_document
 ---
 
-{quiz, id: leadership, attempts: 5, random-choice-order: true}
+{quiz, id: computation, attempts: 50, random-choice-order: true, choose-answers:3}
 # Leadership Quiz test
 
 ?1 How many times has the most-viewed cat video of all time been viewed online?
 
-a) Thousands
-b) Millions
-c) Billions
-D) Impossible to know
+o) Thousands
+o) Millions
+m) Billions
+C) Impossible to know
 
 ?1 How many times has the most-viewed cat video of all time been viewed on YouTube?
 
-a) Thousands
-b) Millions
-c) Billions
-D) Impossible to know
+o) Thousands
+o) Millions
+m) Billions
+C) Impossible to know
 
 ?1 How many times has the most-viewed cat video of all time been viewed on YouTube?
 

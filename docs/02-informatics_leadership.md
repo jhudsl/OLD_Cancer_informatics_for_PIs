@@ -137,13 +137,13 @@ Several potential blood-based biomarkers have been identified, however many are 
 
 [[source]](https://www.frontiersin.org/articles/10.3389/fonc.2019.01284/full) 
 
-You might ask, How useful are these biomarkers for diagnosing colorectal cancer? 
+You might ask how useful are these biomarkers for diagnosing colorectal cancer? 
 
 So now we think about what is unknown:
 
 You know the sizes of the previous samples that have assessed these biomarkers and you know the level of sensitivity reported by previous reports. However, it is unknown how sensitive and specific some of these biomarkers are with sufficient sample sizes. It is unknown how collectively these biomarkers help to identify patients with cancer. It is unknown which biomarkers are more important. It is unknown which biomarkers or combinations are particularly useful for determining disease progression or what treatment options might be best.  
 
-#### STEP 2 
+#### STEP 2 p 
 
 Step 2 then involves determining which unknowns are the most important to you. This could be what is more translatable to aiding better diagnostics in a noninvasive way. This could be to better understand cancer progression and what these biomarkers tell us about patient prognosis. Determine what unknowns best fit your interest/expertise. Let's say that we want to know what is most translatable to aiding diagnostic tests now. 
 
