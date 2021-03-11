@@ -20,12 +20,12 @@ b) Millions
 c) Billions
 D) Impossible to know
 
-?1 How many times has the most-viewed cat video of all time been viewed on YouTube?
+?1 How many times has the most-viewed cat video of  been viewed on YouTube?
 
-o) Thousands
-o) Millions
-m) Billions
-C) Impossible to know
+a) Thousands
+b) Millions
+c) Billions
+D) Impossible to know
 
 
 Watch this [video](https://www.youtube.com/watch?time_continue=1&v=VOCYL-FNbr0) of Peter explaining Markua.
