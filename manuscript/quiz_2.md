@@ -3,8 +3,7 @@ title: "Quiz_2"
 output: html_document
 ---
 
-{quiz, id: computation, attempts: 50, choose-answers:4}
-# Leadership Quiz test
+{quiz, id: computation, choose-answers:4}
 
 ? How many grams are in a pound?
 
