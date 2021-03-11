@@ -8,7 +8,7 @@ output: html_document
 ? How many grams are in a pound?
 
 A) 454
-A) 453
+b) 453
 b) 451
 b) 1000
 c) 100
