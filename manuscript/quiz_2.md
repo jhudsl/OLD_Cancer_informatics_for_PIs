@@ -9,12 +9,8 @@ output: html_document
 ?1 How many times has the most-viewed cat video of all time been viewed online?
 
 a) Thousands
-a) Hundreds
-b) Millions
 b) Trillions
 C) Billions
-C) billions
-d) Tens
 d) Impossible to know
 
 
