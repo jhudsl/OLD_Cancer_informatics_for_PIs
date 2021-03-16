@@ -6,7 +6,7 @@ finding-and-creating-good-relationships-for-informatics-projects
 identifying-good-informatics-questions
 steps-for-forming-questions
 step-1
-step-2
+step-2-p
 step-3
 step-4
 step-5
@@ -69,4 +69,3 @@ data-security
 data-privacy
 data-reproducibility
 nih-data-sharing-policies
-step-2-p
