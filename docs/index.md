@@ -1,7 +1,7 @@
 --- 
 title: "Informatics Technology for Cancer Research (ITCR): Cancer Informatics for PIs "
 author: "Carrie Wright"
-date: "2021-03-16"
+date: "2021-03-17"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
