@@ -4,7 +4,6 @@ output: html_document
 ---
 
 {quiz, id: quiz2, choose-answers: 4}
-
 ? How many grams are in a pound?
 
 C) 454
