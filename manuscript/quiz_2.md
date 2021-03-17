@@ -3,7 +3,7 @@ title: "Quiz_2"
 output: html_document
 ---
 
-{quiz, id: computation, attempts: 5, choose-answers: 4}
+{quiz, id: quiz_2, choose-answers: 4}
 
 ? How many grams are in a pound?
 
