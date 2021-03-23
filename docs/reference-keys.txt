@@ -45,6 +45,13 @@ mentoring-underrepresented-students
 refrences
 informatics-tools-for-cancer-research
 itcr-tools
+imaging-tools
+tools-for-slide-image-analysis
+tools-for-radiology-image-analysis
+dslicer
+tools-for-medical-image-standardization
+imaging-archives-and-repositories
+specialized-imaging-tools
 galaxy
 computing-for-cancer-research
 computing
