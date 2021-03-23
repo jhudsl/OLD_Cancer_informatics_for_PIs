@@ -25,10 +25,7 @@ In order to familiarize you with guidelines for how to make the most out of your
 
 First our fearless lab leaders who lead informatics research projects. We have Sally who is experienced with working with team members from many disciplines including informatics experts. She helps guide her lab through successful projects all the time.
 
-![](images/Image_res_72.png)
-![](images/Image_res_150.png)
 
-![](images/Image_res_300.png)
 ![](images/intro_sally.png)
 Next, we have Charlie. He is new to informatics research and could learn a bit about how to work with informatics experts more effectively.
 

@@ -44,7 +44,7 @@ authorship-considerations
 mentoring-underrepresented-students
 refrences
 informatics-tools-for-cancer-research
-tools
+itcr-tools
 galaxy
 computing-for-cancer-research
 computing

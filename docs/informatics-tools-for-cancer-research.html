@@ -24,7 +24,7 @@
 <meta name="author" content="Carrie Wright" />
 
 
-<meta name="date" content="2021-03-19" />
+<meta name="date" content="2021-03-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -95,7 +95,7 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="informatics-tools-for-cancer-research.html"><a href="informatics-tools-for-cancer-research.html"><i class="fa fa-check"></i><b>3</b> Informatics tools for Cancer Research</a><ul>
-<li class="chapter" data-level="3.1" data-path="informatics-tools-for-cancer-research.html"><a href="informatics-tools-for-cancer-research.html#tools"><i class="fa fa-check"></i><b>3.1</b> Tools</a><ul>
+<li class="chapter" data-level="3.1" data-path="informatics-tools-for-cancer-research.html"><a href="informatics-tools-for-cancer-research.html#itcr-tools"><i class="fa fa-check"></i><b>3.1</b> ITCR Tools</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="informatics-tools-for-cancer-research.html"><a href="informatics-tools-for-cancer-research.html#galaxy"><i class="fa fa-check"></i><b>3.1.1</b> Galaxy</a></li>
 </ul></li>
 </ul></li>
@@ -150,8 +150,88 @@
 <h1><span class="header-section-number">Chapter 3</span> Informatics tools for Cancer Research</h1>
 <p>Biomedical research at large, and in particular cancer research, now involves massive amounts of data of a variety of types collected through rapidly advancing technologies. To allow current and future cancer researchers to fully take advantage of the opportunities afforded by these technologies, our mission is to make informatics tools as accessible as possible to all cancer researchers. From omics, to imaging, to clinical data, cancer researchers can now examine biospecimens, animal models, and clinical data with unprecedented depth and breadth.</p>
 <p>This course aims to provide an overview of tools available to cancer researchers to afford them more flexibility in their research. It will also provide guidance for best practices for performing informatics research.</p>
-<div id="tools" class="section level2">
-<h2><span class="header-section-number">3.1</span> Tools</h2>
+<p>For a brief introduction about different imaging methods see <a href="https://www.independentimaging.com/abcs-imaging-difference-xray-ultrasound-mri-ct-scan/">here</a> and <a href="https://www.radiologyinfo.org/en/info.cfm?pg=pet">here</a>.</p>
+<div id="itcr-tools" class="section level2">
+<h2><span class="header-section-number">3.1</span> ITCR Tools</h2>
+<p>On the <a href="https://itcr.cancer.gov/informatics-tools">ITCR website</a>, you will find a list of tools developed by researchers funded by ITCR.</p>
+<p>There are 5 general categories of tools.</p>
+<ol style="list-style-type: decimal">
+<li>Imaging Tools</li>
+</ol>
+<p>From tools to segment PET-CT scans, to algorithms for assessing tumor heterogeneity based on immunofluorescence images, to repositories of radiology and pathology images, the ITCR Imaging tools offer a variety of support for image processing and image analysis needs.</p>
+<p>Slides:
+1) PIIP - viewing, annotating, and analysis of whole slide images
+2) QUIP - analysis, management, and exploration of whole slide tissue images (backend is FeatureDB)
+3) HistoQC - examining slides for artifacts and computing slide characteristics (stain intensity etc) for quality control and data standardization
+4) <a href="https://www.csb.pitt.edu/ith/">Thrive</a> - interactive GUI based tool for evaluating tumor heterogeneity/diversity, cell segmentation, and cell quantification using different algorithms</p>
+<p><img src="images/thrive1.png" /></p>
+<p>[<a href="https://www.csb.pitt.edu/ith/">Source</a>]</p>
+<p><img src="images/thrive2.png" /></p>
+<p>[<a href="https://www.csb.pitt.edu/ith/">Source</a>]</p>
+<p>PET images:
+5) PETCT-CoSeg - segmentation of PET-CT scans
+6) Tools for Quantitative Analysis of PET Imaging - 3D slicer extensions - normalization, segmentation, and extraction of quantitative indices</p>
+<ol start="7" style="list-style-type: decimal">
+<li>dcmqi (DICOM - digital imaging and communications in medicine (dcm) for Quantitative Imaging (qi)) - libraries and command line tools for standardizing communication of quantitative image analysis using the DICOM standard. This is required for sharing data in some archives like TCIA.</li>
+</ol>
+<p>See <a href="https://doi.org/10.7717/peerj.2057">this article</a> and <a href="https://doi.org/10.1177/0962280214537333">this article</a> for more information.
+- <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.51.html">voxel-based segmentation</a>
+- <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.75.html">parametric maps</a> to “[specify] a multi-frame image representing pixels with real world values.”
+- image-based measurements with structured <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_A.html#sect_TID_1500">reporting template TID1500</a>
+- conversion of diacom data to JSON and NIFTI</p>
+<ol start="8" style="list-style-type: decimal">
+<li>3Dslicer</li>
+</ol>
+<ul>
+<li>3D visualization (volume rendering), and image processing - registration and interactive segmentation</li>
+<li>support for MRI, CT, US (ultra sound), nuclear medicine (PET), and microscopy</li>
+</ul>
+<p><img src="images/3Dslicer.png" />
+[<a href="https://www.slicer.org/wiki/Documentation/4.8/Training#/media/File:Slicer4minute-image.png">Source</a>]</p>
+<p>MRI images:
+9) diffusion MRI neruosurgical planing (using 3D slicer)
+10) maybe lesion tracker…?
+11) <a href="http://dmri.slicer.org/">SlicerDMRI</a> -perform additional MRI analyses beyond that of 3Dslicer including command line batch processing, computing scalar maps, and registering multimodal data.</p>
+<p>Archives/Repositories:
+12) TCIA - radiology and pathology images with annotations and clinical information and in some cases paired omics data
+tools here too?
+13) CDSA - pathology data from the Cancer Genome Atlas</p>
+<p>Specialized tools:
+14) Breast Radiodensity assessment
+15) TOPAS - ionizing radiation imaging and therapy simulations
+16) <a href="https://glioblastoma.alleninstitute.org/ish/">Ivy Glioblastoma Atlas Project (Ivy GAP)</a> data and tools - Glioblastoma patient data including(MRI/CT scan data, as well as gene expression and anatomic characterization (ex. infiltrating vs cellular) of Glioblastoma tumor in situ hybridization (ISH) tissue sections and adjacent hematoxylin and eosin (H&amp;E)-stained sections. See <a href="http://ivygap.org/">the Ivy GAP database</a> and <a href="https://github.com/vjcitn/ivygapSE">ivygapSE</a> a tool that provides support for Summarized Experiment data - compatible for analysis in R for the tumor anitomical and gene expression data. See also <a href="https://itcr.cancer.gov/informatics-tools/ivyglimpse">ivyGlimpse</a> to explore tumor image data and how it relates to survival and gene expression. See <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6414061/">this article</a> and <a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14556">this article</a> for more information.</p>
+<blockquote>
+<p>“…an anatomically-based transcriptional atlas of human glioblastoma that aligns individual histologic features with genomic and gene expression patterns, thus assigning a molecular significance to the most important morphologic hallmarks of glioblastoma.”</p>
+</blockquote>
+<blockquote>
+<p>To create the atlas, we surveyed the anatomic features by in situ hybridization (ISH), analyzed their transcriptomes by laser microdissection (LMD) and RNA sequencing (RNA-Seq), and validated the feature specific, gene expression enrichment of newly-identified markers by ISH (Fig. 1). We created a clinical and genomic database (<a href="http://ivygap.org/" class="uri">http://ivygap.org/</a>) for the 41-patient cohort (table S1) whose tumors (n=42) were evaluated to create the atlas. We describe gene sets whose expression is enriched in the anatomic features, measurements of intra- and inter-tumor heterogeneity, and a molecular subtype classification of transcriptomic samples from our atlas and The Cancer Genome Atlas (TCGA). Together, these two on line resources constitute the Ivy Glioblastoma Atlas Project (Ivy GAP).</p>
+</blockquote>
+<p>Data transfer/sharing/management:
+17) Globus is similar to Xsede seems like… as is codalab</p>
+<p>Imaging analysis platforms:
+18) cbibop - no updates since 2015??? think we should just show <a href="https://codalab.org/">codaLab Project</a> - open-source web-based platform that enables researchers, developers, and data scientists to collaborate, with the goal of advancing research fields where machine learning and advanced computation is used. <a href="https://youtu.be/WwFGfgf3-5s" class="uri">https://youtu.be/WwFGfgf3-5s</a>
+experiment management system and easy collaboration system - includes competitions such as Liver tumor segmentation challenge</p>
+<ol start="19" style="list-style-type: decimal">
+<li><a href="https://www.xnat.org/about/">XNAT</a> - PET/CT (maybe MRI, MEG and EEG - look at connectomeDB???) data analysis</li>
+</ol>
+<ul>
+<li>upload DICOM data , organize and share data, view, query, and download data, perform analysis through a secure API with access to high-powered computing clusters</li>
+</ul>
+<ol start="20" style="list-style-type: decimal">
+<li>Cancer Imaging Phenomics Toolkit (CaPTk) - GUI or command line. web portal with tools for imaging and phenomics analysis for clinical decisions - currently focused on brain, breast, and lung cancer. In addition to image analysis tools for registration, segmentation, and feature extraction, it also aid daignostics with prognostic modeling, risk etimation and radiogenomics. See <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7402244/">this article</a> for more information. Designed for research purposes only and has not been reviewed or approved by the Food and Drug Administration or by any other agency. It is not intended or recommended for clinical applications.
+<a href="https://youtu.be/WrjoJOxq4i8" class="uri">https://youtu.be/WrjoJOxq4i8</a></li>
+</ol>
+<p><img src="images/CaPTk.png" />
+[<a href="https://cbica.github.io/CaPTk/index.html">Source</a>]</p>
+<ol start="21" style="list-style-type: decimal">
+<li>RADIOMICS.io - radiographic phenotyping tool using automated algorithms - allows for users to engineer features or to perform data driven analyses. See <a href="https://www.radiomics.io/science.html">here</a> for publications about using automated phenotyping using imaging.</li>
+</ol>
+<p><img src="images/radiomics.png" />
+[<a href="https://www.nature.com/articles/ncomms5006">Source</a>]</p>
+<ol start="22" style="list-style-type: decimal">
+<li>Region Templates…</li>
+<li><a href="https://support.dcmtk.org/redmine/projects/dcmtk">DCMTK</a> - A set of command line tools for working with DICOM data, including examining and converting DICOM image files and data transfer and storage of images</li>
+</ol>
 <div id="galaxy" class="section level3">
 <h3><span class="header-section-number">3.1.1</span> Galaxy</h3>
 <p>This section was written by Jeremy Goecks:</p>
